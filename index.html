@@ -2,82 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dash Masternode Map</title>
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <!-- Marker Cluster CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap">
   <style>
     html, body {
       height: 100%;
       margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #f4f4f4;
+      font-family: 'Roboto', sans-serif;
+      background: #f0f2f5;
     }
     #map {
       width: 100%;
       height: 100%;
     }
-    .header {
+    header {
       position: absolute;
-      top: 10px;
+      top: 20px;
       left: 50%;
       transform: translateX(-50%);
       z-index: 1000;
-      background: rgba(255,255,255,0.9);
-      padding: 8px 16px;
-      border-radius: 4px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      background: rgba(255, 255, 255, 0.9);
+      padding: 12px 24px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #333;
     }
   </style>
 </head>
 <body>
-  <div class="header">
-    <h2>Dash Masternode Map</h2>
-  </div>
+  <header>
+    <h1>Dash Masternode Map</h1>
+  </header>
   <div id="map"></div>
-
+  
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <!-- Marker Cluster JS -->
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
   
   <script>
-    // Initialize the map
+    // Initialize the map with Carto's Positron basemap (minimal and simple)
     const map = L.map('map').setView([20, 0], 2);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '&copy; OpenStreetMap contributors'
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+      maxZoom: 18
     }).addTo(map);
     
     // Create a marker cluster group
     const markerCluster = L.markerClusterGroup();
-
+    
     // Define marker icons based on masternode type and status
     function getIcon(mn) {
       let color;
       if (mn.status === "POSE_BANNED") {
-        color = "red";
+        color = "#e74c3c"; // red
       } else if (mn.status === "ENABLED") {
-        color = (mn.type === "Evo") ? "blue" : "green";
+        color = (mn.type === "Evo") ? "#3498db" : "#2ecc71"; // blue or green
       } else {
-        color = "gray";
+        color = "#95a5a6"; // gray
       }
       return L.divIcon({
         html: `<div style="
           background-color: ${color};
-          width: 16px;
-          height: 16px;
+          width: 18px;
+          height: 18px;
           border-radius: 50%;
-          border: 2px solid white;
-          box-shadow: 0 0 3px rgba(0,0,0,0.6);
+          border: 2px solid #fff;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.15);
         "></div>`,
         className: ''
       });
     }
-
+    
+    // Load both masternodes and geolocation data
     async function loadData() {
       const [masternodesRes, geolocationsRes] = await Promise.all([
         fetch('masternodes.json'),
@@ -87,19 +95,18 @@
       const geolocations = await geolocationsRes.json();
       return { masternodes, geolocations };
     }
-
+    
+    // Add masternode markers to the map
     async function addMasternodes() {
       const { masternodes, geolocations } = await loadData();
       for (const key in masternodes) {
         const mn = masternodes[key];
         if (!mn.address || mn.address === "[::]:0") continue;
         const ip = mn.address.split(':')[0];
-        // Skip if geolocation for this IP isn’t available
         const geo = geolocations[ip];
         if (!geo || geo.status !== "success") continue;
         
         const coords = [geo.lat, geo.lon];
-        // Create and add the marker (using your getIcon function)
         const marker = L.marker(coords, { icon: getIcon(mn) });
         marker.bindPopup(`
           <strong>Masternode:</strong> ${key}<br/>
@@ -111,7 +118,7 @@
       }
       map.addLayer(markerCluster);
     }
-
+    
     // Start processing after page load
     addMasternodes();
   </script>
