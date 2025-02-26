@@ -31,7 +31,9 @@ jobs:
             }' | jq .result > masternodes.json
       
       - name: Run geolocation update script
-        run: python3 update_geolocations.py
+        run: |
+          pip install -r requirements.txt
+          python3 update_geolocations.py
       
       - name: Commit and push changes
         run: |
