@@ -27,8 +27,8 @@
       top: 20px;
       left: 50%;
       transform: translateX(-50%);
-      z-index: 1000;
-      background: rgba(255, 255, 255, 0.9);
+      z-index: 1100;
+      background: rgba(255, 255, 255, 0.95);
       padding: 12px 24px;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -38,12 +38,102 @@
       font-size: 1.5rem;
       color: #333;
     }
+    /* Floating Stats Panel */
+    #stats {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(255,255,255,0.95);
+      padding: 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      z-index: 1100;
+      max-width: 260px;
+      font-size: 0.9rem;
+      overflow-y: auto;
+      max-height: 90vh;
+      transition: opacity 0.3s ease-in-out;
+    }
+    #stats h3, #stats h4 {
+      margin: 0 0 8px;
+      color: #333;
+    }
+    #stats ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 12px;
+    }
+    #stats li {
+      margin-bottom: 4px;
+      line-height: 1.4;
+    }
+    /* Close Button */
+    .close-btn {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      background: #e74c3c;
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      font-size: 16px;
+      line-height: 24px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .close-btn:hover {
+      background: #c0392b;
+    }
+    /* Show Stats Button */
+    #showStatsBtn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #3498db;
+      color: #fff;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      display: none; /* Hidden by default */
+      z-index: 1100;
+    }
+    #showStatsBtn:hover {
+      background: #2980b9;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Dash Masternode Map</h1>
   </header>
+  
+  <!-- Floating Stats Panel -->
+  <div id="stats">
+    <button class="close-btn" onclick="toggleStats()">×</button>
+    <h3>Overview</h3>
+    <ul>
+      <li>Total Nodes: <span id="totalNodes">0</span></li>
+      <li>Active Nodes: <span id="activeNodes">0</span></li>
+    </ul>
+    <h4>Node Type Distribution</h4>
+    <ul id="nodeTypeDistribution"></ul>
+    <h4>Status Distribution</h4>
+    <ul id="statusDistribution"></ul>
+    <h4>Top Countries</h4>
+    <ul id="topCountries"></ul>
+    <h4>Top ASNs</h4>
+    <ul id="topASNs"></ul>
+    <h4>Continent Distribution</h4>
+    <ul id="continentDistribution"></ul>
+  </div>
+
+  <!-- Show Stats Button -->
+  <button id="showStatsBtn" onclick="toggleStats()">Show Stats</button>
+  
   <div id="map"></div>
   
   <!-- Leaflet JS -->
@@ -52,8 +142,27 @@
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
   
   <script>
-    // Initialize the map with Carto's Positron basemap (minimal and simple)
-    const map = L.map('map').setView([20, 0], 2);
+    // Toggle Stats Panel Visibility
+    function toggleStats() {
+      const statsPanel = document.getElementById("stats");
+      const showStatsBtn = document.getElementById("showStatsBtn");
+
+      if (statsPanel.style.display === "none") {
+        statsPanel.style.display = "block";
+        showStatsBtn.style.display = "none";
+      } else {
+        statsPanel.style.display = "none";
+        showStatsBtn.style.display = "block";
+      }
+    }
+    function truncateASN(asn) {
+      const max = 25
+      return asn.length > max ? asn.substring(0, max-3) + "..." : asn;
+    }
+
+
+    // Initialize the map with Carto's Positron basemap (minimal and clean)
+    const map = L.map('map').setView([30, 30], 3);
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
       maxZoom: 18
@@ -61,7 +170,7 @@
     
     // Create a marker cluster group
     const markerCluster = L.markerClusterGroup();
-    
+
     // Define marker icons based on masternode type and status
     function getIcon(mn) {
       let color;
@@ -96,26 +205,180 @@
       return { masternodes, geolocations };
     }
     
-    // Add masternode markers to the map
+    // Utility: sort an object by its values in descending order and return top N entries as an array
+    function getTopEntries(obj, topN = 5) {
+      return Object.entries(obj)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, topN);
+    }
+    
+    // Update the stats panel with computed data
+    function updateStats({
+      totalNodes, active, poseBanned, regular, evo,
+      countryCounts, asnCounts, continentCounts
+    }) {
+      document.getElementById('totalNodes').innerText = totalNodes;
+      document.getElementById('activeNodes').innerText = active;
+      
+      // Node Type Distribution (percentages out of active nodes)
+      const nodeTypeEl = document.getElementById('nodeTypeDistribution');
+      nodeTypeEl.innerHTML = '';
+      if (active > 0) {
+        const regularPct = ((regular / active) * 100).toFixed(1);
+        const evoPct = ((evo / active) * 100).toFixed(1);
+        nodeTypeEl.innerHTML += `<li>Regular: ${regular} (${regularPct}%)</li>`;
+        nodeTypeEl.innerHTML += `<li>Evo: ${evo} (${evoPct}%)</li>`;
+      }
+      
+      // Status Distribution (percentages out of total nodes)
+      const statusEl = document.getElementById('statusDistribution');
+      statusEl.innerHTML = '';
+      if (totalNodes > 0) {
+        const activePct = ((active / totalNodes) * 100).toFixed(1);
+        const bannedPct = ((poseBanned / totalNodes) * 100).toFixed(1);
+        statusEl.innerHTML += `<li>Active: ${active} (${activePct}%)</li>`;
+        statusEl.innerHTML += `<li>PoSe-Banned: ${poseBanned} (${bannedPct}%)</li>`;
+      }
+      
+      // Top Countries
+      const topCountriesEl = document.getElementById('topCountries');
+      topCountriesEl.innerHTML = '';
+      const topCountries = getTopEntries(countryCounts);
+      topCountries.forEach(([country, count]) => {
+        topCountriesEl.innerHTML += `<li>${country}: ${count}</li>`;
+      });
+      
+      // Top ASNs
+      const topASNsEl = document.getElementById('topASNs');
+      topASNsEl.innerHTML = '';
+      const topASNs = getTopEntries(asnCounts);
+      topASNs.forEach(([asn, count]) => {
+        topASNsEl.innerHTML += `<li>${truncateASN(asn)}: ${count}</li>`;
+      });      
+      // Continent Distribution
+      const continentEl = document.getElementById('continentDistribution');
+      continentEl.innerHTML = '';
+      const topContinents = getTopEntries(continentCounts);
+      topContinents.forEach(([continent, count]) => {
+        continentEl.innerHTML += `<li>${continent}: ${count}</li>`;
+      });
+    }
+    
+    // Main function: add markers and update stats
     async function addMasternodes() {
       const { masternodes, geolocations } = await loadData();
+      
+      // Initialize stats counters
+      let totalNodes = 0, active = 0, poseBanned = 0, regular = 0, evo = 0;
+      let countryCounts = {}, asnCounts = {}, continentCounts = {};
+      
+      // Simple mapping from country codes to continents
+      const continentMapping = {
+        // North America
+        "US": "North America", "CA": "North America", "MX": "North America",
+        "GT": "North America", "BZ": "North America", "SV": "North America", "HN": "North America",
+        "NI": "North America", "CR": "North America", "PA": "North America", "CW": "North America",
+
+        // South America
+        "BR": "South America", "AR": "South America", "CO": "South America", "PE": "South America",
+        "VE": "South America", "CL": "South America", "EC": "South America", "BO": "South America",
+        "PY": "South America", "UY": "South America", "GY": "South America", "SR": "South America",
+
+        // Europe
+        "GB": "Europe", "IE": "Europe", "FR": "Europe", "DE": "Europe", "IT": "Europe",
+        "ES": "Europe", "PT": "Europe", "BE": "Europe", "NL": "Europe", "LU": "Europe",
+        "SE": "Europe", "NO": "Europe", "DK": "Europe", "FI": "Europe", "IS": "Europe",
+        "CH": "Europe", "AT": "Europe", "PL": "Europe", "CZ": "Europe", "HU": "Europe",
+        "SK": "Europe", "SI": "Europe", "HR": "Europe", "BA": "Europe", "RS": "Europe",
+        "ME": "Europe", "MK": "Europe", "AL": "Europe", "BG": "Europe", "RO": "Europe",
+        "GR": "Europe", "EE": "Europe", "LV": "Europe", "LT": "Europe", "MD": "Europe",
+        "UA": "Europe", "BY": "Europe", "RU": "Europe",
+
+        // Asia
+        "CN": "Asia", "JP": "Asia", "KR": "Asia", "IN": "Asia", "PK": "Asia",
+        "BD": "Asia", "TH": "Asia", "VN": "Asia", "PH": "Asia", "MY": "Asia",
+        "SG": "Asia", "ID": "Asia", "KH": "Asia", "LA": "Asia", "MM": "Asia",
+        "NP": "Asia", "LK": "Asia", "MN": "Asia", "KZ": "Asia", "UZ": "Asia",
+        "TM": "Asia", "TJ": "Asia", "KG": "Asia", "AF": "Asia", "IR": "Asia",
+        "IQ": "Asia", "SY": "Asia", "JO": "Asia", "LB": "Asia", "IL": "Asia",
+        "SA": "Asia", "AE": "Asia", "QA": "Asia", "KW": "Asia", "OM": "Asia",
+        "YE": "Asia", "AM": "Asia", "GE": "Asia", "AZ": "Asia", "HK": "Asia", "TW": "Asia",
+
+        // Africa
+        "ZA": "Africa", "EG": "Africa", "NG": "Africa", "ET": "Africa", "KE": "Africa",
+        "TZ": "Africa", "UG": "Africa", "GH": "Africa", "CI": "Africa", "SN": "Africa",
+        "ML": "Africa", "BF": "Africa", "NE": "Africa", "TD": "Africa", "CM": "Africa",
+        "CF": "Africa", "CG": "Africa", "CD": "Africa", "AO": "Africa", "ZM": "Africa",
+        "ZW": "Africa", "MW": "Africa", "MZ": "Africa", "BW": "Africa", "NA": "Africa",
+        "LY": "Africa", "SD": "Africa", "SS": "Africa", "MR": "Africa", "SO": "Africa",
+        "DJ": "Africa", "ER": "Africa", "BI": "Africa", "RW": "Africa", "GQ": "Africa",
+        "GA": "Africa", "BJ": "Africa", "TG": "Africa", "GM": "Africa", "GN": "Africa",
+        "SL": "Africa", "LR": "Africa", "ST": "Africa", "SC": "Africa", "KM": "Africa",
+        "MU": "Africa", "MG": "Africa", "CV": "Africa", "SZ": "Africa", "LS": "Africa",
+        "RE": "Africa", "YT": "Africa",
+
+        // Oceania
+        "AU": "Oceania", "NZ": "Oceania", "FJ": "Oceania", "PG": "Oceania", "SB": "Oceania",
+        "VU": "Oceania", "NC": "Oceania", "PF": "Oceania", "WS": "Oceania", "TO": "Oceania",
+        "KI": "Oceania", "TV": "Oceania", "NR": "Oceania", "CK": "Oceania", "NU": "Oceania",
+        "TK": "Oceania", "FM": "Oceania", "MH": "Oceania", "PW": "Oceania",
+
+        // Antarctica (in case there's a masternode there)
+        "AQ": "Antarctica",
+
+        // Default
+        "Unknown": "Other"
+      };      
+      // Loop over each masternode to count stats and add markers
       for (const key in masternodes) {
+        totalNodes++;
         const mn = masternodes[key];
-        if (!mn.address || mn.address === "[::]:0") continue;
-        const ip = mn.address.split(':')[0];
-        const geo = geolocations[ip];
-        if (!geo || geo.status !== "success") continue;
-        
-        const coords = [geo.lat, geo.lon];
-        const marker = L.marker(coords, { icon: getIcon(mn) });
-        marker.bindPopup(`
-          <strong>Masternode:</strong> ${key}<br/>
-          <strong>IP:</strong> ${ip}<br/>
-          <strong>Status:</strong> ${mn.status}<br/>
-          <strong>Type:</strong> ${mn.type}
-        `);
-        markerCluster.addLayer(marker);
+        if (mn.status === "POSE_BANNED") {
+          poseBanned++;
+        } else if (mn.status === "ENABLED") {
+          active++;
+          if (mn.type === "Regular") {
+            regular++;
+          } else if (mn.type === "Evo") {
+            evo++;
+          }
+        }
+        // If valid geolocation info exists, update geolocation-based stats
+        if (mn.address && mn.address !== "[::]:0") {
+          const ip = mn.address.split(':')[0];
+          const geo = geolocations[ip];
+          if (geo && geo.status === "success") {
+            const country = geo.country || "Unknown";
+            countryCounts[country] = (countryCounts[country] || 0) + 1;
+            
+            const asn = geo.as || "Unknown";
+            asnCounts[asn] = (asnCounts[asn] || 0) + 1;
+            
+            const cc = geo.countryCode || "Unknown";
+            const continent = continentMapping[cc] || "Other";
+            if (continent == "Other") {
+                console.log(cc);
+            }
+            continentCounts[continent] = (continentCounts[continent] || 0) + 1;
+            
+            // Add marker for this masternode
+            const coords = [geo.lat, geo.lon];
+            const marker = L.marker(coords, { icon: getIcon(mn) });
+            marker.bindPopup(`
+              <strong>Masternode:</strong> ${key}<br/>
+              <strong>IP:</strong> ${ip}<br/>
+              <strong>Status:</strong> ${mn.status}<br/>
+              <strong>Type:</strong> ${mn.type}
+            `);
+            markerCluster.addLayer(marker);
+          }
+        }
       }
+      
+      // Update the stats panel
+      updateStats({ totalNodes, active, poseBanned, regular, evo, countryCounts, asnCounts, continentCounts });
+      
+      // Finally add all markers to the map
       map.addLayer(markerCluster);
     }
     
