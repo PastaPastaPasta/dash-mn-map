@@ -1,0 +1,45 @@
+name: Update Masternodes Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+      
+      - name: Update masternodes.json from RPC
+        run: |
+          curl --fail-with-body https://rpc.digitalcash.dev/ \
+            --user "${{ secrets.RPC_USER }}:${{ secrets.RPC_PASS }}" \
+            -H "Content-Type: application/json" \
+            --data-binary '{
+                "method": "masternodelist",
+                "params": []
+            }' | jq .result > masternodes.json
+      
+      - name: Run geolocation update script
+        run: python3 update_geolocations.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add masternodes.json masternodes_geolocations.json
+          # If there are no changes, git commit will fail; ignore that error.
+          git commit -m "Update masternodes and geolocations" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

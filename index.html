@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dash Masternode Map</title>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <!-- Marker Cluster CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+    }
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+    .header {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      background: rgba(255,255,255,0.9);
+      padding: 8px 16px;
+      border-radius: 4px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h2>Dash Masternode Map</h2>
+  </div>
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Marker Cluster JS -->
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  
+  <script>
+    // Initialize the map
+    const map = L.map('map').setView([20, 0], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+    
+    // Create a marker cluster group
+    const markerCluster = L.markerClusterGroup();
+
+    // Define marker icons based on masternode type and status
+    function getIcon(mn) {
+      let color;
+      if (mn.status === "POSE_BANNED") {
+        color = "red";
+      } else if (mn.status === "ENABLED") {
+        color = (mn.type === "Evo") ? "blue" : "green";
+      } else {
+        color = "gray";
+      }
+      return L.divIcon({
+        html: `<div style="
+          background-color: ${color};
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          border: 2px solid white;
+          box-shadow: 0 0 3px rgba(0,0,0,0.6);
+        "></div>`,
+        className: ''
+      });
+    }
+
+    async function loadData() {
+      const [masternodesRes, geolocationsRes] = await Promise.all([
+        fetch('masternodes.json'),
+        fetch('masternodes_geolocations.json')
+      ]);
+      const masternodes = await masternodesRes.json();
+      const geolocations = await geolocationsRes.json();
+      return { masternodes, geolocations };
+    }
+
+    async function addMasternodes() {
+      const { masternodes, geolocations } = await loadData();
+      for (const key in masternodes) {
+        const mn = masternodes[key];
+        if (!mn.address || mn.address === "[::]:0") continue;
+        const ip = mn.address.split(':')[0];
+        // Skip if geolocation for this IP isn’t available
+        const geo = geolocations[ip];
+        if (!geo || geo.status !== "success") continue;
+        
+        const coords = [geo.lat, geo.lon];
+        // Create and add the marker (using your getIcon function)
+        const marker = L.marker(coords, { icon: getIcon(mn) });
+        marker.bindPopup(`
+          <strong>Masternode:</strong> ${key}<br/>
+          <strong>IP:</strong> ${ip}<br/>
+          <strong>Status:</strong> ${mn.status}<br/>
+          <strong>Type:</strong> ${mn.type}
+        `);
+        markerCluster.addLayer(marker);
+      }
+      map.addLayer(markerCluster);
+    }
+
+    // Start processing after page load
+    addMasternodes();
+  </script>
+</body>
+</html>
