@@ -6,6 +6,12 @@ Uses IPs found in `masternodelist` RPC to globally geomap all active (and PoSe b
 
 Must be served via HTTPS (not opened as a local file).
 
+1.  The included script will run `caddy` with local https enabled:
+    ```sh
+    ./scripts/serve
+    ```
+2.  View at <https://local.digitalcash.dev>
+
 ## To Update
 
 0. Install `python3` (via `pyenv`)
