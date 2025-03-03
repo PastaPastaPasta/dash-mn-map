@@ -7039,6 +7039,22 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "209.250.232.44"
   },
+  "45.83.122.122": {
+    "status": "success",
+    "country": "The Netherlands",
+    "countryCode": "NL",
+    "region": "NH",
+    "regionName": "North Holland",
+    "city": "Amsterdam",
+    "zip": "1012",
+    "lat": 52.3676,
+    "lon": 4.90414,
+    "timezone": "Europe/Amsterdam",
+    "isp": "IT WEB LTD",
+    "org": "LXD",
+    "as": "AS200313 IT WEB LTD",
+    "query": "45.83.122.122"
+  },
   "45.76.190.82": {
     "status": "success",
     "country": "Singapore",
