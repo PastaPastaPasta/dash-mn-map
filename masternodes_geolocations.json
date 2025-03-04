@@ -22319,6 +22319,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "165.22.25.87"
   },
+  "212.38.89.125": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "212.38.89.125"
+  },
   "45.63.21.44": {
     "status": "success",
     "country": "United States",
