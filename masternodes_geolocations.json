@@ -1743,21 +1743,21 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "192.241.233.179"
   },
-  "167.71.205.140": {
+  "157.66.81.162": {
     "status": "success",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "region": "05",
-    "regionName": "South West",
-    "city": "Singapore",
-    "zip": "627753",
-    "lat": 1.32123,
-    "lon": 103.695,
-    "timezone": "Asia/Singapore",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "167.71.205.140"
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "region": "SG",
+    "regionName": "Ho Chi Minh",
+    "city": "Qu\u1eadn N\u0103m",
+    "zip": "",
+    "lat": 10.7626,
+    "lon": 106.679,
+    "timezone": "Asia/Ho_Chi_Minh",
+    "isp": "CLOUDWP",
+    "org": "CLOUD WP Technology One Member LLC",
+    "as": "AS45538 ODS Joint Stock Company",
+    "query": "157.66.81.162"
   },
   "82.211.25.151": {
     "status": "success",
@@ -28463,22 +28463,6 @@
     "as": "AS51167 Contabo GmbH",
     "query": "109.199.105.203"
   },
-  "178.208.87.221": {
-    "status": "success",
-    "country": "The Netherlands",
-    "countryCode": "NL",
-    "region": "FL",
-    "regionName": "Flevoland",
-    "city": "Dronten",
-    "zip": "8254",
-    "lat": 52.5281,
-    "lon": 5.7137,
-    "timezone": "Europe/Amsterdam",
-    "isp": "Digital City FZE",
-    "org": "Digital City LTD",
-    "as": "AS214798 Digital City FZE",
-    "query": "178.208.87.221"
-  },
   "93.115.172.36": {
     "status": "success",
     "country": "The Netherlands",
@@ -28510,6 +28494,38 @@
     "org": "CVD anycast network",
     "as": "AS205581 CVD Sp. z o.o. Sp.k.",
     "query": "85.209.241.82"
+  },
+  "139.59.29.173": {
+    "status": "success",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "KA",
+    "regionName": "Karnataka",
+    "city": "Bengaluru",
+    "zip": "560100",
+    "lat": 12.9753,
+    "lon": 77.591,
+    "timezone": "Asia/Kolkata",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "139.59.29.173"
+  },
+  "178.208.87.221": {
+    "status": "success",
+    "country": "The Netherlands",
+    "countryCode": "NL",
+    "region": "FL",
+    "regionName": "Flevoland",
+    "city": "Dronten",
+    "zip": "8254",
+    "lat": 52.5281,
+    "lon": 5.7137,
+    "timezone": "Europe/Amsterdam",
+    "isp": "Digital City FZE",
+    "org": "Digital City LTD",
+    "as": "AS214798 Digital City FZE",
+    "query": "178.208.87.221"
   },
   "149.28.206.43": {
     "status": "success",
@@ -33231,21 +33247,21 @@
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.219.113.65"
   },
-  "134.122.35.58": {
+  "157.66.81.130": {
     "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "ON",
-    "regionName": "Ontario",
-    "city": "Toronto",
-    "zip": "M5A",
-    "lat": 43.6547,
-    "lon": -79.3623,
-    "timezone": "America/Toronto",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "134.122.35.58"
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "region": "SG",
+    "regionName": "Ho Chi Minh",
+    "city": "Qu\u1eadn N\u0103m",
+    "zip": "",
+    "lat": 10.7626,
+    "lon": 106.679,
+    "timezone": "Asia/Ho_Chi_Minh",
+    "isp": "CLOUDWP",
+    "org": "CLOUD WP Technology One Member LLC",
+    "as": "AS45538 ODS Joint Stock Company",
+    "query": "157.66.81.130"
   },
   "45.33.35.107": {
     "status": "success",
@@ -37087,7 +37103,7 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "165.22.65.68"
   },
-  "123.193.64.166": {
+  "123.193.81.121": {
     "status": "success",
     "country": "Taiwan",
     "countryCode": "TW",
@@ -37101,7 +37117,7 @@
     "isp": "kbro CO. Ltd.",
     "org": "KBRO",
     "as": "AS38841 kbro CO. Ltd.",
-    "query": "123.193.64.166"
+    "query": "123.193.81.121"
   },
   "188.40.241.97": {
     "status": "success",
@@ -43871,21 +43887,21 @@
     "as": "AS16276 OVH SAS",
     "query": "54.37.199.224"
   },
-  "134.122.34.49": {
+  "157.66.81.218": {
     "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "ON",
-    "regionName": "Ontario",
-    "city": "Toronto",
-    "zip": "M5A",
-    "lat": 43.6547,
-    "lon": -79.3623,
-    "timezone": "America/Toronto",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "134.122.34.49"
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "region": "SG",
+    "regionName": "Ho Chi Minh",
+    "city": "Qu\u1eadn N\u0103m",
+    "zip": "",
+    "lat": 10.7626,
+    "lon": 106.679,
+    "timezone": "Asia/Ho_Chi_Minh",
+    "isp": "CLOUDWP",
+    "org": "CLOUD WP Technology One Member LLC",
+    "as": "AS45538 ODS Joint Stock Company",
+    "query": "157.66.81.218"
   },
   "159.65.84.39": {
     "status": "success",
