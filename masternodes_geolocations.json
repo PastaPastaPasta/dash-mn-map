@@ -1759,21 +1759,21 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "192.241.233.179"
   },
-  "157.66.81.162": {
+  "167.71.205.140": {
     "status": "success",
-    "country": "Vietnam",
-    "countryCode": "VN",
-    "region": "SG",
-    "regionName": "Ho Chi Minh",
-    "city": "Qu\u1eadn N\u0103m",
-    "zip": "",
-    "lat": 10.7626,
-    "lon": 106.679,
-    "timezone": "Asia/Ho_Chi_Minh",
-    "isp": "CLOUDWP",
-    "org": "CLOUD WP Technology One Member LLC",
-    "as": "AS45538 ODS Joint Stock Company",
-    "query": "157.66.81.162"
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "167.71.205.140"
   },
   "82.211.25.151": {
     "status": "success",
@@ -25023,6 +25023,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.175.67"
   },
+  "165.227.47.52": {
+    "status": "success",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "ON",
+    "regionName": "Ontario",
+    "city": "Toronto",
+    "zip": "M5A",
+    "lat": 43.6547,
+    "lon": -79.3623,
+    "timezone": "America/Toronto",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "165.227.47.52"
+  },
   "168.119.87.146": {
     "status": "success",
     "country": "Germany",
@@ -25102,38 +25118,6 @@
     "org": "M3T Projekt d.o.o.",
     "as": "AS59522 M3T Projekt d.o.o.",
     "query": "176.123.57.210"
-  },
-  "165.227.47.52": {
-    "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "ON",
-    "regionName": "Ontario",
-    "city": "Toronto",
-    "zip": "M5A",
-    "lat": 43.6547,
-    "lon": -79.3623,
-    "timezone": "America/Toronto",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "165.227.47.52"
-  },
-  "144.202.72.211": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "TX",
-    "regionName": "Texas",
-    "city": "Dallas",
-    "zip": "75201",
-    "lat": 32.7889,
-    "lon": -96.8021,
-    "timezone": "America/Chicago",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "144.202.72.211"
   },
   "31.57.190.187": {
     "status": "success",
@@ -25438,6 +25422,22 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "149.28.128.31"
+  },
+  "144.202.72.211": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "TX",
+    "regionName": "Texas",
+    "city": "Dallas",
+    "zip": "75201",
+    "lat": 32.7889,
+    "lon": -96.8021,
+    "timezone": "America/Chicago",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "144.202.72.211"
   },
   "52.207.7.9": {
     "status": "success",
@@ -27886,22 +27886,6 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "146.190.33.135"
-  },
-  "66.42.84.27": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "GA",
-    "regionName": "Georgia",
-    "city": "Atlanta",
-    "zip": "30318",
-    "lat": 33.7838,
-    "lon": -84.4455,
-    "timezone": "America/New_York",
-    "isp": "Choopa",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "66.42.84.27"
   },
   "82.211.25.73": {
     "status": "success",
@@ -33183,21 +33167,21 @@
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.219.113.65"
   },
-  "157.66.81.130": {
+  "134.122.35.58": {
     "status": "success",
-    "country": "Vietnam",
-    "countryCode": "VN",
-    "region": "SG",
-    "regionName": "Ho Chi Minh",
-    "city": "Qu\u1eadn N\u0103m",
-    "zip": "",
-    "lat": 10.7626,
-    "lon": 106.679,
-    "timezone": "Asia/Ho_Chi_Minh",
-    "isp": "CLOUDWP",
-    "org": "CLOUD WP Technology One Member LLC",
-    "as": "AS45538 ODS Joint Stock Company",
-    "query": "157.66.81.130"
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "ON",
+    "regionName": "Ontario",
+    "city": "Toronto",
+    "zip": "M5A",
+    "lat": 43.6547,
+    "lon": -79.3623,
+    "timezone": "America/Toronto",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "134.122.35.58"
   },
   "45.33.35.107": {
     "status": "success",
@@ -38318,6 +38302,22 @@
     "org": "Digital Ocean",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.62.129.5"
+  },
+  "66.42.84.27": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "GA",
+    "regionName": "Georgia",
+    "city": "Atlanta",
+    "zip": "30318",
+    "lat": 33.7838,
+    "lon": -84.4455,
+    "timezone": "America/New_York",
+    "isp": "Choopa",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "66.42.84.27"
   },
   "82.211.25.130": {
     "status": "success",
@@ -43807,21 +43807,21 @@
     "as": "AS16276 OVH SAS",
     "query": "54.37.199.224"
   },
-  "157.66.81.218": {
+  "134.122.34.49": {
     "status": "success",
-    "country": "Vietnam",
-    "countryCode": "VN",
-    "region": "SG",
-    "regionName": "Ho Chi Minh",
-    "city": "Qu\u1eadn N\u0103m",
-    "zip": "",
-    "lat": 10.7626,
-    "lon": 106.679,
-    "timezone": "Asia/Ho_Chi_Minh",
-    "isp": "CLOUDWP",
-    "org": "CLOUD WP Technology One Member LLC",
-    "as": "AS45538 ODS Joint Stock Company",
-    "query": "157.66.81.218"
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "ON",
+    "regionName": "Ontario",
+    "city": "Toronto",
+    "zip": "M5A",
+    "lat": 43.6547,
+    "lon": -79.3623,
+    "timezone": "America/Toronto",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "134.122.34.49"
   },
   "159.65.84.39": {
     "status": "success",
