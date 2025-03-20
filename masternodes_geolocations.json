@@ -4159,22 +4159,6 @@
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.25.150"
   },
-  "174.34.233.209": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "NJ",
-    "regionName": "New Jersey",
-    "city": "Cherry Hill",
-    "zip": "08002",
-    "lat": 39.9241,
-    "lon": -75.0327,
-    "timezone": "America/New_York",
-    "isp": "SBA Edge, LLC",
-    "org": "About37 LLC",
-    "as": "AS53264 SBA Edge, LLC",
-    "query": "174.34.233.209"
-  },
   "188.40.251.206": {
     "status": "success",
     "country": "Germany",
@@ -13471,6 +13455,22 @@
     "as": "AS51167 Contabo GmbH",
     "query": "37.60.236.151"
   },
+  "45.76.215.91": {
+    "status": "success",
+    "country": "Japan",
+    "countryCode": "JP",
+    "region": "13",
+    "regionName": "Tokyo",
+    "city": "Ebara",
+    "zip": "142-0063",
+    "lat": 35.613,
+    "lon": 139.703,
+    "timezone": "Asia/Tokyo",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.76.215.91"
+  },
   "82.211.25.201": {
     "status": "success",
     "country": "Germany",
@@ -19054,6 +19054,22 @@
     "org": "Digital Ocean",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "188.166.5.202"
+  },
+  "159.89.118.200": {
+    "status": "success",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "ON",
+    "regionName": "Ontario",
+    "city": "Toronto",
+    "zip": "M5A",
+    "lat": 43.6547,
+    "lon": -79.3623,
+    "timezone": "America/Toronto",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "159.89.118.200"
   },
   "8.222.146.67": {
     "status": "success",
@@ -30111,6 +30127,22 @@
     "as": "AS31898 Oracle Corporation",
     "query": "150.136.183.181"
   },
+  "217.147.168.223": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "217.147.168.223"
+  },
   "173.212.198.217": {
     "status": "success",
     "country": "France",
@@ -38463,6 +38495,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "65.109.65.126"
   },
+  "164.68.114.36": {
+    "status": "success",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "GES",
+    "regionName": "Grand Est",
+    "city": "Lauterbourg",
+    "zip": "67630",
+    "lat": 48.9742,
+    "lon": 8.1851,
+    "timezone": "Europe/Paris",
+    "isp": "Contabo GmbH",
+    "org": "Contabo GmbH",
+    "as": "AS51167 Contabo GmbH",
+    "query": "164.68.114.36"
+  },
   "167.88.165.175": {
     "status": "success",
     "country": "United States",
@@ -44254,22 +44302,6 @@
     "org": "",
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.21.53"
-  },
-  "45.76.215.91": {
-    "status": "success",
-    "country": "Japan",
-    "countryCode": "JP",
-    "region": "13",
-    "regionName": "Tokyo",
-    "city": "Ebara",
-    "zip": "142-0063",
-    "lat": 35.613,
-    "lon": 139.703,
-    "timezone": "Asia/Tokyo",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "45.76.215.91"
   },
   "88.99.11.12": {
     "status": "success",
