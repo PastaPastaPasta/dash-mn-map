@@ -5343,22 +5343,6 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "139.180.157.141"
   },
-  "144.202.37.1": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "FL",
-    "regionName": "Florida",
-    "city": "Miami",
-    "zip": "33142",
-    "lat": 25.8119,
-    "lon": -80.2318,
-    "timezone": "America/New_York",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "144.202.37.1"
-  },
   "188.40.21.245": {
     "status": "success",
     "country": "Germany",
@@ -29087,6 +29071,22 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "202.182.117.248"
   },
+  "144.202.37.1": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "FL",
+    "regionName": "Florida",
+    "city": "Miami",
+    "zip": "33142",
+    "lat": 25.8119,
+    "lon": -80.2318,
+    "timezone": "America/New_York",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "144.202.37.1"
+  },
   "104.248.194.72": {
     "status": "success",
     "country": "The Netherlands",
@@ -40846,6 +40846,22 @@
     "org": "Cheree InfoMedia Private Limited",
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.25.95"
+  },
+  "212.24.109.253": {
+    "status": "success",
+    "country": "Lithuania",
+    "countryCode": "LT",
+    "region": "VL",
+    "regionName": "Vilnius",
+    "city": "Vilnius",
+    "zip": "02021",
+    "lat": 54.6876,
+    "lon": 25.2806,
+    "timezone": "Europe/Vilnius",
+    "isp": "UAB \"Interneto vizija\"",
+    "org": "InternetoVizija",
+    "as": "AS212531 Interneto vizija",
+    "query": "212.24.109.253"
   },
   "128.199.18.16": {
     "status": "success",
