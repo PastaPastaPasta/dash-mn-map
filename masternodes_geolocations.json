@@ -783,6 +783,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "165.22.221.97"
   },
+  "89.40.8.160": {
+    "status": "success",
+    "country": "Lithuania",
+    "countryCode": "LT",
+    "region": "VL",
+    "regionName": "Vilnius",
+    "city": "Vilnius",
+    "zip": "02021",
+    "lat": 54.6876,
+    "lon": 25.2806,
+    "timezone": "Europe/Vilnius",
+    "isp": "UAB \"Interneto vizija\"",
+    "org": "InternetoVizija",
+    "as": "AS212531 Interneto vizija",
+    "query": "89.40.8.160"
+  },
   "34.209.237.242": {
     "status": "success",
     "country": "United States",
@@ -1375,21 +1391,21 @@
     "as": "AS62563 GLOBALTELEHOST Corp.",
     "query": "198.57.27.227"
   },
-  "178.157.91.186": {
+  "178.215.237.134": {
     "status": "success",
-    "country": "The Netherlands",
-    "countryCode": "NL",
-    "region": "FL",
-    "regionName": "Flevoland",
-    "city": "Dronten",
-    "zip": "8254",
-    "lat": 52.5281,
-    "lon": 5.7137,
-    "timezone": "Europe/Amsterdam",
-    "isp": "Mvps LTD",
-    "org": "Mvps LTD",
-    "as": "AS202448 MVPS LTD",
-    "query": "178.157.91.186"
+    "country": "United States",
+    "countryCode": "US",
+    "region": "TX",
+    "regionName": "Texas",
+    "city": "Dallas",
+    "zip": "75270",
+    "lat": 32.7797,
+    "lon": -96.8022,
+    "timezone": "America/Chicago",
+    "isp": "",
+    "org": "",
+    "as": "",
+    "query": "178.215.237.134"
   },
   "95.217.48.100": {
     "status": "success",
@@ -20463,38 +20479,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "95.216.140.151"
   },
-  "85.209.241.81": {
-    "status": "success",
-    "country": "Poland",
-    "countryCode": "PL",
-    "region": "02",
-    "regionName": "Lower Silesia",
-    "city": "Wo\u0142\u00f3w",
-    "zip": "56-100",
-    "lat": 51.337,
-    "lon": 16.6355,
-    "timezone": "Europe/Warsaw",
-    "isp": "CVD Sp. z o.o.",
-    "org": "CVD anycast network",
-    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
-    "query": "85.209.241.81"
-  },
-  "45.76.116.16": {
-    "status": "success",
-    "country": "Australia",
-    "countryCode": "AU",
-    "region": "NSW",
-    "regionName": "New South Wales",
-    "city": "Sydney",
-    "zip": "2015",
-    "lat": -33.8978,
-    "lon": 151.1899,
-    "timezone": "Australia/Sydney",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "45.76.116.16"
-  },
   "95.211.196.34": {
     "status": "success",
     "country": "The Netherlands",
@@ -20510,6 +20494,22 @@
     "org": "LeaseWeb Netherlands B.V.",
     "as": "AS60781 LeaseWeb Netherlands B.V.",
     "query": "95.211.196.34"
+  },
+  "85.209.241.81": {
+    "status": "success",
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "02",
+    "regionName": "Lower Silesia",
+    "city": "Wo\u0142\u00f3w",
+    "zip": "56-100",
+    "lat": 51.337,
+    "lon": 16.6355,
+    "timezone": "Europe/Warsaw",
+    "isp": "CVD Sp. z o.o.",
+    "org": "CVD anycast network",
+    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
+    "query": "85.209.241.81"
   },
   "137.184.175.173": {
     "status": "success",
@@ -38447,6 +38447,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.62.129.5"
   },
+  "45.76.116.16": {
+    "status": "success",
+    "country": "Australia",
+    "countryCode": "AU",
+    "region": "NSW",
+    "regionName": "New South Wales",
+    "city": "Sydney",
+    "zip": "2015",
+    "lat": -33.8978,
+    "lon": 151.1899,
+    "timezone": "Australia/Sydney",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.76.116.16"
+  },
   "82.211.25.130": {
     "status": "success",
     "country": "Germany",
@@ -42079,6 +42095,22 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.63.8.90"
   },
+  "82.211.25.27": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "IP- Accelerated IT Services GmbH",
+    "org": "Cheree InfoMedia Private Limited",
+    "as": "AS44066 firstcolo GmbH",
+    "query": "82.211.25.27"
+  },
   "82.211.21.176": {
     "status": "success",
     "country": "Germany",
@@ -42334,22 +42366,6 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.32.233.92"
-  },
-  "139.59.41.220": {
-    "status": "success",
-    "country": "India",
-    "countryCode": "IN",
-    "region": "KA",
-    "regionName": "Karnataka",
-    "city": "Bengaluru",
-    "zip": "560100",
-    "lat": 12.9753,
-    "lon": 77.591,
-    "timezone": "Asia/Kolkata",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "139.59.41.220"
   },
   "168.119.83.13": {
     "status": "success",
@@ -43150,38 +43166,6 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "136.243.29.215"
-  },
-  "85.209.241.21": {
-    "status": "success",
-    "country": "Poland",
-    "countryCode": "PL",
-    "region": "02",
-    "regionName": "Lower Silesia",
-    "city": "Wo\u0142\u00f3w",
-    "zip": "56-100",
-    "lat": 51.337,
-    "lon": 16.6355,
-    "timezone": "Europe/Warsaw",
-    "isp": "CVD Sp. z o.o.",
-    "org": "CVD anycast network",
-    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
-    "query": "85.209.241.21"
-  },
-  "82.211.25.27": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60313",
-    "lat": 50.1109,
-    "lon": 8.68213,
-    "timezone": "Europe/Berlin",
-    "isp": "IP- Accelerated IT Services GmbH",
-    "org": "Cheree InfoMedia Private Limited",
-    "as": "AS44066 firstcolo GmbH",
-    "query": "82.211.25.27"
   },
   "82.211.21.80": {
     "status": "success",
