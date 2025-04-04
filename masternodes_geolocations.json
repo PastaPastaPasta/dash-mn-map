@@ -13391,22 +13391,6 @@
     "as": "AS51167 Contabo GmbH",
     "query": "173.249.53.139"
   },
-  "45.32.115.236": {
-    "status": "success",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "region": "05",
-    "regionName": "South West",
-    "city": "Singapore",
-    "zip": "627753",
-    "lat": 1.32123,
-    "lon": 103.695,
-    "timezone": "Asia/Singapore",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "45.32.115.236"
-  },
   "135.181.8.72": {
     "status": "success",
     "country": "Finland",
@@ -13423,21 +13407,21 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "135.181.8.72"
   },
-  "37.60.236.151": {
+  "45.32.115.236": {
     "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "NW",
-    "regionName": "North Rhine-Westphalia",
-    "city": "D\u00fcsseldorf",
-    "zip": "40599",
-    "lat": 51.1864,
-    "lon": 6.8624,
-    "timezone": "Europe/Berlin",
-    "isp": "Contabo GmbH",
-    "org": "Contabo GmbH",
-    "as": "AS51167 Contabo GmbH",
-    "query": "37.60.236.151"
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.32.115.236"
   },
   "45.76.215.91": {
     "status": "success",
