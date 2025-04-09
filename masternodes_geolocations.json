@@ -2175,22 +2175,6 @@
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.219.242.77"
   },
-  "167.99.242.89": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60313",
-    "lat": 50.1169,
-    "lon": 8.6837,
-    "timezone": "Europe/Berlin",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "167.99.242.89"
-  },
   "138.68.149.239": {
     "status": "success",
     "country": "United Kingdom",
@@ -5470,22 +5454,6 @@
     "org": "Digitalocean",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "188.166.190.73"
-  },
-  "85.209.241.225": {
-    "status": "success",
-    "country": "Poland",
-    "countryCode": "PL",
-    "region": "02",
-    "regionName": "Lower Silesia",
-    "city": "Wo\u0142\u00f3w",
-    "zip": "56-100",
-    "lat": 51.337,
-    "lon": 16.6355,
-    "timezone": "Europe/Warsaw",
-    "isp": "CVD Sp. z o.o.",
-    "org": "CVD anycast network",
-    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
-    "query": "85.209.241.225"
   },
   "45.77.170.75": {
     "status": "success",
@@ -25951,22 +25919,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "209.38.226.76"
   },
-  "161.35.164.157": {
-    "status": "success",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "region": "ENG",
-    "regionName": "England",
-    "city": "Slough",
-    "zip": "SL1",
-    "lat": 51.5368,
-    "lon": -0.6718,
-    "timezone": "Europe/London",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "161.35.164.157"
-  },
   "195.201.35.7": {
     "status": "success",
     "country": "Germany",
@@ -26238,6 +26190,22 @@
     "org": "Digitalocean",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.128.72.136"
+  },
+  "37.60.244.220": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "NW",
+    "regionName": "North Rhine-Westphalia",
+    "city": "D\u00fcsseldorf",
+    "zip": "40599",
+    "lat": 51.1864,
+    "lon": 6.8624,
+    "timezone": "Europe/Berlin",
+    "isp": "SiteGround",
+    "org": "",
+    "as": "AS51167 Contabo GmbH",
+    "query": "37.60.244.220"
   },
   "82.196.1.10": {
     "status": "success",
@@ -31710,6 +31678,22 @@
     "org": "Globaltelehost Corp",
     "as": "AS63023 GTHost",
     "query": "38.91.100.4"
+  },
+  "137.220.38.255": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "WA",
+    "regionName": "Washington",
+    "city": "Kent",
+    "zip": "98032",
+    "lat": 47.3798,
+    "lon": -122.2893,
+    "timezone": "America/Los_Angeles",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "137.220.38.255"
   },
   "107.170.242.110": {
     "status": "success",
@@ -38958,22 +38942,6 @@
     "org": "CVD anycast network",
     "as": "AS205581 CVD Sp. z o.o. Sp.k.",
     "query": "85.209.241.167"
-  },
-  "137.220.38.255": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "WA",
-    "regionName": "Washington",
-    "city": "Kent",
-    "zip": "98032",
-    "lat": 47.3798,
-    "lon": -122.2893,
-    "timezone": "America/Los_Angeles",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "137.220.38.255"
   },
   "45.32.154.53": {
     "status": "success",
