@@ -39775,22 +39775,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "135.181.15.235"
   },
-  "85.209.241.224": {
-    "status": "success",
-    "country": "Poland",
-    "countryCode": "PL",
-    "region": "02",
-    "regionName": "Lower Silesia",
-    "city": "Wo\u0142\u00f3w",
-    "zip": "56-100",
-    "lat": 51.337,
-    "lon": 16.6355,
-    "timezone": "Europe/Warsaw",
-    "isp": "CVD Sp. z o.o.",
-    "org": "CVD anycast network",
-    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
-    "query": "85.209.241.224"
-  },
   "85.209.241.37": {
     "status": "success",
     "country": "Poland",
