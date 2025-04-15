@@ -607,21 +607,21 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "188.166.125.247"
   },
-  "212.24.110.128": {
+  "85.209.241.245": {
     "status": "success",
-    "country": "Lithuania",
-    "countryCode": "LT",
-    "region": "VL",
-    "regionName": "Vilnius",
-    "city": "Vilnius",
-    "zip": "02021",
-    "lat": 54.6876,
-    "lon": 25.2806,
-    "timezone": "Europe/Vilnius",
-    "isp": "UAB \"Interneto vizija\"",
-    "org": "InternetoVizija",
-    "as": "AS212531 Interneto vizija",
-    "query": "212.24.110.128"
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "02",
+    "regionName": "Lower Silesia",
+    "city": "Wo\u0142\u00f3w",
+    "zip": "56-100",
+    "lat": 51.337,
+    "lon": 16.6355,
+    "timezone": "Europe/Warsaw",
+    "isp": "CVD Sp. z o.o.",
+    "org": "CVD anycast network",
+    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
+    "query": "85.209.241.245"
   },
   "178.128.254.204": {
     "status": "success",
@@ -25935,21 +25935,21 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.185.147"
   },
-  "135.125.71.9": {
+  "87.98.152.107": {
     "status": "success",
     "country": "France",
     "countryCode": "FR",
     "region": "HDF",
     "regionName": "Hauts-de-France",
-    "city": "Roubaix",
-    "zip": "59100",
-    "lat": 50.6916,
-    "lon": 3.20151,
+    "city": "Gravelines",
+    "zip": "59820",
+    "lat": 50.982,
+    "lon": 2.1536,
     "timezone": "Europe/Paris",
-    "isp": "OVH SAS",
-    "org": "OVH",
+    "isp": "MCPECloud SAS",
+    "org": "MCPECloud ISP",
     "as": "AS16276 OVH SAS",
-    "query": "135.125.71.9"
+    "query": "87.98.152.107"
   },
   "85.209.241.228": {
     "status": "success",
@@ -36287,22 +36287,6 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "202.182.115.161"
   },
-  "64.227.147.68": {
-    "status": "success",
-    "country": "India",
-    "countryCode": "IN",
-    "region": "KA",
-    "regionName": "Karnataka",
-    "city": "Bengaluru",
-    "zip": "560100",
-    "lat": 12.9753,
-    "lon": 77.591,
-    "timezone": "Asia/Kolkata",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "64.227.147.68"
-  },
   "165.232.187.22": {
     "status": "success",
     "country": "India",
@@ -37087,21 +37071,21 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.241.118"
   },
-  "94.176.235.90": {
+  "85.209.241.247": {
     "status": "success",
-    "country": "Lithuania",
-    "countryCode": "LT",
-    "region": "VL",
-    "regionName": "Vilnius",
-    "city": "Vilnius",
-    "zip": "08234",
-    "lat": 54.7065,
-    "lon": 25.3074,
-    "timezone": "Europe/Vilnius",
-    "isp": "UAB \"Interneto vizija\"",
-    "org": "RACKRAY",
-    "as": "AS212531 Interneto vizija",
-    "query": "94.176.235.90"
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "02",
+    "regionName": "Lower Silesia",
+    "city": "Wo\u0142\u00f3w",
+    "zip": "56-100",
+    "lat": 51.337,
+    "lon": 16.6355,
+    "timezone": "Europe/Warsaw",
+    "isp": "CVD Sp. z o.o.",
+    "org": "CVD anycast network",
+    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
+    "query": "85.209.241.247"
   },
   "185.164.163.132": {
     "status": "success",
@@ -40527,21 +40511,21 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "108.61.206.134"
   },
-  "194.135.91.199": {
+  "85.209.241.246": {
     "status": "success",
-    "country": "Lithuania",
-    "countryCode": "LT",
-    "region": "VL",
-    "regionName": "Vilnius",
-    "city": "Vilnius",
-    "zip": "08234",
-    "lat": 54.7091,
-    "lon": 25.2971,
-    "timezone": "Europe/Vilnius",
-    "isp": "UAB \"Interneto vizija\"",
-    "org": "InternetoVizija",
-    "as": "AS212531 Interneto vizija",
-    "query": "194.135.91.199"
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "02",
+    "regionName": "Lower Silesia",
+    "city": "Wo\u0142\u00f3w",
+    "zip": "56-100",
+    "lat": 51.337,
+    "lon": 16.6355,
+    "timezone": "Europe/Warsaw",
+    "isp": "CVD Sp. z o.o.",
+    "org": "CVD anycast network",
+    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
+    "query": "85.209.241.246"
   },
   "180.68.191.77": {
     "status": "success",
