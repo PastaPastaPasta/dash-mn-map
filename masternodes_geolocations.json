@@ -16895,22 +16895,6 @@
     "as": "AS43641 SOLLUTIUM EU Sp z.o.o.",
     "query": "93.115.172.37"
   },
-  "147.93.131.52": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "MO",
-    "regionName": "Missouri",
-    "city": "St Louis",
-    "zip": "63101",
-    "lat": 38.6364,
-    "lon": -90.1985,
-    "timezone": "America/Chicago",
-    "isp": "Nubes, LLC",
-    "org": "Contabo GmbH",
-    "as": "AS40021 Nubes, LLC",
-    "query": "147.93.131.52"
-  },
   "168.119.80.13": {
     "status": "success",
     "country": "Germany",
@@ -21774,22 +21758,6 @@
     "org": "Oracle Cloud Infrastructure (us-ashburn-1)",
     "as": "AS31898 Oracle Corporation",
     "query": "132.145.188.82"
-  },
-  "164.68.126.23": {
-    "status": "success",
-    "country": "France",
-    "countryCode": "FR",
-    "region": "GES",
-    "regionName": "Grand Est",
-    "city": "Lauterbourg",
-    "zip": "67630",
-    "lat": 48.9742,
-    "lon": 8.1851,
-    "timezone": "Europe/Paris",
-    "isp": "Contabo GmbH",
-    "org": "Contabo GmbH",
-    "as": "AS51167 Contabo GmbH",
-    "query": "164.68.126.23"
   },
   "139.180.153.42": {
     "status": "success",
@@ -28847,6 +28815,22 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.77.171.193"
   },
+  "5.180.234.234": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "NY",
+    "regionName": "New York",
+    "city": "New York",
+    "zip": "10123",
+    "lat": 40.7128,
+    "lon": -74.006,
+    "timezone": "America/New_York",
+    "isp": "Zenlayer Inc",
+    "org": "Hostifox",
+    "as": "AS21859 Zenlayer Inc",
+    "query": "5.180.234.234"
+  },
   "188.40.190.56": {
     "status": "success",
     "country": "Germany",
@@ -32830,6 +32814,22 @@
     "org": "M3T Projekt d.o.o.",
     "as": "AS59522 M3T Projekt d.o.o.",
     "query": "176.123.57.216"
+  },
+  "5.180.234.226": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "NY",
+    "regionName": "New York",
+    "city": "New York",
+    "zip": "10123",
+    "lat": 40.7128,
+    "lon": -74.006,
+    "timezone": "America/New_York",
+    "isp": "Zenlayer Inc",
+    "org": "Hostifox",
+    "as": "AS21859 Zenlayer Inc",
+    "query": "5.180.234.226"
   },
   "104.237.129.144": {
     "status": "success",
@@ -40943,6 +40943,22 @@
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.25.44"
   },
+  "178.63.236.116": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "SN",
+    "regionName": "Saxony",
+    "city": "Falkenstein",
+    "zip": "08223",
+    "lat": 50.4777,
+    "lon": 12.3649,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "178.63.236.116"
+  },
   "64.227.122.247": {
     "status": "success",
     "country": "Germany",
@@ -40959,7 +40975,7 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "64.227.122.247"
   },
-  "178.63.236.116": {
+  "188.40.185.146": {
     "status": "success",
     "country": "Germany",
     "countryCode": "DE",
@@ -40973,7 +40989,7 @@
     "isp": "Hetzner Online GmbH",
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
-    "query": "178.63.236.116"
+    "query": "188.40.185.146"
   },
   "207.148.119.205": {
     "status": "success",
