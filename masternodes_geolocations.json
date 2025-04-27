@@ -32463,21 +32463,21 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "149.28.130.205"
   },
-  "64.176.59.30": {
+  "38.143.58.210": {
     "status": "success",
-    "country": "Japan",
-    "countryCode": "JP",
-    "region": "27",
-    "regionName": "Osaka",
-    "city": "Osaka",
-    "zip": "540-0001",
-    "lat": 34.6834,
-    "lon": 135.5258,
-    "timezone": "Asia/Tokyo",
-    "isp": "The Constant Company, LLC",
-    "org": "The Constant Company, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "64.176.59.30"
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "QC",
+    "regionName": "Quebec",
+    "city": "Montreal",
+    "zip": "H3H",
+    "lat": 45.5075,
+    "lon": -73.5887,
+    "timezone": "America/Toronto",
+    "isp": "Rica Web Services",
+    "org": "Cogent communications - IPENG",
+    "as": "AS26832 Rica Web Services",
+    "query": "38.143.58.210"
   },
   "46.4.217.238": {
     "status": "success",
