@@ -2047,6 +2047,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "95.217.99.208"
   },
+  "45.32.123.123": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.32.123.123"
+  },
   "82.211.25.174": {
     "status": "success",
     "country": "Germany",
@@ -2174,6 +2190,22 @@
     "org": "Alibaba.com Singapore E-Commerce Private Limited",
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.219.242.77"
+  },
+  "139.180.222.176": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "SGP VULTR",
+    "org": "",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "139.180.222.176"
   },
   "138.68.149.239": {
     "status": "success",
@@ -21151,6 +21183,22 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.32.156.167"
   },
+  "45.32.113.234": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.32.113.234"
+  },
   "65.109.108.142": {
     "status": "success",
     "country": "Finland",
@@ -21326,6 +21374,22 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "95.217.71.194"
+  },
+  "45.76.183.119": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.76.183.119"
   },
   "95.179.248.52": {
     "status": "success",
@@ -25454,6 +25518,22 @@
     "org": "Hetzner",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "167.235.132.126"
+  },
+  "139.180.212.94": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "SGP VULTR",
+    "org": "",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "139.180.212.94"
   },
   "49.13.209.157": {
     "status": "success",
@@ -31855,21 +31935,21 @@
     "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
     "query": "47.98.66.95"
   },
-  "77.20.177.153": {
+  "80.147.135.74": {
     "status": "success",
     "country": "Germany",
     "countryCode": "DE",
-    "region": "NI",
-    "regionName": "Lower Saxony",
-    "city": "Isernhagen-S\u00fcd",
-    "zip": "30916",
-    "lat": 52.4376,
-    "lon": 9.7999,
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
     "timezone": "Europe/Berlin",
-    "isp": "Vodafone Kabel Deutschland",
-    "org": "Vodafone Kabel Deutschland GmbH",
-    "as": "AS3209 Vodafone GmbH",
-    "query": "77.20.177.153"
+    "isp": "Deutsche Telekom AG",
+    "org": "Deutsche Telekom AG",
+    "as": "AS3320 Deutsche Telekom AG",
+    "query": "80.147.135.74"
   },
   "85.209.241.223": {
     "status": "success",
@@ -33694,6 +33774,22 @@
     "org": "Hetzner Online GmbH",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "65.108.0.158"
+  },
+  "49.13.197.215": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "BY",
+    "regionName": "Bavaria",
+    "city": "Nuremberg",
+    "zip": "90403",
+    "lat": 49.4527,
+    "lon": 11.0783,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "Hetzner",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "49.13.197.215"
   },
   "136.243.142.32": {
     "status": "success",
@@ -39886,6 +39982,22 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "104.248.137.183"
+  },
+  "64.176.80.70": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "64.176.80.70"
   },
   "65.21.237.222": {
     "status": "success",
