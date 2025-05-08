@@ -11967,22 +11967,6 @@
     "as": "AS207143 hosttech GmbH",
     "query": "185.142.212.144"
   },
-  "144.202.72.211": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "TX",
-    "regionName": "Texas",
-    "city": "Dallas",
-    "zip": "75201",
-    "lat": 32.7889,
-    "lon": -96.8021,
-    "timezone": "America/Chicago",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "144.202.72.211"
-  },
   "107.170.219.53": {
     "status": "success",
     "country": "United States",
@@ -23662,6 +23646,22 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.76.185.169"
+  },
+  "144.202.72.211": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "TX",
+    "regionName": "Texas",
+    "city": "Dallas",
+    "zip": "75201",
+    "lat": 32.7889,
+    "lon": -96.8021,
+    "timezone": "America/Chicago",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "144.202.72.211"
   },
   "185.164.163.59": {
     "status": "success",
