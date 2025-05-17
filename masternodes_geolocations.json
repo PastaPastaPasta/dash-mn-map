@@ -19583,7 +19583,7 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.77.33.50"
   },
-  "142.59.176.128": {
+  "205.206.173.143": {
     "status": "success",
     "country": "Canada",
     "countryCode": "CA",
@@ -19597,7 +19597,7 @@
     "isp": "TELUS Communications Inc",
     "org": "TELUS-DSL-CLGRAB13",
     "as": "AS852 TELUS Communications Inc.",
-    "query": "142.59.176.128"
+    "query": "205.206.173.143"
   },
   "188.166.54.247": {
     "status": "success",
