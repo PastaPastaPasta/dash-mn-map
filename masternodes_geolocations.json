@@ -21391,6 +21391,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.175.64"
   },
+  "159.89.117.34": {
+    "status": "success",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "ON",
+    "regionName": "Ontario",
+    "city": "Toronto",
+    "zip": "M5A",
+    "lat": 43.709,
+    "lon": -79.4057,
+    "timezone": "America/Toronto",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "159.89.117.34"
+  },
   "82.211.25.97": {
     "status": "success",
     "country": "Germany",
