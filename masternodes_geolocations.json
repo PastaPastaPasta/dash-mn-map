@@ -14255,22 +14255,6 @@
     "as": "AS212531 Interneto vizija",
     "query": "89.40.0.109"
   },
-  "149.102.152.219": {
-    "status": "success",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "region": "ENG",
-    "regionName": "England",
-    "city": "Portsmouth",
-    "zip": "PO9",
-    "lat": 50.8514,
-    "lon": -0.9903,
-    "timezone": "Europe/London",
-    "isp": "Contabo GmbH",
-    "org": "Contabo GmbH",
-    "as": "AS51167 Contabo GmbH",
-    "query": "149.102.152.219"
-  },
   "46.4.162.119": {
     "status": "success",
     "country": "Germany",
@@ -19439,21 +19423,21 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "136.243.115.141"
   },
-  "154.127.57.63": {
+  "154.127.59.27": {
     "status": "success",
     "country": "South Africa",
     "countryCode": "ZA",
     "region": "GP",
     "regionName": "Gauteng",
     "city": "Johannesburg",
-    "zip": "2001",
-    "lat": -26.2309,
-    "lon": 28.0583,
+    "zip": "2041",
+    "lat": -26.2041,
+    "lon": 28.0473,
     "timezone": "Africa/Johannesburg",
-    "isp": "Hivelocity Inc",
+    "isp": "WiredISP Inc.",
     "org": "Digital Energy Technologies Limited",
-    "as": "AS61317 Hivelocity LLC",
-    "query": "154.127.57.63"
+    "as": "AS21840 WiredISP Inc.",
+    "query": "154.127.59.27"
   },
   "135.181.153.221": {
     "status": "success",
@@ -39934,6 +39918,22 @@
     "org": "",
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.21.182"
+  },
+  "178.18.254.136": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "NW",
+    "regionName": "North Rhine-Westphalia",
+    "city": "D\u00fcsseldorf",
+    "zip": "40599",
+    "lat": 51.1864,
+    "lon": 6.8624,
+    "timezone": "Europe/Berlin",
+    "isp": "Contabo GmbH",
+    "org": "Contabo GmbH",
+    "as": "AS51167 Contabo GmbH",
+    "query": "178.18.254.136"
   },
   "82.211.21.40": {
     "status": "success",
