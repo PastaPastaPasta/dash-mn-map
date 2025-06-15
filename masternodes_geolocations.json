@@ -10703,6 +10703,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "78.47.19.135"
   },
+  "68.183.80.227": {
+    "status": "success",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "KA",
+    "regionName": "Karnataka",
+    "city": "Bengaluru",
+    "zip": "560100",
+    "lat": 12.9753,
+    "lon": 77.591,
+    "timezone": "Asia/Kolkata",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "68.183.80.227"
+  },
   "188.40.205.6": {
     "status": "success",
     "country": "Germany",
@@ -11294,38 +11310,6 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "135.181.54.103"
-  },
-  "68.183.80.227": {
-    "status": "success",
-    "country": "India",
-    "countryCode": "IN",
-    "region": "KA",
-    "regionName": "Karnataka",
-    "city": "Bengaluru",
-    "zip": "560100",
-    "lat": 12.9753,
-    "lon": 77.591,
-    "timezone": "Asia/Kolkata",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "68.183.80.227"
-  },
-  "38.102.84.80": {
-    "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "QC",
-    "regionName": "Quebec",
-    "city": "Montreal",
-    "zip": "H3H",
-    "lat": 45.5075,
-    "lon": -73.5887,
-    "timezone": "America/Toronto",
-    "isp": "Rica Web Services",
-    "org": "Rica Web Services",
-    "as": "AS26832 Rica Web Services",
-    "query": "38.102.84.80"
   },
   "178.63.236.105": {
     "status": "success",
@@ -13934,22 +13918,6 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.32.111.190"
-  },
-  "188.40.241.103": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "SN",
-    "regionName": "Saxony",
-    "city": "Falkenstein",
-    "zip": "08223",
-    "lat": 50.4777,
-    "lon": 12.3649,
-    "timezone": "Europe/Berlin",
-    "isp": "Hetzner Online GmbH",
-    "org": "",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "188.40.241.103"
   },
   "167.99.74.32": {
     "status": "success",
