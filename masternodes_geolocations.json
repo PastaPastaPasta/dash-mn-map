@@ -3391,6 +3391,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.163.21"
   },
+  "64.227.151.235": {
+    "status": "success",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "KA",
+    "regionName": "Karnataka",
+    "city": "Bengaluru",
+    "zip": "560100",
+    "lat": 12.9753,
+    "lon": 77.591,
+    "timezone": "Asia/Kolkata",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "64.227.151.235"
+  },
   "188.166.106.130": {
     "status": "success",
     "country": "The Netherlands",
