@@ -26271,22 +26271,6 @@
     "as": "AS47583 Hostinger International Limited",
     "query": "193.160.119.129"
   },
-  "149.28.18.225": {
-    "status": "success",
-    "country": "Japan",
-    "countryCode": "JP",
-    "region": "13",
-    "regionName": "Tokyo",
-    "city": "Shinagawa",
-    "zip": "141-0033",
-    "lat": 35.6092,
-    "lon": 139.73,
-    "timezone": "Asia/Tokyo",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "149.28.18.225"
-  },
   "82.211.21.230": {
     "status": "success",
     "country": "Germany",
