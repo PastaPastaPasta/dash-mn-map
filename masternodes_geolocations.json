@@ -10127,22 +10127,6 @@
     "as": "AS31898 Oracle Corporation",
     "query": "130.61.120.252"
   },
-  "135.181.54.100": {
-    "status": "success",
-    "country": "Finland",
-    "countryCode": "FI",
-    "region": "18",
-    "regionName": "Uusimaa",
-    "city": "Helsinki",
-    "zip": "00100",
-    "lat": 60.1719,
-    "lon": 24.9347,
-    "timezone": "Europe/Helsinki",
-    "isp": "Hetzner Online GmbH",
-    "org": "",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "135.181.54.100"
-  },
   "82.211.25.207": {
     "status": "success",
     "country": "Germany",
