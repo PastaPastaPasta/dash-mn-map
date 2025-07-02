@@ -6495,22 +6495,6 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "95.179.159.65"
   },
-  "168.119.87.148": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "SN",
-    "regionName": "Saxony",
-    "city": "Falkenstein",
-    "zip": "08223",
-    "lat": 50.4777,
-    "lon": 12.3649,
-    "timezone": "Europe/Berlin",
-    "isp": "Hetzner Online GmbH",
-    "org": "",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "168.119.87.148"
-  },
   "85.209.241.91": {
     "status": "success",
     "country": "Poland",
@@ -17631,22 +17615,6 @@
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.25.23"
   },
-  "45.63.84.229": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "CA",
-    "regionName": "California",
-    "city": "Santa Clara",
-    "zip": "95054",
-    "lat": 37.3931,
-    "lon": -121.962,
-    "timezone": "America/Los_Angeles",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "45.63.84.229"
-  },
   "104.225.159.232": {
     "status": "success",
     "country": "United States",
@@ -20174,6 +20142,22 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "137.184.175.173"
+  },
+  "149.28.223.171": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "CA",
+    "regionName": "California",
+    "city": "Santa Clara",
+    "zip": "95054",
+    "lat": 37.3931,
+    "lon": -121.962,
+    "timezone": "America/Los_Angeles",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "149.28.223.171"
   },
   "176.9.210.18": {
     "status": "success",
@@ -29887,22 +29871,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "139.59.22.95"
   },
-  "108.61.86.102": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "NJ",
-    "regionName": "New Jersey",
-    "city": "Piscataway",
-    "zip": "08854",
-    "lat": 40.5511,
-    "lon": -74.4606,
-    "timezone": "America/New_York",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "108.61.86.102"
-  },
   "85.209.241.68": {
     "status": "success",
     "country": "Poland",
@@ -35518,22 +35486,6 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "159.65.155.91"
-  },
-  "139.180.212.166": {
-    "status": "success",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "region": "05",
-    "regionName": "South West",
-    "city": "Singapore",
-    "zip": "627753",
-    "lat": 1.32123,
-    "lon": 103.695,
-    "timezone": "Asia/Singapore",
-    "isp": "SGP VULTR",
-    "org": "",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "139.180.212.166"
   },
   "88.99.11.26": {
     "status": "success",
