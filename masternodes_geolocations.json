@@ -27087,6 +27087,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.62.159.196"
   },
+  "85.209.241.217": {
+    "status": "success",
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "02",
+    "regionName": "Lower Silesia",
+    "city": "Wo\u0142\u00f3w",
+    "zip": "56-100",
+    "lat": 51.337,
+    "lon": 16.6355,
+    "timezone": "Europe/Warsaw",
+    "isp": "CVD Sp. z o.o.",
+    "org": "CVD anycast network",
+    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
+    "query": "85.209.241.217"
+  },
   "8.222.139.20": {
     "status": "success",
     "country": "Singapore",
