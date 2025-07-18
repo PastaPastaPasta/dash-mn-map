@@ -23039,6 +23039,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "139.59.231.57"
   },
+  "167.86.85.24": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "BY",
+    "regionName": "Bavaria",
+    "city": "Nuremberg",
+    "zip": "90475",
+    "lat": 49.405,
+    "lon": 11.1617,
+    "timezone": "Europe/Berlin",
+    "isp": "Contabo GmbH",
+    "org": "Contabo GmbH",
+    "as": "AS51167 Contabo GmbH",
+    "query": "167.86.85.24"
+  },
   "157.10.199.82": {
     "status": "success",
     "country": "Vietnam",
