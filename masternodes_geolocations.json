@@ -4095,22 +4095,6 @@
     "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
     "query": "47.110.146.65"
   },
-  "167.99.182.250": {
-    "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "ON",
-    "regionName": "Ontario",
-    "city": "Toronto",
-    "zip": "M5A",
-    "lat": 43.6547,
-    "lon": -79.3623,
-    "timezone": "America/Toronto",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "167.99.182.250"
-  },
   "85.209.241.144": {
     "status": "success",
     "country": "Poland",
@@ -4638,6 +4622,38 @@
     "org": "",
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.21.45"
+  },
+  "85.209.241.81": {
+    "status": "success",
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "02",
+    "regionName": "Lower Silesia",
+    "city": "Wo\u0142\u00f3w",
+    "zip": "56-100",
+    "lat": 51.337,
+    "lon": 16.6355,
+    "timezone": "Europe/Warsaw",
+    "isp": "CVD Sp. z o.o.",
+    "org": "CVD anycast network",
+    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
+    "query": "85.209.241.81"
+  },
+  "167.99.182.250": {
+    "status": "success",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "ON",
+    "regionName": "Ontario",
+    "city": "Toronto",
+    "zip": "M5A",
+    "lat": 43.6547,
+    "lon": -79.3623,
+    "timezone": "America/Toronto",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "167.99.182.250"
   },
   "178.62.126.198": {
     "status": "success",
@@ -19631,21 +19647,21 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "134.209.185.24"
   },
-  "78.187.229.53": {
+  "82.153.207.3": {
     "status": "success",
-    "country": "Turkey",
-    "countryCode": "TR",
-    "region": "38",
-    "regionName": "Kayseri",
-    "city": "Kayseri",
-    "zip": "38110",
-    "lat": 38.7205,
-    "lon": 35.4826,
-    "timezone": "Europe/Istanbul",
-    "isp": "TurkTelecom",
-    "org": "Turk Telekomunikasyon A.S",
-    "as": "AS47331 TTNet A.S.",
-    "query": "78.187.229.53"
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "region": "ENG",
+    "regionName": "England",
+    "city": "Exeter",
+    "zip": "EX2 7JG",
+    "lat": 50.722,
+    "lon": -3.465,
+    "timezone": "Europe/London",
+    "isp": "Eclipse Networking Ltd.",
+    "org": "Eurogarages Ltd",
+    "as": "AS214083 NodeHub LLC",
+    "query": "82.153.207.3"
   },
   "38.91.101.92": {
     "status": "success",
@@ -37103,22 +37119,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "135.181.111.216"
   },
-  "155.138.154.140": {
-    "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "ON",
-    "regionName": "Ontario",
-    "city": "Toronto",
-    "zip": "M5A",
-    "lat": 43.6547,
-    "lon": -79.3623,
-    "timezone": "America/Toronto",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "155.138.154.140"
-  },
   "8.219.4.138": {
     "status": "success",
     "country": "Singapore",
@@ -37566,6 +37566,22 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.180.135"
+  },
+  "155.138.154.140": {
+    "status": "success",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "ON",
+    "regionName": "Ontario",
+    "city": "Toronto",
+    "zip": "M5A",
+    "lat": 43.6547,
+    "lon": -79.3623,
+    "timezone": "America/Toronto",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "155.138.154.140"
   },
   "46.4.217.249": {
     "status": "success",
