@@ -7711,6 +7711,22 @@
     "as": "AS205581 CVD Sp. z o.o. Sp.k.",
     "query": "85.209.241.210"
   },
+  "45.93.44.223": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "45.93.44.223"
+  },
   "139.59.254.15": {
     "status": "success",
     "country": "Singapore",
@@ -10878,6 +10894,22 @@
     "org": "InternetoVizija",
     "as": "AS212531 Interneto vizija",
     "query": "176.223.137.117"
+  },
+  "173.212.196.214": {
+    "status": "success",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "GES",
+    "regionName": "Grand Est",
+    "city": "Lauterbourg",
+    "zip": "67630",
+    "lat": 48.9742,
+    "lon": 8.1851,
+    "timezone": "Europe/Paris",
+    "isp": "Contabo GmbH",
+    "org": "Contabo GmbH",
+    "as": "AS51167 Contabo GmbH",
+    "query": "173.212.196.214"
   },
   "157.173.113.158": {
     "status": "success",
@@ -24575,7 +24607,7 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "66.42.105.227"
   },
-  "46.254.241.13": {
+  "46.254.241.6": {
     "status": "success",
     "country": "Russia",
     "countryCode": "RU",
@@ -24589,7 +24621,7 @@
     "isp": "ORTEL",
     "org": "",
     "as": "AS5547 JSC Orient-Telecom",
-    "query": "46.254.241.13"
+    "query": "46.254.241.6"
   },
   "136.243.29.198": {
     "status": "success",
@@ -24766,6 +24798,22 @@
     "org": "AWS EC2 (us-west-2)",
     "as": "AS16509 Amazon.com, Inc.",
     "query": "52.10.213.198"
+  },
+  "45.93.44.201": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "45.93.44.201"
   },
   "149.28.128.31": {
     "status": "success",
@@ -43422,6 +43470,22 @@
     "org": "WorkTitans B.V",
     "as": "AS44477 PQ HOSTING PLUS S.R.L.",
     "query": "213.159.77.221"
+  },
+  "82.153.207.230": {
+    "status": "success",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "region": "ENG",
+    "regionName": "England",
+    "city": "Exeter",
+    "zip": "EX2 7JG",
+    "lat": 50.722,
+    "lon": -3.465,
+    "timezone": "Europe/London",
+    "isp": "Eclipse Networking Ltd.",
+    "org": "Longton Financial Services",
+    "as": "AS214083 NodeHub LLC",
+    "query": "82.153.207.230"
   },
   "46.4.217.251": {
     "status": "success",
