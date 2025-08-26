@@ -111,22 +111,6 @@
     "as": "AS31898 Oracle Corporation",
     "query": "150.136.225.22"
   },
-  "82.211.21.108": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "NI",
-    "regionName": "Lower Saxony",
-    "city": "Visselh\u00f6vede",
-    "zip": "27374",
-    "lat": 52.9853,
-    "lon": 9.58395,
-    "timezone": "Europe/Berlin",
-    "isp": "IP- Accelerated IT Services GmbH",
-    "org": "",
-    "as": "AS44066 firstcolo GmbH",
-    "query": "82.211.21.108"
-  },
   "54.37.199.232": {
     "status": "success",
     "country": "Germany",
@@ -1550,22 +1534,6 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "136.243.29.208"
-  },
-  "157.173.201.78": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "MO",
-    "regionName": "Missouri",
-    "city": "St Louis",
-    "zip": "63101",
-    "lat": 38.6364,
-    "lon": -90.1985,
-    "timezone": "America/Chicago",
-    "isp": "Contabo Inc.",
-    "org": "Contabo GmbH",
-    "as": "AS40021 Contabo Inc.",
-    "query": "157.173.201.78"
   },
   "134.209.199.26": {
     "status": "success",
@@ -6975,22 +6943,6 @@
     "as": "AS61424 eServer s.r.o.",
     "query": "185.112.249.53"
   },
-  "85.209.241.70": {
-    "status": "success",
-    "country": "Poland",
-    "countryCode": "PL",
-    "region": "02",
-    "regionName": "Lower Silesia",
-    "city": "Wo\u0142\u00f3w",
-    "zip": "56-100",
-    "lat": 51.337,
-    "lon": 16.6355,
-    "timezone": "Europe/Warsaw",
-    "isp": "CVD Sp. z o.o.",
-    "org": "CVD anycast network",
-    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
-    "query": "85.209.241.70"
-  },
   "54.37.199.237": {
     "status": "success",
     "country": "Germany",
@@ -12015,6 +11967,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "159.203.40.172"
   },
+  "88.99.11.24": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "SN",
+    "regionName": "Saxony",
+    "city": "Falkenstein",
+    "zip": "08223",
+    "lat": 50.4777,
+    "lon": 12.3649,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "88.99.11.24"
+  },
   "82.211.25.38": {
     "status": "success",
     "country": "Germany",
@@ -12654,38 +12622,6 @@
     "org": "InternetoVizija",
     "as": "AS212531 Interneto vizija",
     "query": "212.24.104.225"
-  },
-  "88.99.11.24": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "SN",
-    "regionName": "Saxony",
-    "city": "Falkenstein",
-    "zip": "08223",
-    "lat": 50.4777,
-    "lon": 12.3649,
-    "timezone": "Europe/Berlin",
-    "isp": "Hetzner Online GmbH",
-    "org": "",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "88.99.11.24"
-  },
-  "45.32.23.116": {
-    "status": "success",
-    "country": "Japan",
-    "countryCode": "JP",
-    "region": "13",
-    "regionName": "Tokyo",
-    "city": "Minamishinagawa",
-    "zip": "140-0001",
-    "lat": 35.6164,
-    "lon": 139.7425,
-    "timezone": "Asia/Tokyo",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "45.32.23.116"
   },
   "95.217.125.98": {
     "status": "success",
