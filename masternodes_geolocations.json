@@ -1999,22 +1999,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "46.4.162.100"
   },
-  "78.29.49.98": {
-    "status": "success",
-    "country": "Russia",
-    "countryCode": "RU",
-    "region": "CHE",
-    "regionName": "Chelyabinsk Oblast",
-    "city": "Chelyabinsk",
-    "zip": "454000",
-    "lat": 55.1553,
-    "lon": 61.4313,
-    "timezone": "Asia/Yekaterinburg",
-    "isp": "Intersvyaz-2 JSC",
-    "org": "Intersvyaz-2 JSC",
-    "as": "AS8369 Intersvyaz-2 JSC",
-    "query": "78.29.49.98"
-  },
   "150.136.177.221": {
     "status": "success",
     "country": "United States",
@@ -9519,21 +9503,21 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "139.180.143.115"
   },
-  "185.198.234.54": {
+  "72.60.38.160": {
     "status": "success",
-    "country": "The Netherlands",
-    "countryCode": "NL",
-    "region": "NH",
-    "regionName": "North Holland",
-    "city": "Amsterdam",
-    "zip": "1012",
-    "lat": 52.3759,
-    "lon": 4.8975,
-    "timezone": "Europe/Amsterdam",
-    "isp": "RoyaleHosting BV",
-    "org": "Moula World Llc",
-    "as": "AS212477 RoyaleHosting BV",
-    "query": "185.198.234.54"
+    "country": "United States",
+    "countryCode": "US",
+    "region": "NJ",
+    "regionName": "New Jersey",
+    "city": "Harrison",
+    "zip": "07029",
+    "lat": 40.7466,
+    "lon": -74.1562,
+    "timezone": "America/New_York",
+    "isp": "Hostinger DE",
+    "org": "",
+    "as": "AS47583 Hostinger International Limited",
+    "query": "72.60.38.160"
   },
   "198.7.119.139": {
     "status": "success",
@@ -25055,22 +25039,6 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "108.61.210.143"
   },
-  "85.208.49.34": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60313",
-    "lat": 50.1109,
-    "lon": 8.68213,
-    "timezone": "Europe/Berlin",
-    "isp": "NodeHub LLC",
-    "org": "",
-    "as": "AS214083 NodeHub LLC",
-    "query": "85.208.49.34"
-  },
   "82.180.149.107": {
     "status": "success",
     "country": "United Kingdom",
@@ -37742,22 +37710,6 @@
     "org": "",
     "as": "AS9141 P4 Sp. z o.o.",
     "query": "94.172.109.161"
-  },
-  "82.211.25.110": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60313",
-    "lat": 50.1109,
-    "lon": 8.68213,
-    "timezone": "Europe/Berlin",
-    "isp": "IP- Accelerated IT Services GmbH",
-    "org": "Cheree InfoMedia Private Limited",
-    "as": "AS44066 firstcolo GmbH",
-    "query": "82.211.25.110"
   },
   "135.181.8.69": {
     "status": "success",
