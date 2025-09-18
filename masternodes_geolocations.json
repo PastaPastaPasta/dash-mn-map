@@ -29919,6 +29919,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "178.63.236.99"
   },
+  "104.207.131.17": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60314",
+    "lat": 50.1103,
+    "lon": 8.7147,
+    "timezone": "Europe/Berlin",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "104.207.131.17"
+  },
   "135.181.53.228": {
     "status": "success",
     "country": "Finland",
@@ -30974,22 +30990,6 @@
     "org": "GWY IT PTY LTD",
     "as": "AS48314 Michael Sebastian Schinzel trading as IP-Projects GmbH & Co. KG",
     "query": "185.243.115.219"
-  },
-  "38.91.100.4": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "NY",
-    "regionName": "New York",
-    "city": "New York",
-    "zip": "",
-    "lat": 40.7127,
-    "lon": -74.0059,
-    "timezone": "America/New_York",
-    "isp": "GTHost",
-    "org": "Globaltelehost Corp",
-    "as": "AS63023 GTHost",
-    "query": "38.91.100.4"
   },
   "107.170.242.110": {
     "status": "success",
@@ -34190,6 +34190,22 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "167.71.71.157"
+  },
+  "45.32.114.42": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.32.114.42"
   },
   "138.197.131.126": {
     "status": "success",
@@ -42974,22 +42990,6 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "135.181.53.132"
-  },
-  "104.207.131.17": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60314",
-    "lat": 50.1103,
-    "lon": 8.7147,
-    "timezone": "Europe/Berlin",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "104.207.131.17"
   },
   "164.132.55.103": {
     "status": "success",
