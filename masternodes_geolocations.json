@@ -2303,6 +2303,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "157.245.193.129"
   },
+  "31.57.190.164": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "NY",
+    "regionName": "New York",
+    "city": "New York",
+    "zip": "10123",
+    "lat": 40.7128,
+    "lon": -74.006,
+    "timezone": "America/New_York",
+    "isp": "NodeHub LLC",
+    "org": "",
+    "as": "AS214083 NodeHub LLC",
+    "query": "31.57.190.164"
+  },
   "85.206.165.89": {
     "status": "success",
     "country": "Lithuania",
@@ -3502,22 +3518,6 @@
     "org": "",
     "as": "AS20473 The Constant Company, LLC",
     "query": "139.180.208.184"
-  },
-  "85.208.49.26": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60313",
-    "lat": 50.1109,
-    "lon": 8.68213,
-    "timezone": "Europe/Berlin",
-    "isp": "NodeHub LLC",
-    "org": "",
-    "as": "AS214083 NodeHub LLC",
-    "query": "85.208.49.26"
   },
   "52.33.9.172": {
     "status": "success",
@@ -27999,6 +27999,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "135.181.53.196"
   },
+  "31.57.190.137": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "NY",
+    "regionName": "New York",
+    "city": "New York",
+    "zip": "10123",
+    "lat": 40.7128,
+    "lon": -74.006,
+    "timezone": "America/New_York",
+    "isp": "NodeHub LLC",
+    "org": "",
+    "as": "AS214083 NodeHub LLC",
+    "query": "31.57.190.137"
+  },
   "128.199.17.79": {
     "status": "success",
     "country": "India",
@@ -36351,7 +36367,7 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "165.22.65.68"
   },
-  "123.193.64.166": {
+  "123.193.81.121": {
     "status": "success",
     "country": "Taiwan",
     "countryCode": "TW",
@@ -36365,7 +36381,7 @@
     "isp": "kbro CO. Ltd.",
     "org": "KBRO",
     "as": "AS38841 kbro CO. Ltd.",
-    "query": "123.193.64.166"
+    "query": "123.193.81.121"
   },
   "188.40.241.97": {
     "status": "success",
@@ -39918,22 +39934,6 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "108.61.206.134"
-  },
-  "85.209.241.246": {
-    "status": "success",
-    "country": "Poland",
-    "countryCode": "PL",
-    "region": "02",
-    "regionName": "Lower Silesia",
-    "city": "Wo\u0142\u00f3w",
-    "zip": "56-100",
-    "lat": 51.337,
-    "lon": 16.6355,
-    "timezone": "Europe/Warsaw",
-    "isp": "CVD Sp. z o.o.",
-    "org": "CVD anycast network",
-    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
-    "query": "85.209.241.246"
   },
   "180.68.191.77": {
     "status": "success",
