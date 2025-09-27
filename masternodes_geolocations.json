@@ -783,22 +783,6 @@
     "as": "AS40021 Contabo Inc.",
     "query": "147.93.132.12"
   },
-  "34.209.237.242": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "OR",
-    "regionName": "Oregon",
-    "city": "Portland",
-    "zip": "97207",
-    "lat": 45.5235,
-    "lon": -122.676,
-    "timezone": "America/Los_Angeles",
-    "isp": "Amazon.com, Inc.",
-    "org": "AWS EC2 (us-west-2)",
-    "as": "AS16509 Amazon.com, Inc.",
-    "query": "34.209.237.242"
-  },
   "83.222.9.253": {
     "status": "success",
     "country": "Russia",
@@ -846,6 +830,38 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.190.38"
+  },
+  "91.98.160.22": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "BY",
+    "regionName": "Bavaria",
+    "city": "Nuremberg",
+    "zip": "90403",
+    "lat": 49.4543,
+    "lon": 11.0746,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "GOLDIPV4",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "91.98.160.22"
+  },
+  "34.209.237.242": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "OR",
+    "regionName": "Oregon",
+    "city": "Portland",
+    "zip": "97207",
+    "lat": 45.5235,
+    "lon": -122.676,
+    "timezone": "America/Los_Angeles",
+    "isp": "Amazon.com, Inc.",
+    "org": "AWS EC2 (us-west-2)",
+    "as": "AS16509 Amazon.com, Inc.",
+    "query": "34.209.237.242"
   },
   "66.245.196.52": {
     "status": "success",
