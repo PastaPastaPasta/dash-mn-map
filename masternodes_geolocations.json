@@ -4095,22 +4095,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "159.203.112.94"
   },
-  "85.209.241.63": {
-    "status": "success",
-    "country": "Poland",
-    "countryCode": "PL",
-    "region": "02",
-    "regionName": "Lower Silesia",
-    "city": "Wo\u0142\u00f3w",
-    "zip": "56-100",
-    "lat": 51.337,
-    "lon": 16.6355,
-    "timezone": "Europe/Warsaw",
-    "isp": "CVD Sp. z o.o.",
-    "org": "CVD anycast network",
-    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
-    "query": "85.209.241.63"
-  },
   "43.134.180.113": {
     "status": "success",
     "country": "Singapore",
@@ -32511,22 +32495,6 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "149.28.144.6"
   },
-  "139.59.30.197": {
-    "status": "success",
-    "country": "India",
-    "countryCode": "IN",
-    "region": "KA",
-    "regionName": "Karnataka",
-    "city": "Bengaluru",
-    "zip": "560100",
-    "lat": 12.9753,
-    "lon": 77.591,
-    "timezone": "Asia/Kolkata",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "139.59.30.197"
-  },
   "217.77.12.102": {
     "status": "success",
     "country": "United States",
@@ -32990,6 +32958,38 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.190.41"
+  },
+  "139.59.30.197": {
+    "status": "success",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "KA",
+    "regionName": "Karnataka",
+    "city": "Bengaluru",
+    "zip": "560100",
+    "lat": 12.9753,
+    "lon": 77.591,
+    "timezone": "Asia/Kolkata",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "139.59.30.197"
+  },
+  "83.171.248.115": {
+    "status": "success",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "GES",
+    "regionName": "Grand Est",
+    "city": "Lauterbourg",
+    "zip": "67630",
+    "lat": 48.9742,
+    "lon": 8.1851,
+    "timezone": "Europe/Paris",
+    "isp": "Contabo GmbH",
+    "org": "Contabo GmbH",
+    "as": "AS51167 Contabo GmbH",
+    "query": "83.171.248.115"
   },
   "134.255.182.189": {
     "status": "success",
@@ -39662,6 +39662,22 @@
     "org": "Alibaba.com Singapore E-Commerce Private Limited",
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.219.238.104"
+  },
+  "62.171.170.14": {
+    "status": "success",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "GES",
+    "regionName": "Grand Est",
+    "city": "Lauterbourg",
+    "zip": "67630",
+    "lat": 48.9742,
+    "lon": 8.1851,
+    "timezone": "Europe/Paris",
+    "isp": "Contabo GmbH",
+    "org": "Contabo GmbH",
+    "as": "AS51167 Contabo GmbH",
+    "query": "62.171.170.14"
   },
   "139.59.158.111": {
     "status": "success",
