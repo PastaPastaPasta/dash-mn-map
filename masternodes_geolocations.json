@@ -13423,22 +13423,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "134.122.37.115"
   },
-  "34.244.130.174": {
-    "status": "success",
-    "country": "Ireland",
-    "countryCode": "IE",
-    "region": "L",
-    "regionName": "Leinster",
-    "city": "Dublin",
-    "zip": "D02",
-    "lat": 53.3498,
-    "lon": -6.26031,
-    "timezone": "Europe/Dublin",
-    "isp": "Amazon Technologies Inc.",
-    "org": "AWS EC2 (eu-west-1)",
-    "as": "AS16509 Amazon.com, Inc.",
-    "query": "34.244.130.174"
-  },
   "135.181.200.160": {
     "status": "success",
     "country": "Finland",
@@ -28222,6 +28206,22 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "178.63.235.201"
+  },
+  "168.119.83.17": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "SN",
+    "regionName": "Saxony",
+    "city": "Falkenstein",
+    "zip": "08223",
+    "lat": 50.4777,
+    "lon": 12.3649,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "168.119.83.17"
   },
   "162.212.35.101": {
     "status": "success",
