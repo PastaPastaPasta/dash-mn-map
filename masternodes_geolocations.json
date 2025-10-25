@@ -22703,6 +22703,22 @@
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.222.140.126"
   },
+  "45.77.39.81": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.77.39.81"
+  },
   "188.245.48.19": {
     "status": "success",
     "country": "Germany",
