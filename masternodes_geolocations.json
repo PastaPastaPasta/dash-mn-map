@@ -17279,6 +17279,22 @@
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.25.23"
   },
+  "104.225.159.232": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "CA",
+    "regionName": "California",
+    "city": "Los Angeles",
+    "zip": "90014",
+    "lat": 34.0481,
+    "lon": -118.2531,
+    "timezone": "America/Los_Angeles",
+    "isp": "IT7 Networks Inc",
+    "org": "Cluster Logic Inc",
+    "as": "AS25820 IT7 Networks Inc",
+    "query": "104.225.159.232"
+  },
   "162.243.28.48": {
     "status": "success",
     "country": "United States",
@@ -18478,38 +18494,6 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.76.182.52"
-  },
-  "66.42.84.27": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "GA",
-    "regionName": "Georgia",
-    "city": "Atlanta",
-    "zip": "30318",
-    "lat": 33.7838,
-    "lon": -84.4455,
-    "timezone": "America/New_York",
-    "isp": "Choopa",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "66.42.84.27"
-  },
-  "104.225.159.232": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "CA",
-    "regionName": "California",
-    "city": "Los Angeles",
-    "zip": "90014",
-    "lat": 34.0481,
-    "lon": -118.2531,
-    "timezone": "America/Los_Angeles",
-    "isp": "IT7 Networks Inc",
-    "org": "Cluster Logic Inc",
-    "as": "AS25820 IT7 Networks Inc",
-    "query": "104.225.159.232"
   },
   "173.255.214.229": {
     "status": "success",
@@ -21327,22 +21311,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "37.27.67.163"
   },
-  "139.59.3.197": {
-    "status": "success",
-    "country": "India",
-    "countryCode": "IN",
-    "region": "KA",
-    "regionName": "Karnataka",
-    "city": "Bengaluru",
-    "zip": "560100",
-    "lat": 12.9753,
-    "lon": 77.591,
-    "timezone": "Asia/Kolkata",
-    "isp": "DIGITALOCEAN",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "139.59.3.197"
-  },
   "139.180.153.42": {
     "status": "success",
     "country": "Singapore",
@@ -21406,6 +21374,38 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.175.68"
+  },
+  "139.59.3.197": {
+    "status": "success",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "KA",
+    "regionName": "Karnataka",
+    "city": "Bengaluru",
+    "zip": "560100",
+    "lat": 12.9753,
+    "lon": 77.591,
+    "timezone": "Asia/Kolkata",
+    "isp": "DIGITALOCEAN",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "139.59.3.197"
+  },
+  "139.59.96.34": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "DIGITALOCEAN",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "139.59.96.34"
   },
   "188.40.182.220": {
     "status": "success",
@@ -39519,6 +39519,22 @@
     "as": "AS12586 GHOSTnet GmbH",
     "query": "5.230.119.197"
   },
+  "66.42.84.27": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "GA",
+    "regionName": "Georgia",
+    "city": "Atlanta",
+    "zip": "30318",
+    "lat": 33.7838,
+    "lon": -84.4455,
+    "timezone": "America/New_York",
+    "isp": "Choopa",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "66.42.84.27"
+  },
   "178.157.91.178": {
     "status": "success",
     "country": "The Netherlands",
@@ -42926,6 +42942,22 @@
     "org": "Contabo GmbH",
     "as": "AS51167 Contabo GmbH",
     "query": "185.215.166.126"
+  },
+  "159.203.39.170": {
+    "status": "success",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "ON",
+    "regionName": "Ontario",
+    "city": "Toronto",
+    "zip": "M5A",
+    "lat": 43.709,
+    "lon": -79.4057,
+    "timezone": "America/Toronto",
+    "isp": "DigitalOcean, LLC",
+    "org": "Digital Ocean",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "159.203.39.170"
   },
   "178.128.116.77": {
     "status": "success",
