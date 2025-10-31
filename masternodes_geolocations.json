@@ -3695,21 +3695,21 @@
     "as": "AS7489 HostUS",
     "query": "208.87.102.91"
   },
-  "185.158.107.124": {
+  "109.199.124.30": {
     "status": "success",
     "country": "France",
     "countryCode": "FR",
-    "region": "IDF",
-    "regionName": "\u00cele-de-France",
-    "city": "Paris",
-    "zip": "75001",
-    "lat": 48.8558,
-    "lon": 2.3494,
+    "region": "GES",
+    "regionName": "Grand Est",
+    "city": "Lauterbourg",
+    "zip": "67630",
+    "lat": 48.9742,
+    "lon": 8.1851,
     "timezone": "Europe/Paris",
-    "isp": "Hostinger International Limited",
-    "org": "Hostinger",
-    "as": "AS47583 Hostinger International Limited",
-    "query": "185.158.107.124"
+    "isp": "Contabo GmbH",
+    "org": "Contabo GmbH",
+    "as": "AS51167 Contabo GmbH",
+    "query": "109.199.124.30"
   },
   "149.28.58.97": {
     "status": "success",
@@ -29374,6 +29374,22 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "104.238.160.145"
+  },
+  "91.239.5.12": {
+    "status": "success",
+    "country": "Russia",
+    "countryCode": "RU",
+    "region": "KLU",
+    "regionName": "Kaluga Oblast",
+    "city": "Kaluga",
+    "zip": "248000",
+    "lat": 54.5144,
+    "lon": 36.2714,
+    "timezone": "Europe/Moscow",
+    "isp": "ZAO Kaluga Astral",
+    "org": "KalugaAstralRoute",
+    "as": "AS58135 AO Kaluga Astral",
+    "query": "91.239.5.12"
   },
   "198.211.122.19": {
     "status": "success",
