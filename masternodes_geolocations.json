@@ -3583,22 +3583,6 @@
     "as": "AS3842 InMotion Hosting, Inc.",
     "query": "168.235.104.190"
   },
-  "8.219.1.4": {
-    "status": "success",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "region": "03",
-    "regionName": "North West",
-    "city": "Singapore",
-    "zip": "858877",
-    "lat": 1.35208,
-    "lon": 103.82,
-    "timezone": "Asia/Singapore",
-    "isp": "Alibaba (US) Technology Co., Ltd.",
-    "org": "Alibaba.com Singapore E-Commerce Private Limited",
-    "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
-    "query": "8.219.1.4"
-  },
   "8.219.153.43": {
     "status": "success",
     "country": "Singapore",
@@ -21647,22 +21631,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "165.22.227.208"
   },
-  "165.232.188.8": {
-    "status": "success",
-    "country": "India",
-    "countryCode": "IN",
-    "region": "KA",
-    "regionName": "Karnataka",
-    "city": "Bengaluru",
-    "zip": "560100",
-    "lat": 12.9753,
-    "lon": 77.591,
-    "timezone": "Asia/Kolkata",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "165.232.188.8"
-  },
   "165.22.25.87": {
     "status": "success",
     "country": "Germany",
@@ -35903,6 +35871,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "165.232.187.22"
   },
+  "43.163.5.188": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "03",
+    "regionName": "North West",
+    "city": "Singapore",
+    "zip": "858877",
+    "lat": 1.35208,
+    "lon": 103.82,
+    "timezone": "Asia/Singapore",
+    "isp": "Shenzhen Tencent Computer Systems Company Limited",
+    "org": "",
+    "as": "AS132203 Tencent Building, Kejizhongyi Avenue",
+    "query": "43.163.5.188"
+  },
   "5.230.119.206": {
     "status": "success",
     "country": "Germany",
@@ -43870,22 +43854,6 @@
     "org": "",
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.21.53"
-  },
-  "8.219.208.32": {
-    "status": "success",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "region": "03",
-    "regionName": "North West",
-    "city": "Singapore",
-    "zip": "858877",
-    "lat": 1.35208,
-    "lon": 103.82,
-    "timezone": "Asia/Singapore",
-    "isp": "Alibaba Cloud (Singapore) Private Limited",
-    "org": "Alibaba.com Singapore E-Commerce Private Limited",
-    "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
-    "query": "8.219.208.32"
   },
   "88.99.11.12": {
     "status": "success",
