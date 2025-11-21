@@ -5583,6 +5583,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "176.9.210.14"
   },
+  "155.138.154.140": {
+    "status": "success",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "ON",
+    "regionName": "Ontario",
+    "city": "Toronto",
+    "zip": "M5A",
+    "lat": 43.709,
+    "lon": -79.4057,
+    "timezone": "America/Toronto",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "155.138.154.140"
+  },
   "174.138.5.116": {
     "status": "success",
     "country": "The Netherlands",
@@ -7550,6 +7566,22 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "88.99.11.21"
+  },
+  "144.202.101.45": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "CA",
+    "regionName": "California",
+    "city": "San Jose",
+    "zip": "95141",
+    "lat": 37.3388,
+    "lon": -121.8916,
+    "timezone": "America/Los_Angeles",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "144.202.101.45"
   },
   "185.112.249.49": {
     "status": "success",
@@ -24703,22 +24735,6 @@
     "as": "AS214798 Digital City FZE",
     "query": "185.164.163.55"
   },
-  "144.202.101.45": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "CA",
-    "regionName": "California",
-    "city": "San Jose",
-    "zip": "95141",
-    "lat": 37.3388,
-    "lon": -121.8916,
-    "timezone": "America/Los_Angeles",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "144.202.101.45"
-  },
   "45.76.111.111": {
     "status": "success",
     "country": "Japan",
@@ -30142,22 +30158,6 @@
     "org": "Digital Ocean",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "198.211.122.19"
-  },
-  "155.138.154.140": {
-    "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "ON",
-    "regionName": "Ontario",
-    "city": "Toronto",
-    "zip": "M5A",
-    "lat": 43.709,
-    "lon": -79.4057,
-    "timezone": "America/Toronto",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "155.138.154.140"
   },
   "85.209.241.146": {
     "status": "success",
