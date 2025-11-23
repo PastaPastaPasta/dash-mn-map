@@ -4671,6 +4671,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "157.90.153.99"
   },
+  "155.138.154.140": {
+    "status": "success",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "ON",
+    "regionName": "Ontario",
+    "city": "Toronto",
+    "zip": "M5A",
+    "lat": 43.709,
+    "lon": -79.4057,
+    "timezone": "America/Toronto",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "155.138.154.140"
+  },
   "178.62.128.168": {
     "status": "success",
     "country": "The Netherlands",
@@ -5566,22 +5582,6 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "176.9.210.14"
-  },
-  "155.138.154.140": {
-    "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "ON",
-    "regionName": "Ontario",
-    "city": "Toronto",
-    "zip": "M5A",
-    "lat": 43.709,
-    "lon": -79.4057,
-    "timezone": "America/Toronto",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "155.138.154.140"
   },
   "174.138.5.116": {
     "status": "success",
