@@ -1375,6 +1375,22 @@
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.219.205.129"
   },
+  "188.225.82.165": {
+    "status": "success",
+    "country": "Russia",
+    "countryCode": "RU",
+    "region": "SPE",
+    "regionName": "St.-Petersburg",
+    "city": "St Petersburg",
+    "zip": "195213",
+    "lat": 59.9417,
+    "lon": 30.3096,
+    "timezone": "Europe/Moscow",
+    "isp": "TimeWeb LLC",
+    "org": "JSC \"TIMEWEB\"",
+    "as": "AS9123 JSC \"TIMEWEB\"",
+    "query": "188.225.82.165"
+  },
   "8.222.146.149": {
     "status": "success",
     "country": "Singapore",
@@ -20287,22 +20303,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "134.122.45.173"
   },
-  "104.207.131.17": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60314",
-    "lat": 50.1103,
-    "lon": 8.7147,
-    "timezone": "Europe/Berlin",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "104.207.131.17"
-  },
   "86.107.101.74": {
     "status": "success",
     "country": "United States",
@@ -21214,22 +21214,6 @@
     "org": "Moula World Llc",
     "as": "AS43641 SOLLUTIUM EU Sp z.o.o.",
     "query": "89.35.131.23"
-  },
-  "176.126.127.15": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60329",
-    "lat": 50.1118,
-    "lon": 8.66928,
-    "timezone": "Europe/Berlin",
-    "isp": "Oliver Arthur",
-    "org": "Oliver Arthur",
-    "as": "",
-    "query": "176.126.127.15"
   },
   "8.222.129.74": {
     "status": "success",
@@ -24175,6 +24159,22 @@
     "as": "AS43180 Trunk Networks LTD",
     "query": "2.57.241.178"
   },
+  "104.207.131.17": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60314",
+    "lat": 50.1103,
+    "lon": 8.7147,
+    "timezone": "Europe/Berlin",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "104.207.131.17"
+  },
   "192.241.224.93": {
     "status": "success",
     "country": "United States",
@@ -24238,22 +24238,6 @@
     "org": "",
     "as": "AS214083 NodeHub LLC",
     "query": "31.58.170.230"
-  },
-  "176.126.127.16": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60329",
-    "lat": 50.1118,
-    "lon": 8.66928,
-    "timezone": "Europe/Berlin",
-    "isp": "Oliver Arthur",
-    "org": "Oliver Arthur",
-    "as": "",
-    "query": "176.126.127.16"
   },
   "8.219.69.81": {
     "status": "success",
@@ -37950,6 +37934,22 @@
     "org": "Digital Ocean",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.62.129.7"
+  },
+  "80.68.156.191": {
+    "status": "success",
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "14",
+    "regionName": "Mazovia",
+    "city": "Warsaw",
+    "zip": "00-510",
+    "lat": 52.2299,
+    "lon": 21.0093,
+    "timezone": "Europe/Warsaw",
+    "isp": "TimeWeb LLC",
+    "org": "TimeWeb Ltd",
+    "as": "AS9123 JSC \"TIMEWEB\"",
+    "query": "80.68.156.191"
   },
   "8.219.230.37": {
     "status": "success",
