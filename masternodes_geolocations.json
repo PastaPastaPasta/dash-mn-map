@@ -29071,22 +29071,6 @@
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.21.16"
   },
-  "157.250.199.204": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "NJ",
-    "regionName": "New Jersey",
-    "city": "Secaucus",
-    "zip": "07094",
-    "lat": 40.7862,
-    "lon": -74.0743,
-    "timezone": "America/New_York",
-    "isp": "Interserver, Inc",
-    "org": "Interserver, Inc",
-    "as": "AS19318 Interserver, Inc",
-    "query": "157.250.199.204"
-  },
   "139.59.58.57": {
     "status": "success",
     "country": "India",
