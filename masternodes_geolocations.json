@@ -9983,22 +9983,6 @@
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.21.220"
   },
-  "165.227.240.127": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "CA",
-    "regionName": "California",
-    "city": "Santa Clara",
-    "zip": "95051",
-    "lat": 37.3486,
-    "lon": -121.9732,
-    "timezone": "America/Los_Angeles",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "165.227.240.127"
-  },
   "8.222.141.118": {
     "status": "success",
     "country": "Singapore",
@@ -10207,21 +10191,21 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "46.4.217.252"
   },
-  "130.61.120.252": {
+  "152.67.95.184": {
     "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60326",
-    "lat": 50.1049,
-    "lon": 8.6295,
-    "timezone": "Europe/Berlin",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "region": "ZH",
+    "regionName": "Zurich",
+    "city": "Zurich",
+    "zip": "8102",
+    "lat": 47.4049,
+    "lon": 8.4631,
+    "timezone": "Europe/Zurich",
     "isp": "Oracle Corporation",
-    "org": "Oracle Cloud Infrastructure (eu-frankfurt-1)",
+    "org": "Oracle Cloud Infrastructure (eu-zurich-1)",
     "as": "AS31898 Oracle Corporation",
-    "query": "130.61.120.252"
+    "query": "152.67.95.184"
   },
   "45.56.94.188": {
     "status": "success",
