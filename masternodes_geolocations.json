@@ -36639,22 +36639,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "88.99.11.26"
   },
-  "134.255.183.247": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "BW",
-    "regionName": "Baden-Wurttemberg",
-    "city": "Karlsruhe",
-    "zip": "76229",
-    "lat": 49.0078,
-    "lon": 8.4001,
-    "timezone": "Europe/Berlin",
-    "isp": "Contabo GmbH",
-    "org": "Contabo GmbH",
-    "as": "AS51167 Contabo GmbH",
-    "query": "134.255.183.247"
-  },
   "157.230.254.215": {
     "status": "success",
     "country": "Singapore",
