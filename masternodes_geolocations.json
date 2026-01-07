@@ -11199,22 +11199,6 @@
     "as": "AS51167 Contabo GmbH",
     "query": "157.173.113.158"
   },
-  "95.217.159.74": {
-    "status": "success",
-    "country": "Finland",
-    "countryCode": "FI",
-    "region": "18",
-    "regionName": "Uusimaa",
-    "city": "Helsinki",
-    "zip": "00201",
-    "lat": 60.1719,
-    "lon": 24.9347,
-    "timezone": "Europe/Helsinki",
-    "isp": "Hetzner Online GmbH",
-    "org": "Hetzner Online GmbH",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "95.217.159.74"
-  },
   "188.40.163.3": {
     "status": "success",
     "country": "Germany",
@@ -20415,6 +20399,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "134.209.185.24"
   },
+  "66.29.147.83": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "AZ",
+    "regionName": "Arizona",
+    "city": "Phoenix",
+    "zip": "85001",
+    "lat": 33.4482,
+    "lon": -112.078,
+    "timezone": "America/Phoenix",
+    "isp": "Namecheap, Inc.",
+    "org": "Namecheap, Inc.",
+    "as": "AS22612 Namecheap, Inc.",
+    "query": "66.29.147.83"
+  },
   "45.76.145.79": {
     "status": "success",
     "country": "Singapore",
@@ -23534,22 +23534,6 @@
     "org": "Contabo GmbH",
     "as": "AS51167 Contabo GmbH",
     "query": "38.242.200.227"
-  },
-  "162.0.220.217": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "AZ",
-    "regionName": "Arizona",
-    "city": "Phoenix",
-    "zip": "85001",
-    "lat": 33.4482,
-    "lon": -112.078,
-    "timezone": "America/Phoenix",
-    "isp": "Namecheap, Inc.",
-    "org": "Namecheap, Inc.",
-    "as": "AS22612 Namecheap, Inc.",
-    "query": "162.0.220.217"
   },
   "66.42.62.8": {
     "status": "success",
@@ -30831,6 +30815,22 @@
     "as": "AS63949 Akamai Connected Cloud",
     "query": "45.56.82.126"
   },
+  "85.209.241.84": {
+    "status": "success",
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "02",
+    "regionName": "Lower Silesia",
+    "city": "Wo\u0142\u00f3w",
+    "zip": "56-100",
+    "lat": 51.337,
+    "lon": 16.6355,
+    "timezone": "Europe/Warsaw",
+    "isp": "CVD Sp. z o.o.",
+    "org": "CVD anycast network",
+    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
+    "query": "85.209.241.84"
+  },
   "45.32.121.63": {
     "status": "success",
     "country": "Singapore",
@@ -34879,6 +34879,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "192.241.211.194"
   },
+  "136.243.138.106": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "SN",
+    "regionName": "Saxony",
+    "city": "Falkenstein",
+    "zip": "08223",
+    "lat": 50.4777,
+    "lon": 12.3649,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "Hetzner",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "136.243.138.106"
+  },
   "37.139.29.66": {
     "status": "success",
     "country": "The Netherlands",
@@ -35839,7 +35855,7 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "167.99.183.140"
   },
-  "107.174.204.105": {
+  "107.174.204.106": {
     "status": "success",
     "country": "United States",
     "countryCode": "US",
@@ -35853,7 +35869,7 @@
     "isp": "HostPapa",
     "org": "RackNerd LLC",
     "as": "AS36352 HostPapa",
-    "query": "107.174.204.105"
+    "query": "107.174.204.106"
   },
   "49.13.154.121": {
     "status": "success",
@@ -38575,22 +38591,6 @@
     "as": "AS132203 Tencent Building, Kejizhongyi Avenue",
     "query": "43.128.150.119"
   },
-  "68.183.3.3": {
-    "status": "success",
-    "country": "The Netherlands",
-    "countryCode": "NL",
-    "region": "NH",
-    "regionName": "North Holland",
-    "city": "Amsterdam",
-    "zip": "1098",
-    "lat": 52.352,
-    "lon": 4.9392,
-    "timezone": "Europe/Amsterdam",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "68.183.3.3"
-  },
   "45.76.157.67": {
     "status": "success",
     "country": "Singapore",
@@ -38894,22 +38894,6 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "135.181.15.228"
-  },
-  "195.201.28.129": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "BY",
-    "regionName": "Bavaria",
-    "city": "Nuremberg",
-    "zip": "90403",
-    "lat": 49.4527,
-    "lon": 11.0783,
-    "timezone": "Europe/Berlin",
-    "isp": "Hetzner Online GmbH",
-    "org": "Hetzner Online GmbH",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "195.201.28.129"
   },
   "18.211.210.20": {
     "status": "success",
@@ -40654,22 +40638,6 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "134.209.146.189"
-  },
-  "136.243.138.106": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "SN",
-    "regionName": "Saxony",
-    "city": "Falkenstein",
-    "zip": "08223",
-    "lat": 50.4777,
-    "lon": 12.3649,
-    "timezone": "Europe/Berlin",
-    "isp": "Hetzner Online GmbH",
-    "org": "Hetzner",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "136.243.138.106"
   },
   "159.65.198.4": {
     "status": "success",
