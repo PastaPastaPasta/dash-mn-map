@@ -11599,7 +11599,7 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "149.28.207.126"
   },
-  "165.22.238.189": {
+  "159.203.2.128": {
     "status": "success",
     "country": "Canada",
     "countryCode": "CA",
@@ -11611,9 +11611,9 @@
     "lon": -79.4057,
     "timezone": "America/Toronto",
     "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
+    "org": "Digital Ocean",
     "as": "AS14061 DigitalOcean, LLC",
-    "query": "165.22.238.189"
+    "query": "159.203.2.128"
   },
   "168.119.80.1": {
     "status": "success",
@@ -12350,22 +12350,6 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.76.163.101"
-  },
-  "45.32.199.30": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "TX",
-    "regionName": "Texas",
-    "city": "Dallas",
-    "zip": "75201",
-    "lat": 32.7889,
-    "lon": -96.8021,
-    "timezone": "America/Chicago",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "45.32.199.30"
   },
   "178.128.223.175": {
     "status": "success",
@@ -22719,7 +22703,7 @@
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.21.33"
   },
-  "168.119.87.192": {
+  "188.40.190.46": {
     "status": "success",
     "country": "Germany",
     "countryCode": "DE",
@@ -22733,7 +22717,7 @@
     "isp": "Hetzner Online GmbH",
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
-    "query": "168.119.87.192"
+    "query": "188.40.190.46"
   },
   "139.180.137.115": {
     "status": "success",
@@ -35599,21 +35583,21 @@
     "as": "AS16509 Amazon.com, Inc.",
     "query": "35.180.128.14"
   },
-  "167.172.54.250": {
+  "129.212.233.191": {
     "status": "success",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "region": "ENG",
-    "regionName": "England",
-    "city": "Slough",
-    "zip": "SL1",
-    "lat": 51.5177,
-    "lon": -0.6215,
-    "timezone": "Europe/London",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
     "isp": "DigitalOcean, LLC",
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
-    "query": "167.172.54.250"
+    "query": "129.212.233.191"
   },
   "161.35.247.75": {
     "status": "success",
@@ -37950,6 +37934,22 @@
     "org": "OVH Hosting, Inc.",
     "as": "AS16276 OVH SAS",
     "query": "192.99.232.138"
+  },
+  "45.32.199.30": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "TX",
+    "regionName": "Texas",
+    "city": "Dallas",
+    "zip": "75201",
+    "lat": 32.7889,
+    "lon": -96.8021,
+    "timezone": "America/Chicago",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.32.199.30"
   },
   "82.211.21.11": {
     "status": "success",
