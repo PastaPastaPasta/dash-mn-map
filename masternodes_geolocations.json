@@ -3839,6 +3839,22 @@
     "as": "AS132203 Tencent Building, Kejizhongyi Avenue",
     "query": "43.134.180.113"
   },
+  "144.202.72.211": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "TX",
+    "regionName": "Texas",
+    "city": "Dallas",
+    "zip": "75201",
+    "lat": 32.7889,
+    "lon": -96.8021,
+    "timezone": "America/Chicago",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "144.202.72.211"
+  },
   "49.13.221.33": {
     "status": "success",
     "country": "Germany",
@@ -29310,22 +29326,6 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "167.99.176.226"
-  },
-  "144.202.72.211": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "TX",
-    "regionName": "Texas",
-    "city": "Dallas",
-    "zip": "75201",
-    "lat": 32.7889,
-    "lon": -96.8021,
-    "timezone": "America/Chicago",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "144.202.72.211"
   },
   "144.126.203.253": {
     "status": "success",
