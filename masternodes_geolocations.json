@@ -12207,22 +12207,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "176.9.210.3"
   },
-  "149.28.47.16": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "NJ",
-    "regionName": "New Jersey",
-    "city": "Piscataway",
-    "zip": "08854",
-    "lat": 40.5511,
-    "lon": -74.4606,
-    "timezone": "America/New_York",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "149.28.47.16"
-  },
   "88.99.38.175": {
     "status": "success",
     "country": "Germany",
