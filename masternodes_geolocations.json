@@ -15631,22 +15631,6 @@
     "as": "AS214798 Digital City FZE",
     "query": "178.208.87.225"
   },
-  "65.108.150.87": {
-    "status": "success",
-    "country": "Finland",
-    "countryCode": "FI",
-    "region": "18",
-    "regionName": "Uusimaa",
-    "city": "Helsinki",
-    "zip": "00201",
-    "lat": 60.1719,
-    "lon": 24.9347,
-    "timezone": "Europe/Helsinki",
-    "isp": "Hetzner Online GmbH",
-    "org": "Hetzner Online GmbH",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "65.108.150.87"
-  },
   "95.217.125.103": {
     "status": "success",
     "country": "Finland",
@@ -26815,21 +26799,21 @@
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.222.132.173"
   },
-  "91.239.5.12": {
+  "135.181.174.222": {
     "status": "success",
-    "country": "Russia",
-    "countryCode": "RU",
-    "region": "KLU",
-    "regionName": "Kaluga Oblast",
-    "city": "Kaluga",
-    "zip": "248000",
-    "lat": 54.5144,
-    "lon": 36.2714,
-    "timezone": "Europe/Moscow",
-    "isp": "ZAO Kaluga Astral",
-    "org": "KalugaAstralRoute",
-    "as": "AS58135 AO Kaluga Astral",
-    "query": "91.239.5.12"
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": "18",
+    "regionName": "Uusimaa",
+    "city": "Helsinki",
+    "zip": "00201",
+    "lat": 60.1719,
+    "lon": 24.9347,
+    "timezone": "Europe/Helsinki",
+    "isp": "Hetzner Online GmbH",
+    "org": "Hetzner Online GmbH",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "135.181.174.222"
   },
   "157.230.36.4": {
     "status": "success",
@@ -30126,6 +30110,22 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "149.28.130.205"
+  },
+  "65.108.150.87": {
+    "status": "success",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": "18",
+    "regionName": "Uusimaa",
+    "city": "Helsinki",
+    "zip": "00201",
+    "lat": 60.1719,
+    "lon": 24.9347,
+    "timezone": "Europe/Helsinki",
+    "isp": "Hetzner Online GmbH",
+    "org": "Hetzner Online GmbH",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "65.108.150.87"
   },
   "46.62.250.247": {
     "status": "success",
@@ -34686,6 +34686,22 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "168.119.87.130"
+  },
+  "104.248.40.20": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1169,
+    "lon": 8.6837,
+    "timezone": "Europe/Berlin",
+    "isp": "DigitalOcean, LLC",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "104.248.40.20"
   },
   "188.40.21.227": {
     "status": "success",
