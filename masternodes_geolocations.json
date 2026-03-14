@@ -11743,6 +11743,22 @@
     "as": "AS60781 LeaseWeb Netherlands B.V.",
     "query": "83.149.100.184"
   },
+  "168.119.80.6": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "SN",
+    "regionName": "Saxony",
+    "city": "Falkenstein",
+    "zip": "08223",
+    "lat": 50.4777,
+    "lon": 12.3649,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "168.119.80.6"
+  },
   "95.217.125.98": {
     "status": "success",
     "country": "Finland",
@@ -16863,22 +16879,6 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "70.34.210.105"
   },
-  "151.244.85.69": {
-    "status": "success",
-    "country": "Ukraine",
-    "countryCode": "UA",
-    "region": "30",
-    "regionName": "Kyiv City",
-    "city": "Kyiv",
-    "zip": "01011",
-    "lat": 50.4504,
-    "lon": 30.5245,
-    "timezone": "Europe/Kiev",
-    "isp": "NodeHub LLC",
-    "org": "Private Customer",
-    "as": "AS214083 NodeHub LLC",
-    "query": "151.244.85.69"
-  },
   "65.109.108.139": {
     "status": "success",
     "country": "Finland",
@@ -16894,6 +16894,38 @@
     "org": "Hetzner Online GmbH",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "65.109.108.139"
+  },
+  "213.171.15.125": {
+    "status": "success",
+    "country": "Russia",
+    "countryCode": "RU",
+    "region": "NVS",
+    "regionName": "Novosibirsk Oblast",
+    "city": "Novosibirsk",
+    "zip": "630003",
+    "lat": 55.0226,
+    "lon": 82.9317,
+    "timezone": "Asia/Novosibirsk",
+    "isp": "Adman LLC",
+    "org": "TW VDS",
+    "as": "AS57494 Adman LLC",
+    "query": "213.171.15.125"
+  },
+  "151.244.85.69": {
+    "status": "success",
+    "country": "Ukraine",
+    "countryCode": "UA",
+    "region": "30",
+    "regionName": "Kyiv City",
+    "city": "Kyiv",
+    "zip": "01011",
+    "lat": 50.4504,
+    "lon": 30.5245,
+    "timezone": "Europe/Kiev",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "151.244.85.69"
   },
   "188.40.185.134": {
     "status": "success",
@@ -23055,6 +23087,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "207.154.235.44"
   },
+  "165.232.33.54": {
+    "status": "success",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "region": "ENG",
+    "regionName": "England",
+    "city": "Slough",
+    "zip": "SL1",
+    "lat": 51.5177,
+    "lon": -0.6215,
+    "timezone": "Europe/London",
+    "isp": "DigitalOcean, LLC",
+    "org": "Digital Ocean",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "165.232.33.54"
+  },
   "188.40.163.0": {
     "status": "success",
     "country": "Germany",
@@ -25470,22 +25518,6 @@
     "org": "",
     "as": "AS20473 The Constant Company, LLC",
     "query": "207.148.64.151"
-  },
-  "213.171.15.125": {
-    "status": "success",
-    "country": "Russia",
-    "countryCode": "RU",
-    "region": "NVS",
-    "regionName": "Novosibirsk Oblast",
-    "city": "Novosibirsk",
-    "zip": "630003",
-    "lat": 55.0226,
-    "lon": 82.9317,
-    "timezone": "Asia/Novosibirsk",
-    "isp": "Adman LLC",
-    "org": "TW VDS",
-    "as": "AS57494 Adman LLC",
-    "query": "213.171.15.125"
   },
   "192.95.32.205": {
     "status": "success",
@@ -30111,22 +30143,6 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "149.28.130.205"
   },
-  "65.108.150.87": {
-    "status": "success",
-    "country": "Finland",
-    "countryCode": "FI",
-    "region": "18",
-    "regionName": "Uusimaa",
-    "city": "Helsinki",
-    "zip": "00201",
-    "lat": 60.1719,
-    "lon": 24.9347,
-    "timezone": "Europe/Helsinki",
-    "isp": "Hetzner Online GmbH",
-    "org": "Hetzner Online GmbH",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "65.108.150.87"
-  },
   "46.62.250.247": {
     "status": "success",
     "country": "Finland",
@@ -33422,22 +33438,6 @@
     "org": "",
     "as": "AS44066 firstcolo GmbH",
     "query": "82.211.21.243"
-  },
-  "159.65.132.203": {
-    "status": "success",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "region": "05",
-    "regionName": "South West",
-    "city": "Singapore",
-    "zip": "627753",
-    "lat": 1.32123,
-    "lon": 103.695,
-    "timezone": "Asia/Singapore",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "159.65.132.203"
   },
   "135.181.110.216": {
     "status": "success",
@@ -38174,6 +38174,22 @@
     "org": "CVD anycast network",
     "as": "AS205581 CVD Sp. z o.o. Sp.k.",
     "query": "85.209.241.12"
+  },
+  "65.108.150.87": {
+    "status": "success",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": "18",
+    "regionName": "Uusimaa",
+    "city": "Helsinki",
+    "zip": "00201",
+    "lat": 60.1719,
+    "lon": 24.9347,
+    "timezone": "Europe/Helsinki",
+    "isp": "Hetzner Online GmbH",
+    "org": "Hetzner Online GmbH",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "65.108.150.87"
   },
   "104.234.167.115": {
     "status": "success",
