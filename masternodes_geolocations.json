@@ -2751,21 +2751,21 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "188.166.190.73"
   },
-  "82.211.21.252": {
+  "132.243.197.252": {
     "status": "success",
     "country": "Germany",
     "countryCode": "DE",
-    "region": "NI",
-    "regionName": "Lower Saxony",
-    "city": "Visselh\u00f6vede",
-    "zip": "27374",
-    "lat": 52.9853,
-    "lon": 9.58395,
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
     "timezone": "Europe/Berlin",
-    "isp": "IP- Accelerated IT Services GmbH",
-    "org": "",
-    "as": "AS44066 firstcolo GmbH",
-    "query": "82.211.21.252"
+    "isp": "Netaxis Group LTD",
+    "org": "Netaxis Group LTD",
+    "as": "",
+    "query": "132.243.197.252"
   },
   "176.123.57.203": {
     "status": "success",
@@ -6831,21 +6831,21 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.62.163.205"
   },
-  "82.211.21.234": {
+  "132.243.197.234": {
     "status": "success",
     "country": "Germany",
     "countryCode": "DE",
-    "region": "NI",
-    "regionName": "Lower Saxony",
-    "city": "Visselh\u00f6vede",
-    "zip": "27374",
-    "lat": 52.9853,
-    "lon": 9.58395,
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
     "timezone": "Europe/Berlin",
-    "isp": "IP- Accelerated IT Services GmbH",
-    "org": "",
-    "as": "AS44066 firstcolo GmbH",
-    "query": "82.211.21.234"
+    "isp": "Netaxis Group LTD",
+    "org": "Netaxis Group LTD",
+    "as": "",
+    "query": "132.243.197.234"
   },
   "83.149.100.186": {
     "status": "success",
@@ -12255,21 +12255,21 @@
     "as": "AS12586 GHOSTnet GmbH",
     "query": "5.230.119.202"
   },
-  "82.211.21.130": {
+  "132.243.197.130": {
     "status": "success",
     "country": "Germany",
     "countryCode": "DE",
-    "region": "NI",
-    "regionName": "Lower Saxony",
-    "city": "Visselh\u00f6vede",
-    "zip": "27374",
-    "lat": 52.9853,
-    "lon": 9.58395,
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
     "timezone": "Europe/Berlin",
-    "isp": "IP- Accelerated IT Services GmbH",
-    "org": "",
-    "as": "AS44066 firstcolo GmbH",
-    "query": "82.211.21.130"
+    "isp": "Netaxis Group LTD",
+    "org": "Netaxis Group LTD",
+    "as": "",
+    "query": "132.243.197.130"
   },
   "84.247.180.200": {
     "status": "success",
@@ -26639,21 +26639,21 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "178.63.236.117"
   },
-  "82.211.21.233": {
+  "132.243.197.233": {
     "status": "success",
     "country": "Germany",
     "countryCode": "DE",
-    "region": "NI",
-    "regionName": "Lower Saxony",
-    "city": "Visselh\u00f6vede",
-    "zip": "27374",
-    "lat": 52.9853,
-    "lon": 9.58395,
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
     "timezone": "Europe/Berlin",
-    "isp": "IP- Accelerated IT Services GmbH",
-    "org": "",
-    "as": "AS44066 firstcolo GmbH",
-    "query": "82.211.21.233"
+    "isp": "Netaxis Group LTD",
+    "org": "Netaxis Group LTD",
+    "as": "",
+    "query": "132.243.197.233"
   },
   "82.211.21.65": {
     "status": "success",
