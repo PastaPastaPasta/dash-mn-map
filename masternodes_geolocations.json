@@ -28175,22 +28175,6 @@
     "as": "AS214083 NodeHub LLC",
     "query": "151.244.85.80"
   },
-  "174.138.27.74": {
-    "status": "success",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "region": "05",
-    "regionName": "South West",
-    "city": "Singapore",
-    "zip": "627753",
-    "lat": 1.32123,
-    "lon": 103.695,
-    "timezone": "Asia/Singapore",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "174.138.27.74"
-  },
   "143.110.189.48": {
     "status": "success",
     "country": "India",
@@ -30303,21 +30287,21 @@
     "as": "AS212531 Interneto vizija",
     "query": "80.209.233.182"
   },
-  "78.187.233.206": {
+  "151.244.85.213": {
     "status": "success",
-    "country": "Turkey",
-    "countryCode": "TR",
-    "region": "34",
-    "regionName": "Istanbul",
-    "city": "K\u0131z\u0131ltoprak",
-    "zip": "34718",
-    "lat": 40.9802,
-    "lon": 29.042,
-    "timezone": "Europe/Istanbul",
-    "isp": "Turk Telekomunikasyon A.S",
-    "org": "TurkTelecom",
-    "as": "AS9121 Turk Telekomunikasyon Anonim Sirketi",
-    "query": "78.187.233.206"
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "151.244.85.213"
   },
   "49.13.27.107": {
     "status": "success",
