@@ -1311,22 +1311,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.190.52"
   },
-  "45.76.84.108": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60314",
-    "lat": 50.1103,
-    "lon": 8.7147,
-    "timezone": "Europe/Berlin",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "45.76.84.108"
-  },
   "85.209.241.87": {
     "status": "success",
     "country": "Poland",
@@ -1678,6 +1662,38 @@
     "org": "Crowncloud US LLC",
     "as": "AS199959 GWY IT PTY LTD",
     "query": "23.163.0.174"
+  },
+  "104.168.46.54": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "NY",
+    "regionName": "New York",
+    "city": "Buffalo",
+    "zip": "14205",
+    "lat": 42.8864,
+    "lon": -78.8784,
+    "timezone": "America/New_York",
+    "isp": "HostPapa",
+    "org": "",
+    "as": "AS36352 HostPapa",
+    "query": "104.168.46.54"
+  },
+  "45.76.84.108": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60314",
+    "lat": 50.1103,
+    "lon": 8.7147,
+    "timezone": "Europe/Berlin",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.76.84.108"
   },
   "192.241.234.125": {
     "status": "success",
@@ -3967,22 +3983,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "146.185.169.122"
   },
-  "188.40.205.19": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "SN",
-    "regionName": "Saxony",
-    "city": "Falkenstein",
-    "zip": "08223",
-    "lat": 50.4777,
-    "lon": 12.3649,
-    "timezone": "Europe/Berlin",
-    "isp": "Hetzner Online GmbH",
-    "org": "",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "188.40.205.19"
-  },
   "139.59.4.172": {
     "status": "success",
     "country": "India",
@@ -4366,6 +4366,38 @@
     "org": "ACCELERATEDBROADBAND",
     "as": "AS51167 Contabo GmbH",
     "query": "75.119.153.10"
+  },
+  "149.28.112.102": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "IL",
+    "regionName": "Illinois",
+    "city": "Elk Grove Village",
+    "zip": "60007",
+    "lat": 42.0048,
+    "lon": -87.9954,
+    "timezone": "America/Chicago",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "149.28.112.102"
+  },
+  "188.40.205.19": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "SN",
+    "regionName": "Saxony",
+    "city": "Falkenstein",
+    "zip": "08223",
+    "lat": 50.4777,
+    "lon": 12.3649,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "188.40.205.19"
   },
   "198.244.213.69": {
     "status": "success",
@@ -10287,22 +10319,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.62.241.133"
   },
-  "149.28.112.102": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "IL",
-    "regionName": "Illinois",
-    "city": "Elk Grove Village",
-    "zip": "60007",
-    "lat": 42.0048,
-    "lon": -87.9954,
-    "timezone": "America/Chicago",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "149.28.112.102"
-  },
   "168.119.83.12": {
     "status": "success",
     "country": "Germany",
@@ -11854,6 +11870,22 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "176.9.210.4"
+  },
+  "144.202.37.1": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "FL",
+    "regionName": "Florida",
+    "city": "Miami",
+    "zip": "33142",
+    "lat": 25.8119,
+    "lon": -80.2318,
+    "timezone": "America/New_York",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "144.202.37.1"
   },
   "144.126.141.62": {
     "status": "success",
@@ -14223,21 +14255,21 @@
     "as": "AS214798 Digital City FZE",
     "query": "178.208.87.213"
   },
-  "216.106.186.131": {
+  "66.163.113.7": {
     "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "WA",
-    "regionName": "Washington",
-    "city": "Seattle",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "QC",
+    "regionName": "Quebec",
+    "city": "Montreal",
     "zip": "",
-    "lat": 47.6062,
-    "lon": -122.332,
-    "timezone": "America/Los_Angeles",
-    "isp": "GTHost",
+    "lat": 45.5016,
+    "lon": -73.5672,
+    "timezone": "America/Toronto",
+    "isp": "GLOBALTELEHOST Corp.",
     "org": "GTHost",
-    "as": "AS63023 GTHost",
-    "query": "216.106.186.131"
+    "as": "AS62563 GLOBALTELEHOST Corp.",
+    "query": "66.163.113.7"
   },
   "174.138.24.25": {
     "status": "success",
@@ -16319,22 +16351,6 @@
     "as": "",
     "query": "132.243.197.75"
   },
-  "144.202.101.45": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "CA",
-    "regionName": "California",
-    "city": "San Jose",
-    "zip": "95141",
-    "lat": 37.3388,
-    "lon": -121.8916,
-    "timezone": "America/Los_Angeles",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "144.202.101.45"
-  },
   "168.119.80.10": {
     "status": "success",
     "country": "Germany",
@@ -16398,22 +16414,6 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.76.42.151"
-  },
-  "144.202.37.1": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "FL",
-    "regionName": "Florida",
-    "city": "Miami",
-    "zip": "33142",
-    "lat": 25.8119,
-    "lon": -80.2318,
-    "timezone": "America/New_York",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "144.202.37.1"
   },
   "178.62.186.23": {
     "status": "success",
@@ -23455,6 +23455,22 @@
     "as": "AS59522 M3T Projekt d.o.o.",
     "query": "176.123.57.215"
   },
+  "144.202.101.45": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "CA",
+    "regionName": "California",
+    "city": "San Jose",
+    "zip": "95141",
+    "lat": 37.3388,
+    "lon": -121.8916,
+    "timezone": "America/Los_Angeles",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "144.202.101.45"
+  },
   "139.84.231.221": {
     "status": "success",
     "country": "South Africa",
@@ -24959,21 +24975,21 @@
     "as": "AS50340 JSC Selectel",
     "query": "82.202.230.83"
   },
-  "216.106.186.179": {
+  "66.163.113.113": {
     "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "WA",
-    "regionName": "Washington",
-    "city": "Seattle",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "QC",
+    "regionName": "Quebec",
+    "city": "Montreal",
     "zip": "",
-    "lat": 47.6062,
-    "lon": -122.332,
-    "timezone": "America/Los_Angeles",
-    "isp": "GTHost",
+    "lat": 45.5016,
+    "lon": -73.5672,
+    "timezone": "America/Toronto",
+    "isp": "GLOBALTELEHOST Corp.",
     "org": "GTHost",
-    "as": "AS63023 GTHost",
-    "query": "216.106.186.179"
+    "as": "AS62563 GLOBALTELEHOST Corp.",
+    "query": "66.163.113.113"
   },
   "174.138.11.164": {
     "status": "success",
@@ -37903,21 +37919,21 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "37.27.67.156"
   },
-  "216.106.186.23": {
+  "66.163.113.91": {
     "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "WA",
-    "regionName": "Washington",
-    "city": "Seattle",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "QC",
+    "regionName": "Quebec",
+    "city": "Montreal",
     "zip": "",
-    "lat": 47.6062,
-    "lon": -122.332,
-    "timezone": "America/Los_Angeles",
-    "isp": "GTHost",
+    "lat": 45.5016,
+    "lon": -73.5672,
+    "timezone": "America/Toronto",
+    "isp": "GLOBALTELEHOST Corp.",
     "org": "GTHost",
-    "as": "AS63023 GTHost",
-    "query": "216.106.186.23"
+    "as": "AS62563 GLOBALTELEHOST Corp.",
+    "query": "66.163.113.91"
   },
   "85.209.241.25": {
     "status": "success",
