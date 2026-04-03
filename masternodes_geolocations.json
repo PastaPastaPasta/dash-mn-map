@@ -1695,6 +1695,22 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.76.84.108"
   },
+  "132.243.197.161": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "Netaxis Group LTD",
+    "org": "Netaxis Group LTD",
+    "as": "",
+    "query": "132.243.197.161"
+  },
   "192.241.234.125": {
     "status": "success",
     "country": "United States",
@@ -20463,6 +20479,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "165.22.227.208"
   },
+  "132.243.197.160": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "Netaxis Group LTD",
+    "org": "Netaxis Group LTD",
+    "as": "",
+    "query": "132.243.197.160"
+  },
   "167.172.183.190": {
     "status": "success",
     "country": "Germany",
@@ -33615,21 +33647,21 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "95.216.255.70"
   },
-  "109.173.240.233": {
+  "151.244.85.195": {
     "status": "success",
-    "country": "Poland",
-    "countryCode": "PL",
-    "region": "30",
-    "regionName": "Greater Poland",
-    "city": "Poznan",
-    "zip": "61-001",
-    "lat": 52.4169,
-    "lon": 16.9563,
-    "timezone": "Europe/Warsaw",
-    "isp": "INEA sp. z o.o.",
-    "org": "B2C",
-    "as": "AS13110 INEA sp. z o.o.",
-    "query": "109.173.240.233"
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "151.244.85.195"
   },
   "89.223.120.216": {
     "status": "success",
