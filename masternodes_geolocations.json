@@ -11119,22 +11119,6 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.76.94.156"
   },
-  "185.142.212.144": {
-    "status": "success",
-    "country": "Switzerland",
-    "countryCode": "CH",
-    "region": "ZH",
-    "regionName": "Zurich",
-    "city": "Richterswil",
-    "zip": "8805",
-    "lat": 47.2097,
-    "lon": 8.707,
-    "timezone": "Europe/Zurich",
-    "isp": "hosttech GmbH",
-    "org": "",
-    "as": "AS207143 hosttech GmbH",
-    "query": "185.142.212.144"
-  },
   "178.253.253.5": {
     "status": "success",
     "country": "Serbia",
@@ -27374,6 +27358,22 @@
     "org": "",
     "as": "AS16276 OVH SAS",
     "query": "132.243.197.13"
+  },
+  "185.142.212.144": {
+    "status": "success",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "region": "ZH",
+    "regionName": "Zurich",
+    "city": "Richterswil",
+    "zip": "8805",
+    "lat": 47.2097,
+    "lon": 8.707,
+    "timezone": "Europe/Zurich",
+    "isp": "hosttech GmbH",
+    "org": "",
+    "as": "AS207143 hosttech GmbH",
+    "query": "185.142.212.144"
   },
   "109.199.97.144": {
     "status": "success",
