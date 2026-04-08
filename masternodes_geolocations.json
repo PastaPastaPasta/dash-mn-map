@@ -4767,6 +4767,22 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.77.250.78"
   },
+  "151.244.85.219": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "151.244.85.219"
+  },
   "65.108.74.95": {
     "status": "success",
     "country": "Finland",
@@ -10911,6 +10927,22 @@
     "as": "AS63473 HostHatch, LLC",
     "query": "45.91.94.217"
   },
+  "31.56.38.185": {
+    "status": "success",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "IDF",
+    "regionName": "\u00cele-de-France",
+    "city": "Paris",
+    "zip": "75000",
+    "lat": 48.8575,
+    "lon": 2.35138,
+    "timezone": "Europe/Paris",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "31.56.38.185"
+  },
   "168.119.87.150": {
     "status": "success",
     "country": "Germany",
@@ -11998,6 +12030,22 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "88.99.11.24"
+  },
+  "178.104.155.5": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "BY",
+    "regionName": "Bavaria",
+    "city": "Nuremberg",
+    "zip": "90403",
+    "lat": 49.4543,
+    "lon": 11.0746,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "Hetzner",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "178.104.155.5"
   },
   "83.149.100.184": {
     "status": "success",
