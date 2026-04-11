@@ -8847,22 +8847,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "138.197.164.120"
   },
-  "85.209.241.246": {
-    "status": "success",
-    "country": "Poland",
-    "countryCode": "PL",
-    "region": "02",
-    "regionName": "Lower Silesia",
-    "city": "Wo\u0142\u00f3w",
-    "zip": "56-100",
-    "lat": 51.337,
-    "lon": 16.6355,
-    "timezone": "Europe/Warsaw",
-    "isp": "CVD Sp. z o.o.",
-    "org": "CVD anycast network",
-    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
-    "query": "85.209.241.246"
-  },
   "45.76.205.140": {
     "status": "success",
     "country": "Japan",
@@ -15343,22 +15327,6 @@
     "as": "AS12586 GHOSTnet GmbH",
     "query": "5.230.119.182"
   },
-  "46.4.217.245": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "SN",
-    "regionName": "Saxony",
-    "city": "Falkenstein",
-    "zip": "08223",
-    "lat": 50.4777,
-    "lon": 12.3649,
-    "timezone": "Europe/Berlin",
-    "isp": "Hetzner Online GmbH",
-    "org": "",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "46.4.217.245"
-  },
   "95.111.239.54": {
     "status": "success",
     "country": "France",
@@ -15470,6 +15438,38 @@
     "org": "OVH Ltd",
     "as": "AS16276 OVH SAS",
     "query": "51.195.235.166"
+  },
+  "151.244.85.228": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "HE",
+    "regionName": "Hesse",
+    "city": "Frankfurt am Main",
+    "zip": "60313",
+    "lat": 50.1109,
+    "lon": 8.68213,
+    "timezone": "Europe/Berlin",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "151.244.85.228"
+  },
+  "46.4.217.245": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "SN",
+    "regionName": "Saxony",
+    "city": "Falkenstein",
+    "zip": "08223",
+    "lat": 50.4777,
+    "lon": 12.3649,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "46.4.217.245"
   },
   "188.40.185.132": {
     "status": "success",
@@ -17438,22 +17438,6 @@
     "org": "Contabo GmbH",
     "as": "AS51167 Contabo GmbH",
     "query": "161.97.74.173"
-  },
-  "159.89.118.200": {
-    "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "ON",
-    "regionName": "Ontario",
-    "city": "Toronto",
-    "zip": "M5A",
-    "lat": 43.709,
-    "lon": -79.4057,
-    "timezone": "America/Toronto",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "159.89.118.200"
   },
   "8.222.146.67": {
     "status": "success",
@@ -26271,22 +26255,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "135.181.8.81"
   },
-  "142.93.231.17": {
-    "status": "success",
-    "country": "The Netherlands",
-    "countryCode": "NL",
-    "region": "NH",
-    "regionName": "North Holland",
-    "city": "Amsterdam",
-    "zip": "1098",
-    "lat": 52.352,
-    "lon": 4.9392,
-    "timezone": "Europe/Amsterdam",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "142.93.231.17"
-  },
   "167.172.106.73": {
     "status": "success",
     "country": "Germany",
@@ -29311,6 +29279,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "165.22.107.61"
   },
+  "8.219.145.115": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "03",
+    "regionName": "North West",
+    "city": "Singapore",
+    "zip": "858877",
+    "lat": 1.35208,
+    "lon": 103.82,
+    "timezone": "Asia/Singapore",
+    "isp": "Alibaba (US) Technology Co., Ltd.",
+    "org": "Alibaba.com Singapore E-Commerce Private Limited",
+    "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+    "query": "8.219.145.115"
+  },
   "176.123.57.216": {
     "status": "success",
     "country": "Croatia",
@@ -30382,38 +30366,6 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.182.192"
-  },
-  "8.219.145.115": {
-    "status": "success",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "region": "03",
-    "regionName": "North West",
-    "city": "Singapore",
-    "zip": "858877",
-    "lat": 1.35208,
-    "lon": 103.82,
-    "timezone": "Asia/Singapore",
-    "isp": "Alibaba (US) Technology Co., Ltd.",
-    "org": "Alibaba.com Singapore E-Commerce Private Limited",
-    "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
-    "query": "8.219.145.115"
-  },
-  "64.227.120.157": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60313",
-    "lat": 50.1169,
-    "lon": 8.6837,
-    "timezone": "Europe/Berlin",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "64.227.120.157"
   },
   "176.9.210.21": {
     "status": "success",
@@ -39502,6 +39454,22 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.182.215"
+  },
+  "45.151.70.202": {
+    "status": "success",
+    "country": "Russia",
+    "countryCode": "RU",
+    "region": "MOW",
+    "regionName": "Moscow",
+    "city": "Moscow",
+    "zip": "102200",
+    "lat": 55.7487,
+    "lon": 37.6187,
+    "timezone": "Europe/Moscow",
+    "isp": "eServer s.r.o.",
+    "org": "Digital City FZE",
+    "as": "AS61424 eServer s.r.o.",
+    "query": "45.151.70.202"
   },
   "45.32.35.170": {
     "status": "success",
