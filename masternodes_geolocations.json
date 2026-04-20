@@ -10527,22 +10527,6 @@
     "as": "AS57494 Adman LLC",
     "query": "91.199.149.177"
   },
-  "143.198.39.59": {
-    "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "ON",
-    "regionName": "Ontario",
-    "city": "Toronto",
-    "zip": "M5A",
-    "lat": 43.6547,
-    "lon": -79.3623,
-    "timezone": "America/Toronto",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "143.198.39.59"
-  },
   "51.79.109.182": {
     "status": "success",
     "country": "Canada",
@@ -16702,6 +16686,22 @@
     "org": "Alibaba.com Singapore E-Commerce Private Limited",
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.219.193.162"
+  },
+  "45.32.115.119": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.32.115.119"
   },
   "136.243.142.41": {
     "status": "success",
@@ -38846,22 +38846,6 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "135.181.53.133"
-  },
-  "45.32.115.119": {
-    "status": "success",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "region": "05",
-    "regionName": "South West",
-    "city": "Singapore",
-    "zip": "627753",
-    "lat": 1.32123,
-    "lon": 103.695,
-    "timezone": "Asia/Singapore",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "45.32.115.119"
   },
   "161.97.166.49": {
     "status": "success",
