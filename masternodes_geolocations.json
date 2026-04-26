@@ -33439,6 +33439,22 @@
     "as": "AS7489 HostUS",
     "query": "104.128.239.123"
   },
+  "144.202.37.1": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "FL",
+    "regionName": "Florida",
+    "city": "Miami",
+    "zip": "33142",
+    "lat": 25.8119,
+    "lon": -80.2318,
+    "timezone": "America/New_York",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "144.202.37.1"
+  },
   "138.197.161.208": {
     "status": "success",
     "country": "Canada",
@@ -40814,22 +40830,6 @@
     "org": "",
     "as": "AS51167 Contabo GmbH",
     "query": "109.199.108.234"
-  },
-  "144.202.37.1": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "FL",
-    "regionName": "Florida",
-    "city": "Miami",
-    "zip": "33142",
-    "lat": 25.8119,
-    "lon": -80.2318,
-    "timezone": "America/New_York",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "144.202.37.1"
   },
   "47.110.155.87": {
     "status": "success",
