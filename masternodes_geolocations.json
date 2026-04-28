@@ -15135,6 +15135,22 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "209.250.240.73"
   },
+  "149.28.225.54": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "NJ",
+    "regionName": "New Jersey",
+    "city": "Piscataway",
+    "zip": "08854",
+    "lat": 40.5511,
+    "lon": -74.4606,
+    "timezone": "America/New_York",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "149.28.225.54"
+  },
   "176.123.57.214": {
     "status": "success",
     "country": "Croatia",
@@ -29550,22 +29566,6 @@
     "org": "RAMNODE",
     "as": "AS3842 InMotion Hosting, Inc.",
     "query": "168.235.85.185"
-  },
-  "149.28.225.54": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "NJ",
-    "regionName": "New Jersey",
-    "city": "Piscataway",
-    "zip": "08854",
-    "lat": 40.5511,
-    "lon": -74.4606,
-    "timezone": "America/New_York",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "149.28.225.54"
   },
   "167.99.176.226": {
     "status": "success",
