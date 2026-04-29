@@ -16895,22 +16895,6 @@
     "as": "AS3842 InMotion Hosting, Inc.",
     "query": "192.184.90.215"
   },
-  "207.154.227.241": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60313",
-    "lat": 50.1169,
-    "lon": 8.6837,
-    "timezone": "Europe/Berlin",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "207.154.227.241"
-  },
   "139.180.190.167": {
     "status": "success",
     "country": "Singapore",
