@@ -26799,21 +26799,21 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "95.216.146.18"
   },
-  "51.79.54.96": {
+  "51.77.216.185": {
     "status": "success",
-    "country": "Canada",
-    "countryCode": "CA",
-    "region": "NL",
-    "regionName": "Newfoundland and Labrador",
-    "city": "Nain",
-    "zip": "A0P",
-    "lat": 56.5419,
-    "lon": -61.6955,
-    "timezone": "America/Goose_Bay",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "HDF",
+    "regionName": "Hauts-de-France",
+    "city": "Roubaix",
+    "zip": "59100",
+    "lat": 50.6924,
+    "lon": 3.20113,
+    "timezone": "Europe/Paris",
     "isp": "OVH SAS",
-    "org": "OVH Hosting, Inc.",
+    "org": "OVH",
     "as": "AS16276 OVH SAS",
-    "query": "51.79.54.96"
+    "query": "51.77.216.185"
   },
   "184.107.182.198": {
     "status": "success",
@@ -34542,6 +34542,22 @@
     "org": "Digital Ocean",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.62.129.7"
+  },
+  "85.209.241.90": {
+    "status": "success",
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "02",
+    "regionName": "Lower Silesia",
+    "city": "Wo\u0142\u00f3w",
+    "zip": "56-100",
+    "lat": 51.337,
+    "lon": 16.6355,
+    "timezone": "Europe/Warsaw",
+    "isp": "CVD Sp. z o.o.",
+    "org": "CVD anycast network",
+    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
+    "query": "85.209.241.90"
   },
   "8.219.230.37": {
     "status": "success",
