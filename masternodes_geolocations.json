@@ -11535,22 +11535,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.62.171.57"
   },
-  "188.127.237.243": {
-    "status": "success",
-    "country": "Russia",
-    "countryCode": "RU",
-    "region": "MOW",
-    "regionName": "Moscow",
-    "city": "Moscow",
-    "zip": "144700",
-    "lat": 55.7558,
-    "lon": 37.6173,
-    "timezone": "Europe/Moscow",
-    "isp": "LLC Smart Ape",
-    "org": "SmartApe",
-    "as": "AS56694 LLC Smart Ape",
-    "query": "188.127.237.243"
-  },
   "209.97.130.240": {
     "status": "success",
     "country": "United Kingdom",
@@ -15967,21 +15951,21 @@
     "as": "AS205581 CVD Sp. z o.o. Sp.k.",
     "query": "85.209.241.81"
   },
-  "95.217.83.5": {
+  "91.198.108.39": {
     "status": "success",
-    "country": "Finland",
-    "countryCode": "FI",
-    "region": "18",
-    "regionName": "Uusimaa",
-    "city": "Helsinki",
-    "zip": "00201",
-    "lat": 60.1719,
-    "lon": 24.9347,
-    "timezone": "Europe/Helsinki",
-    "isp": "Hetzner Online GmbH",
-    "org": "HETZNER-DC",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "95.217.83.5"
+    "country": "Armenia",
+    "countryCode": "AM",
+    "region": "ER",
+    "regionName": "Yerevan",
+    "city": "Yerevan",
+    "zip": "",
+    "lat": 40.1872,
+    "lon": 44.5152,
+    "timezone": "Asia/Yerevan",
+    "isp": "Proitlab LLC",
+    "org": "HayHost",
+    "as": "AS216058 Proitlab LLC",
+    "query": "91.198.108.39"
   },
   "8.222.134.37": {
     "status": "success",
@@ -17390,22 +17374,6 @@
     "org": "Alibaba.com Singapore E-Commerce Private Limited",
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.222.146.67"
-  },
-  "85.209.241.90": {
-    "status": "success",
-    "country": "Poland",
-    "countryCode": "PL",
-    "region": "02",
-    "regionName": "Lower Silesia",
-    "city": "Wo\u0142\u00f3w",
-    "zip": "56-100",
-    "lat": 51.337,
-    "lon": 16.6355,
-    "timezone": "Europe/Warsaw",
-    "isp": "CVD Sp. z o.o.",
-    "org": "CVD anycast network",
-    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
-    "query": "85.209.241.90"
   },
   "207.148.79.179": {
     "status": "success",
@@ -24847,21 +24815,21 @@
     "as": "AS210644 AEZA GROUP LLC",
     "query": "147.45.41.210"
   },
-  "95.217.83.2": {
+  "91.198.108.37": {
     "status": "success",
-    "country": "Finland",
-    "countryCode": "FI",
-    "region": "18",
-    "regionName": "Uusimaa",
-    "city": "Helsinki",
-    "zip": "00201",
-    "lat": 60.1719,
-    "lon": 24.9347,
-    "timezone": "Europe/Helsinki",
-    "isp": "Hetzner Online GmbH",
-    "org": "HETZNER-DC",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "95.217.83.2"
+    "country": "Armenia",
+    "countryCode": "AM",
+    "region": "ER",
+    "regionName": "Yerevan",
+    "city": "Yerevan",
+    "zip": "",
+    "lat": 40.1872,
+    "lon": 44.5152,
+    "timezone": "Asia/Yerevan",
+    "isp": "Proitlab LLC",
+    "org": "HayHost",
+    "as": "AS216058 Proitlab LLC",
+    "query": "91.198.108.37"
   },
   "8.219.110.226": {
     "status": "success",
@@ -31999,22 +31967,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "116.203.244.222"
   },
-  "209.141.36.206": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "NV",
-    "regionName": "Nevada",
-    "city": "Las Vegas",
-    "zip": "89101",
-    "lat": 36.1697,
-    "lon": -115.1236,
-    "timezone": "America/Los_Angeles",
-    "isp": "FranTech Solutions",
-    "org": "FranTech Solutions",
-    "as": "AS53667 FranTech Solutions",
-    "query": "209.141.36.206"
-  },
   "112.124.37.208": {
     "status": "success",
     "country": "China",
@@ -32031,21 +31983,21 @@
     "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
     "query": "112.124.37.208"
   },
-  "77.237.245.19": {
+  "209.141.36.206": {
     "status": "success",
-    "country": "France",
-    "countryCode": "FR",
-    "region": "GES",
-    "regionName": "Grand Est",
-    "city": "Lauterbourg",
-    "zip": "67630",
-    "lat": 48.9742,
-    "lon": 8.1851,
-    "timezone": "Europe/Paris",
-    "isp": "Contabo GmbH",
-    "org": "Contabo GmbH",
-    "as": "AS51167 Contabo GmbH",
-    "query": "77.237.245.19"
+    "country": "United States",
+    "countryCode": "US",
+    "region": "NV",
+    "regionName": "Nevada",
+    "city": "Las Vegas",
+    "zip": "89101",
+    "lat": 36.1697,
+    "lon": -115.1236,
+    "timezone": "America/Los_Angeles",
+    "isp": "FranTech Solutions",
+    "org": "FranTech Solutions",
+    "as": "AS53667 FranTech Solutions",
+    "query": "209.141.36.206"
   },
   "107.179.202.74": {
     "status": "success",
@@ -38991,6 +38943,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.62.149.161"
   },
+  "91.184.249.209": {
+    "status": "success",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "region": "10",
+    "regionName": "Prague",
+    "city": "Prague",
+    "zip": "120 00",
+    "lat": 50.0755,
+    "lon": 14.4378,
+    "timezone": "Europe/Prague",
+    "isp": "SmartApe OU",
+    "org": "ESA",
+    "as": "AS62212 SmartApe OU",
+    "query": "91.184.249.209"
+  },
   "139.59.254.15": {
     "status": "success",
     "country": "Singapore",
@@ -39919,21 +39887,21 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "159.203.39.201"
   },
-  "95.217.83.14": {
+  "91.198.108.38": {
     "status": "success",
-    "country": "Finland",
-    "countryCode": "FI",
-    "region": "18",
-    "regionName": "Uusimaa",
-    "city": "Helsinki",
-    "zip": "00201",
-    "lat": 60.1719,
-    "lon": 24.9347,
-    "timezone": "Europe/Helsinki",
-    "isp": "Hetzner Online GmbH",
-    "org": "HETZNER-DC",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "95.217.83.14"
+    "country": "Armenia",
+    "countryCode": "AM",
+    "region": "ER",
+    "regionName": "Yerevan",
+    "city": "Yerevan",
+    "zip": "",
+    "lat": 40.1872,
+    "lon": 44.5152,
+    "timezone": "Asia/Yerevan",
+    "isp": "Proitlab LLC",
+    "org": "HayHost",
+    "as": "AS216058 Proitlab LLC",
+    "query": "91.198.108.38"
   },
   "132.243.197.85": {
     "status": "success",
