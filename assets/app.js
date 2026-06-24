@@ -141,6 +141,18 @@
     return [...map.entries()].sort((a, b) => b[1] - a[1]).slice(0, n);
   }
 
+  // Distinct AS numbers can share the same operator name (e.g. AS24940 and
+  // AS213230 are both Hetzner). Sum their counts instead of letting Map
+  // construction silently drop the earlier entry.
+  function aggregateByShortAsn(asnMap) {
+    const out = new Map();
+    for (const [asn, count] of asnMap) {
+      const label = shortASN(asn);
+      out.set(label, (out.get(label) || 0) + count);
+    }
+    return out;
+  }
+
   // ---------- DOM ----------
 
   const $ = sel => document.querySelector(sel);
@@ -226,6 +238,12 @@
     const flag = flagEmoji(geo?.countryCode);
     const cityCountry = [geo?.city, geo?.country].filter(Boolean).join(", ");
 
+    // Prefer the real proTxHash from RPC; fall back to the outpoint key only
+    // when it's missing. Show the outpoint too when both are available since
+    // they're distinct identifiers users may need to copy.
+    const proTxHash = mn.proTxHash || "";
+    const showOutpoint = proTxHash && key && proTxHash !== key;
+
     return `
       <div class="popup__title">
         <span class="popup__badge popup__badge--${statusCls}">${escapeHtml(status)}</span>
@@ -235,7 +253,8 @@
       ${cityCountry ? `<div class="popup__row"><span>Location</span><strong>${flag} ${escapeHtml(cityCountry)}</strong></div>` : ""}
       ${geo?.as ? `<div class="popup__row"><span>ASN</span><strong>${escapeHtml(geo.as)}</strong></div>` : ""}
       ${geo?.isp ? `<div class="popup__row"><span>ISP</span><strong>${escapeHtml(geo.isp)}</strong></div>` : ""}
-      <div class="popup__id" title="Pro Tx Hash / outpoint">${escapeHtml(key)}</div>
+      <div class="popup__id"><span class="popup__id__label">ProTxHash</span>${escapeHtml(proTxHash || key)}</div>
+      ${showOutpoint ? `<div class="popup__id popup__id--alt"><span class="popup__id__label">Outpoint</span>${escapeHtml(key)}</div>` : ""}
     `;
   }
 
@@ -346,8 +365,11 @@
     if (f.country !== "all" && n.geo?.country !== f.country) return false;
     if (f.search) {
       const q = f.search.toLowerCase();
+      // n.key is the collateral outpoint (txid-vout); n.mn.proTxHash is the
+      // actual proTxHash from RPC. Both can come from explorer links so keep
+      // both in the haystack.
       const hay = [
-        n.ip, n.key,
+        n.ip, n.key, n.mn.proTxHash,
         n.geo?.country, n.geo?.city, n.geo?.as, n.geo?.isp, n.geo?.countryCode,
       ].filter(Boolean).join(" ").toLowerCase();
       if (!hay.includes(q)) return false;
@@ -520,7 +542,7 @@
 
       <div class="section">
         <h3 class="section__title">Top ASNs <span class="section__hint">${s.asn.size} total</span></h3>
-        ${renderBarList(new Map([...s.asn].map(([k, v]) => [shortASN(k), v]))) /* clean labels */}
+        ${renderBarList(aggregateByShortAsn(s.asn))}
       </div>
 
       <div class="section">
