@@ -302,12 +302,15 @@
     return true;
   }
 
-  function applyFilters() {
+  function applyFilters({ skipPanel = false } = {}) {
     const f = state.filters;
     const filtered = state.nodes.filter(n => nodeMatches(n, f));
     renderMarkers(filtered);
-    renderPanel(filtered);
     renderTopbarStats(filtered);
+    // Re-rendering the filters tab on every keystroke would destroy the active
+    // <input>, drop the mobile keyboard, and reset the caret. Callers that
+    // mutate filters from inside the filters tab pass skipPanel:true.
+    if (!skipPanel) renderPanel(filtered);
     return filtered;
   }
 
@@ -530,7 +533,7 @@
     if (search) {
       search.addEventListener("input", debounce(e => {
         state.filters.search = e.target.value.trim();
-        applyFilters();
+        applyFilters({ skipPanel: true });
       }, 180));
     }
     for (const group of document.querySelectorAll(".toggle-group[data-filter]")) {
@@ -540,21 +543,21 @@
         if (!btn) return;
         state.filters[key] = btn.dataset.value;
         for (const b of group.children) b.classList.toggle("is-active", b === btn);
-        applyFilters();
+        applyFilters({ skipPanel: true });
       });
     }
     const sel = $("#filter-country");
     if (sel) {
       sel.addEventListener("change", e => {
         state.filters.country = e.target.value;
-        applyFilters();
+        applyFilters({ skipPanel: true });
       });
     }
     const reset = $("#filter-reset");
     if (reset) {
       reset.addEventListener("click", () => {
         state.filters = { status: "all", type: "all", country: "all", search: "" };
-        renderPanel(applyFilters());
+        renderPanel(applyFilters({ skipPanel: true }));
       });
     }
     const fit = $("#filter-fit");
@@ -607,27 +610,29 @@
         openPanel();
       });
     }
-    // Tap-to-toggle on the handle/header area (mobile)
-    dom.handle.addEventListener("click", () => {
-      if (dom.panel.classList.contains("is-open")) collapsePanel();
-      else openPanel();
-    });
+    // Tap-vs-drag on the handle: a true tap toggles open/collapse, a drag
+    // resizes the sheet. We suppress the synthesized click after a drag.
+    const DRAG_THRESHOLD = 6;          // px moved before we call it a drag
+    let startY = null, startTrans = 0, lastY = null;
+    let dragging = false, moved = false;
 
-    // Drag-to-collapse / drag-to-open on mobile
-    let startY = null, startTrans = 0, dragging = false;
     const onStart = e => {
       if (window.matchMedia("(min-width: 900px)").matches) return;
       startY = (e.touches ? e.touches[0].clientY : e.clientY);
+      lastY = startY;
       startTrans = dom.panel.classList.contains("is-open") ? 0
                  : dom.panel.classList.contains("is-collapsed") ? dom.panel.offsetHeight
                  : Math.max(0, dom.panel.offsetHeight - 60);
       dragging = true;
+      moved = false;
       dom.panel.style.transition = "none";
     };
     const onMove = e => {
       if (!dragging) return;
       const y = (e.touches ? e.touches[0].clientY : e.clientY);
+      lastY = y;
       const dy = y - startY;
+      if (Math.abs(dy) > DRAG_THRESHOLD) moved = true;
       const next = Math.min(dom.panel.offsetHeight, Math.max(0, startTrans + dy));
       dom.panel.style.transform = `translateY(${next}px)`;
     };
@@ -635,18 +640,28 @@
       if (!dragging) return;
       dragging = false;
       dom.panel.style.transition = "";
-      dom.panel.style.transform = "";
+      if (!moved) {
+        // True tap — clear any inline transform and let the click handler
+        // below toggle state.
+        dom.panel.style.transform = "";
+        return;
+      }
       const h = dom.panel.offsetHeight;
-      const current = (() => {
-        const m = dom.panel.style.transform.match(/translateY\(([-\d.]+)px\)/);
-        return m ? Number(m[1]) : null;
-      })();
-      // Use threshold from the underlying classes: closed sentiment ≥ 65% height
-      const final = current ?? (dom.panel.classList.contains("is-open") ? 0 : h - 60);
+      const final = Math.min(h, Math.max(0, startTrans + (lastY - startY)));
+      dom.panel.style.transform = "";
       if (final < h * 0.20) openPanel();
-      else if (final > h * 0.65) collapsePanel();
-      else openPanel();
+      else if (final > h * 0.65) hidePanel();
+      else collapsePanel();
     };
+
+    // Click toggles only on a non-drag tap. Use capture-phase suppression so
+    // the synthesized post-drag click never reaches the toggle.
+    dom.handle.addEventListener("click", e => {
+      if (moved) { e.stopPropagation(); moved = false; return; }
+      if (dom.panel.classList.contains("is-open")) collapsePanel();
+      else openPanel();
+    });
+
     dom.handle.addEventListener("touchstart", onStart, { passive: true });
     dom.handle.addEventListener("touchmove", onMove, { passive: true });
     dom.handle.addEventListener("touchend", onEnd);
@@ -666,26 +681,6 @@
       maxZoom: 18,
       subdomains: "abcd",
     }).addTo(map);
-    // Light theme uses lighter surfaces — push to CSS variables.
-    if (name === "light") {
-      document.documentElement.style.setProperty("--bg", "#f3f5f9");
-      document.documentElement.style.setProperty("--surface", "#ffffff");
-      document.documentElement.style.setProperty("--surface-2", "#f7f8fb");
-      document.documentElement.style.setProperty("--surface-3", "#eef0f5");
-      document.documentElement.style.setProperty("--border", "#e3e6ed");
-      document.documentElement.style.setProperty("--text", "#1a1d24");
-      document.documentElement.style.setProperty("--text-dim", "#4b5563");
-      document.documentElement.style.setProperty("--text-faint", "#6b7280");
-    } else {
-      document.documentElement.style.removeProperty("--bg");
-      document.documentElement.style.removeProperty("--surface");
-      document.documentElement.style.removeProperty("--surface-2");
-      document.documentElement.style.removeProperty("--surface-3");
-      document.documentElement.style.removeProperty("--border");
-      document.documentElement.style.removeProperty("--text");
-      document.documentElement.style.removeProperty("--text-dim");
-      document.documentElement.style.removeProperty("--text-faint");
-    }
   }
 
   function wireTheme() {
