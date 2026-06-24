@@ -72,6 +72,57 @@
     return `${Math.round(secondsAgo / 86400)}d ago`;
   }
 
+  // ---------- Snapshot freshness ----------
+  // Thresholds: anything older than ~48h is "may be stale" (warning),
+  // anything older than ~7 days is "out of date" (critical). If the
+  // snapshot timestamp can't be derived we surface a conservative
+  // "unknown" notice. Pure function — easy to verify deterministically.
+  const STALE_HOURS_WARNING = 48;
+  const STALE_HOURS_CRITICAL = 24 * 7;
+  const STALE_DISMISS_KEY = "dmnm:stale-dismissed";
+
+  function classifySnapshotAge(snapshotAtSec, nowMs) {
+    if (!snapshotAtSec) return { state: "unknown", ageHours: null };
+    const ageHours = Math.max(0, (nowMs / 1000 - snapshotAtSec) / 3600);
+    if (ageHours >= STALE_HOURS_CRITICAL) return { state: "critical", ageHours };
+    if (ageHours >= STALE_HOURS_WARNING) return { state: "warning", ageHours };
+    return { state: "fresh", ageHours };
+  }
+
+  function fmtAge(hours) {
+    if (hours == null) return "unknown";
+    const days = hours / 24;
+    if (days >= 1.5) return `~${Math.round(days)} days`;
+    if (hours >= 1.5) return `~${Math.round(hours)} hours`;
+    return "less than an hour";
+  }
+
+  function staleCopy(info) {
+    const age = fmtAge(info.ageHours);
+    switch (info.state) {
+      case "critical":
+        return {
+          title: "Data is out of date",
+          detail: `Last snapshot is ${age} old. The daily updater may have failed — counts and node status are very likely outdated.`,
+        };
+      case "warning":
+        return {
+          title: "Data may be stale",
+          detail: `Last snapshot is ${age} old. Counts and node status may be outdated.`,
+        };
+      case "unknown":
+        return {
+          title: "Snapshot age is unknown",
+          detail: "We couldn't determine when this data was generated. Counts and node status may be outdated.",
+        };
+      default:
+        return {
+          title: "Data is current",
+          detail: `Last snapshot is ${age} old. Updates daily via a GitHub Action.`,
+        };
+    }
+  }
+
   function debounce(fn, wait) {
     let t;
     return (...args) => {
@@ -109,6 +160,7 @@
     handle: $("#panel-handle"),
     btnLocate: $("#btn-locate"),
     btnTheme: $("#btn-theme"),
+    staleBanner: $("#stale-banner"),
   };
 
   // ---------- Map setup ----------
@@ -200,6 +252,7 @@
     },
     activeTab: "overview",
     snapshotAt: null,
+    staleInfo: { state: "unknown", ageHours: null },
     markerByKey: new Map(),
   };
 
@@ -338,11 +391,76 @@
 
   function renderSubtitle() {
     if (!state.snapshotAt) {
-      dom.subtitle.textContent = "Global network snapshot";
+      dom.subtitle.textContent = "Global network snapshot · age unknown";
       return;
     }
     const secs = Math.max(0, Math.floor(Date.now() / 1000 - state.snapshotAt));
-    dom.subtitle.textContent = `Snapshot ~${fmtRelative(secs)} · updates daily`;
+    const suffix = state.staleInfo.state === "critical" ? " · out of date"
+                 : state.staleInfo.state === "warning"  ? " · possibly stale"
+                 : " · updates daily";
+    dom.subtitle.textContent = `Snapshot ~${fmtRelative(secs)}${suffix}`;
+  }
+
+  const WARN_ICON_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`;
+  const INFO_ICON_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="13"/><line x1="12" y1="16.5" x2="12.01" y2="16.5"/></svg>`;
+
+  function renderStaleBanner() {
+    const banner = dom.staleBanner;
+    if (!banner) return;
+    const info = classifySnapshotAge(state.snapshotAt, Date.now());
+    state.staleInfo = info;
+    if (info.state === "fresh") {
+      banner.hidden = true;
+      banner.className = "stale-banner";
+      banner.innerHTML = "";
+      return;
+    }
+    let dismissedFor = null;
+    try { dismissedFor = sessionStorage.getItem(STALE_DISMISS_KEY); } catch (_) {}
+    if (info.state !== "critical" && dismissedFor === info.state) {
+      banner.hidden = true;
+      return;
+    }
+    const copy = staleCopy(info);
+    const isCritical = info.state === "critical";
+    banner.className = `stale-banner stale-banner--${info.state}`;
+    banner.setAttribute("role", isCritical ? "alert" : "status");
+    banner.setAttribute("aria-live", isCritical ? "assertive" : "polite");
+    const icon = info.state === "unknown" ? INFO_ICON_SVG : WARN_ICON_SVG;
+    const closeBtn = isCritical ? "" : `
+      <button class="stale-banner__close" type="button" aria-label="Dismiss data freshness notice">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>`;
+    banner.innerHTML = `
+      <span class="stale-banner__icon">${icon}</span>
+      <span class="stale-banner__text">
+        <strong class="stale-banner__title">${escapeHtml(copy.title)}</strong>
+        <span class="stale-banner__detail">${escapeHtml(copy.detail)}</span>
+      </span>
+      ${closeBtn}
+    `;
+    banner.hidden = false;
+    const close = banner.querySelector(".stale-banner__close");
+    if (close) {
+      close.addEventListener("click", () => {
+        try { sessionStorage.setItem(STALE_DISMISS_KEY, info.state); } catch (_) {}
+        banner.hidden = true;
+        map.invalidateSize();
+      });
+    }
+  }
+
+  function renderFreshnessCard(info = state.staleInfo) {
+    const copy = staleCopy(info);
+    return `
+      <div class="freshness freshness--${info.state}" role="status">
+        <span class="freshness__dot" aria-hidden="true"></span>
+        <div class="freshness__text">
+          <strong class="freshness__title">${escapeHtml(copy.title)}</strong>
+          ${escapeHtml(copy.detail)}
+        </div>
+      </div>
+    `;
   }
 
   function renderBarList(map, opts = {}) {
@@ -373,6 +491,7 @@
     };
 
     return `
+      ${renderFreshnessCard()}
       <div class="stat-grid">
         <div class="stat">
           <div class="stat__label">Total shown</div>
@@ -478,6 +597,7 @@
 
   function renderAboutTab() {
     return `
+      ${renderFreshnessCard()}
       <div class="section">
         <p style="margin:0 0 10px;color:var(--text-dim);line-height:1.55;">
           A live geographical view of the Dash masternode network. Markers cluster by region;
@@ -706,12 +826,17 @@
     wireLocate();
     try {
       await loadData();
+      renderStaleBanner();
+      // Banner can add a row to the app grid, shrinking the map. Leaflet
+      // only auto-resizes on window resize, so prod a recalc explicitly.
+      map.invalidateSize();
       renderSubtitle();
       applyFilters();
       // Auto-fit on first load so the user sees the actual distribution
       setTimeout(fitToMarkers, 60);
     } catch (err) {
       console.error(err);
+      renderStaleBanner();
       dom.panelBody.innerHTML = `<div class="empty">Failed to load data: ${escapeHtml(err.message)}</div>`;
     } finally {
       dom.loading.classList.add("is-hidden");
