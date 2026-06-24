@@ -239,10 +239,16 @@
     const cityCountry = [geo?.city, geo?.country].filter(Boolean).join(", ");
 
     // Prefer the real proTxHash from RPC; fall back to the outpoint key only
-    // when it's missing. Show the outpoint too when both are available since
-    // they're distinct identifiers users may need to copy.
+    // when it's missing. Label each identifier honestly so users can't confuse
+    // an outpoint shown in the proTxHash slot for the actual proTxHash.
     const proTxHash = mn.proTxHash || "";
     const showOutpoint = proTxHash && key && proTxHash !== key;
+    const idRow = proTxHash
+      ? `<div class="popup__id"><span class="popup__id__label">ProTxHash</span>${escapeHtml(proTxHash)}</div>`
+      : `<div class="popup__id"><span class="popup__id__label">Outpoint</span>${escapeHtml(key)}</div>`;
+    const altOutpoint = showOutpoint
+      ? `<div class="popup__id popup__id--alt"><span class="popup__id__label">Outpoint</span>${escapeHtml(key)}</div>`
+      : "";
 
     return `
       <div class="popup__title">
@@ -253,8 +259,8 @@
       ${cityCountry ? `<div class="popup__row"><span>Location</span><strong>${flag} ${escapeHtml(cityCountry)}</strong></div>` : ""}
       ${geo?.as ? `<div class="popup__row"><span>ASN</span><strong>${escapeHtml(geo.as)}</strong></div>` : ""}
       ${geo?.isp ? `<div class="popup__row"><span>ISP</span><strong>${escapeHtml(geo.isp)}</strong></div>` : ""}
-      <div class="popup__id"><span class="popup__id__label">ProTxHash</span>${escapeHtml(proTxHash || key)}</div>
-      ${showOutpoint ? `<div class="popup__id popup__id--alt"><span class="popup__id__label">Outpoint</span>${escapeHtml(key)}</div>` : ""}
+      ${idRow}
+      ${altOutpoint}
     `;
   }
 
@@ -262,7 +268,6 @@
 
   const state = {
     nodes: [],                  // {key, ip, mn, geo, lat, lon}
-    bounds: null,
     filters: {
       status: "all",            // all | active | banned
       type: "all",              // all | regular | evo
@@ -317,7 +322,6 @@
     const country = new Map();
     const asn = new Map();
     const continent = new Map();
-    const isp = new Map();
 
     for (const n of nodes) {
       total++;
@@ -339,11 +343,9 @@
         const cc = n.geo.countryCode || "";
         const cn = CONTINENTS[cc] || "Other";
         continent.set(cn, (continent.get(cn) || 0) + 1);
-        const i = n.geo.isp || "Unknown";
-        isp.set(i, (isp.get(i) || 0) + 1);
       }
     }
-    return { total, active, banned, regular, evo, other, country, asn, continent, isp };
+    return { total, active, banned, regular, evo, other, country, asn, continent };
   }
 
   function countryList(nodes) {
@@ -380,12 +382,13 @@
   function applyFilters({ skipPanel = false } = {}) {
     const f = state.filters;
     const filtered = state.nodes.filter(n => nodeMatches(n, f));
+    const stats = computeStats(filtered);
     renderMarkers(filtered);
-    renderTopbarStats(filtered);
+    renderTopbarStats(stats);
     // Re-rendering the filters tab on every keystroke would destroy the active
     // <input>, drop the mobile keyboard, and reset the caret. Callers that
     // mutate filters from inside the filters tab pass skipPanel:true.
-    if (!skipPanel) renderPanel(filtered);
+    if (!skipPanel) renderPanel(filtered, stats);
     return filtered;
   }
 
@@ -405,10 +408,9 @@
     if (layers.length) markerCluster.addLayers(layers);
   }
 
-  function renderTopbarStats(filtered) {
-    const s = computeStats(filtered);
-    if (dom.topbarStats.total) dom.topbarStats.total.textContent = fmtNumber(s.total);
-    if (dom.topbarStats.active) dom.topbarStats.active.textContent = fmtNumber(s.active);
+  function renderTopbarStats(stats) {
+    if (dom.topbarStats.total) dom.topbarStats.total.textContent = fmtNumber(stats.total);
+    if (dom.topbarStats.active) dom.topbarStats.active.textContent = fmtNumber(stats.active);
   }
 
   function renderSubtitle() {
@@ -432,6 +434,9 @@
     const info = classifySnapshotAge(state.snapshotAt, Date.now());
     state.staleInfo = info;
     if (info.state === "fresh") {
+      // Drop any prior dismissal so a future stale state in this session
+      // surfaces a fresh banner instead of staying silently hidden.
+      try { sessionStorage.removeItem(STALE_DISMISS_KEY); } catch (_) {}
       banner.hidden = true;
       return;
     }
@@ -499,8 +504,8 @@
     }).join("")}</ul>`;
   }
 
-  function renderOverviewTab(filtered) {
-    const s = computeStats(filtered);
+  function renderOverviewTab(filtered, stats) {
+    const s = stats || computeStats(filtered);
     const activePct = s.total ? Math.round((s.active / s.total) * 100) : 0;
     const bannedPct = s.total ? Math.round((s.banned / s.total) * 100) : 0;
     const evoPct = s.active ? Math.round((s.evo / s.active) * 100) : 0;
@@ -647,7 +652,7 @@
     `;
   }
 
-  function renderPanel(filtered) {
+  function renderPanel(filtered, stats) {
     const titleMap = {
       overview: "Network overview",
       filters: "Filters & search",
@@ -656,7 +661,7 @@
     dom.panelTitle.textContent = titleMap[state.activeTab];
 
     if (state.activeTab === "overview") {
-      dom.panelBody.innerHTML = renderOverviewTab(filtered);
+      dom.panelBody.innerHTML = renderOverviewTab(filtered, stats);
     } else if (state.activeTab === "filters") {
       dom.panelBody.innerHTML = renderFiltersTab();
       wireFiltersTab();
@@ -746,7 +751,7 @@
     for (const t of dom.tabs) {
       t.addEventListener("click", () => {
         state.activeTab = t.dataset.tab;
-        renderPanel(applyFilters());
+        applyFilters();
         openPanel();
       });
     }
@@ -857,6 +862,9 @@
     } catch (err) {
       console.error(err);
       renderStaleBanner();
+      // The stale banner can still appear in the error path and shrinks the
+      // map grid row — keep the map sized correctly on mobile.
+      map.invalidateSize();
       dom.panelBody.innerHTML = `<div class="empty">Failed to load data: ${escapeHtml(err.message)}</div>`;
     } finally {
       dom.loading.classList.add("is-hidden");
