@@ -13055,6 +13055,22 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.32.111.190"
   },
+  "137.220.38.255": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "WA",
+    "regionName": "Washington",
+    "city": "Kent",
+    "zip": "98032",
+    "lat": 47.3798,
+    "lon": -122.2893,
+    "timezone": "America/Los_Angeles",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "137.220.38.255"
+  },
   "8.219.185.232": {
     "status": "success",
     "country": "Singapore",
@@ -20862,22 +20878,6 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "139.59.120.106"
-  },
-  "137.220.38.255": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "WA",
-    "regionName": "Washington",
-    "city": "Kent",
-    "zip": "98032",
-    "lat": 47.3798,
-    "lon": -122.2893,
-    "timezone": "America/Los_Angeles",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "137.220.38.255"
   },
   "95.216.230.101": {
     "status": "success",
