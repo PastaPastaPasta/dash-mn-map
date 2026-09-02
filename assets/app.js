@@ -177,16 +177,11 @@
 
   // ---------- Map setup ----------
 
-  const TILE_THEMES = {
-    dark: {
-      url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
-    },
-    light: {
-      url: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
-    },
-  };
+  // Free, key-less basemap: OpenStreetMap standard raster tiles.
+  // Dark theme is achieved with a CSS filter on the tile pane (see styles.css),
+  // so a single tile layer serves both themes.
+  const TILE_URL = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+  const TILE_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
   const initialTheme = localStorage.getItem("dmnm:theme") || "dark";
   document.documentElement.dataset.theme = initialTheme;
@@ -198,10 +193,9 @@
     maxBoundsViscosity: 1,
   }).setView([25, 10], 2);
 
-  let tileLayer = L.tileLayer(TILE_THEMES[initialTheme].url, {
-    attribution: TILE_THEMES[initialTheme].attribution,
-    maxZoom: 18,
-    subdomains: "abcd",
+  L.tileLayer(TILE_URL, {
+    attribution: TILE_ATTRIBUTION,
+    maxZoom: 19,
   }).addTo(map);
 
   const markerCluster = L.markerClusterGroup({
@@ -645,7 +639,7 @@
         <h3 class="section__title">Project</h3>
         <ul class="bar-list">
           <li class="bar"><span class="bar__label">Source</span><a class="bar__count" href="https://github.com/PastaPastaPasta/dash-mn-map" target="_blank" rel="noopener">GitHub ↗</a></li>
-          <li class="bar"><span class="bar__label">Tiles</span><span class="bar__count">CARTO / OSM</span></li>
+          <li class="bar"><span class="bar__label">Tiles</span><span class="bar__count">OpenStreetMap</span></li>
           <li class="bar"><span class="bar__label">Geo</span><span class="bar__count">ip-api.com</span></li>
         </ul>
       </div>
@@ -820,12 +814,6 @@
   function setTheme(name) {
     document.documentElement.dataset.theme = name;
     localStorage.setItem("dmnm:theme", name);
-    map.removeLayer(tileLayer);
-    tileLayer = L.tileLayer(TILE_THEMES[name].url, {
-      attribution: TILE_THEMES[name].attribution,
-      maxZoom: 18,
-      subdomains: "abcd",
-    }).addTo(map);
   }
 
   function wireTheme() {

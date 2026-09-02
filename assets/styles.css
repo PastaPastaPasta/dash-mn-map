@@ -79,6 +79,12 @@ a:hover { text-decoration: underline; }
   grid-template-rows: auto auto 1fr;
 }
 
+/* Dark theme: OSM only ships a light raster style, so invert the tile pane.
+   Markers/popups live in other panes and are unaffected. */
+:root:not([data-theme="light"]) .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(0.82) contrast(0.92) saturate(0.35);
+}
+
 #map {
   grid-row: 3;
   position: relative;
