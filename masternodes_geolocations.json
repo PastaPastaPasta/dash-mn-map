@@ -3215,6 +3215,22 @@
     "as": "AS20473 The Constant Company, LLC",
     "query": "104.207.131.17"
   },
+  "95.216.84.42": {
+    "status": "success",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": "18",
+    "regionName": "Uusimaa",
+    "city": "Helsinki",
+    "zip": "00221",
+    "lat": 60.1719,
+    "lon": 24.9347,
+    "timezone": "Europe/Helsinki",
+    "isp": "Hetzner Online GmbH",
+    "org": "",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "95.216.84.42"
+  },
   "45.77.1.213": {
     "status": "success",
     "country": "United States",
@@ -8207,22 +8223,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "178.62.192.42"
   },
-  "142.93.221.139": {
-    "status": "success",
-    "country": "India",
-    "countryCode": "IN",
-    "region": "KA",
-    "regionName": "Karnataka",
-    "city": "Bengaluru",
-    "zip": "560100",
-    "lat": 12.9753,
-    "lon": 77.591,
-    "timezone": "Asia/Kolkata",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "142.93.221.139"
-  },
   "188.40.175.65": {
     "status": "success",
     "country": "Germany",
@@ -10334,6 +10334,22 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "45.77.46.21"
+  },
+  "85.209.241.217": {
+    "status": "success",
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "02",
+    "regionName": "Lower Silesia",
+    "city": "Wo\u0142\u00f3w",
+    "zip": "56-100",
+    "lat": 51.337,
+    "lon": 16.6355,
+    "timezone": "Europe/Warsaw",
+    "isp": "CVD Sp. z o.o.",
+    "org": "CVD anycast network",
+    "as": "AS205581 CVD Sp. z o.o. Sp.k.",
+    "query": "85.209.241.217"
   },
   "165.227.35.129": {
     "status": "success",
@@ -18718,22 +18734,6 @@
     "org": "GWY IT PTY LTD",
     "as": "AS205406 Access2.IT Group B.V.",
     "query": "185.228.83.132"
-  },
-  "149.28.225.54": {
-    "status": "success",
-    "country": "United States",
-    "countryCode": "US",
-    "region": "NJ",
-    "regionName": "New Jersey",
-    "city": "Piscataway",
-    "zip": "08854",
-    "lat": 40.4993,
-    "lon": -74.399,
-    "timezone": "America/New_York",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "149.28.225.54"
   },
   "188.40.251.193": {
     "status": "success",
@@ -30111,6 +30111,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "167.71.40.198"
   },
+  "178.63.236.98": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "SN",
+    "regionName": "Saxony",
+    "city": "Falkenstein",
+    "zip": "08223",
+    "lat": 50.4777,
+    "lon": 12.3649,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "178.63.236.98"
+  },
   "95.217.6.112": {
     "status": "success",
     "country": "Finland",
@@ -31294,22 +31310,6 @@
     "org": "InterLIR",
     "as": "AS212477 RoyaleHosting BV",
     "query": "89.125.209.106"
-  },
-  "167.71.140.26": {
-    "status": "success",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "region": "ENG",
-    "regionName": "England",
-    "city": "Slough",
-    "zip": "SL1",
-    "lat": 51.5177,
-    "lon": -0.6215,
-    "timezone": "Europe/London",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "167.71.140.26"
   },
   "46.30.189.251": {
     "status": "success",
@@ -34143,6 +34143,22 @@
     "as": "AS51167 Contabo GmbH",
     "query": "207.180.213.141"
   },
+  "149.28.225.54": {
+    "status": "success",
+    "country": "United States",
+    "countryCode": "US",
+    "region": "NJ",
+    "regionName": "New Jersey",
+    "city": "Piscataway",
+    "zip": "08854",
+    "lat": 40.4993,
+    "lon": -74.399,
+    "timezone": "America/New_York",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "149.28.225.54"
+  },
   "95.216.255.70": {
     "status": "success",
     "country": "Finland",
@@ -35199,22 +35215,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.251.197"
   },
-  "95.217.71.204": {
-    "status": "success",
-    "country": "Finland",
-    "countryCode": "FI",
-    "region": "18",
-    "regionName": "Uusimaa",
-    "city": "Helsinki",
-    "zip": "00221",
-    "lat": 60.1719,
-    "lon": 24.9347,
-    "timezone": "Europe/Helsinki",
-    "isp": "Hetzner Online GmbH",
-    "org": "",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "95.217.71.204"
-  },
   "132.243.197.250": {
     "status": "success",
     "country": "Germany",
@@ -35486,6 +35486,38 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "46.4.217.229"
+  },
+  "95.216.109.133": {
+    "status": "success",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": "18",
+    "regionName": "Uusimaa",
+    "city": "Helsinki",
+    "zip": "00221",
+    "lat": 60.1719,
+    "lon": 24.9347,
+    "timezone": "Europe/Helsinki",
+    "isp": "Hetzner Online GmbH",
+    "org": "",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "95.216.109.133"
+  },
+  "95.217.71.204": {
+    "status": "success",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": "18",
+    "regionName": "Uusimaa",
+    "city": "Helsinki",
+    "zip": "00221",
+    "lat": 60.1719,
+    "lon": 24.9347,
+    "timezone": "Europe/Helsinki",
+    "isp": "Hetzner Online GmbH",
+    "org": "",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "95.217.71.204"
   },
   "51.222.85.255": {
     "status": "success",
@@ -37326,22 +37358,6 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "134.209.146.189"
-  },
-  "159.65.198.4": {
-    "status": "success",
-    "country": "The Netherlands",
-    "countryCode": "NL",
-    "region": "NH",
-    "regionName": "North Holland",
-    "city": "Amsterdam",
-    "zip": "1098",
-    "lat": 52.352,
-    "lon": 4.9392,
-    "timezone": "Europe/Amsterdam",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "159.65.198.4"
   },
   "185.185.40.115": {
     "status": "success",
@@ -39375,22 +39391,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "65.21.237.224"
   },
-  "188.226.161.128": {
-    "status": "success",
-    "country": "The Netherlands",
-    "countryCode": "NL",
-    "region": "NH",
-    "regionName": "North Holland",
-    "city": "Amsterdam",
-    "zip": "1098",
-    "lat": 52.352,
-    "lon": 4.9392,
-    "timezone": "Europe/Amsterdam",
-    "isp": "DigitalOcean, LLC",
-    "org": "Digital Ocean",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "188.226.161.128"
-  },
   "45.76.29.241": {
     "status": "success",
     "country": "United States",
@@ -40526,6 +40526,38 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "206.189.20.59"
+  },
+  "188.226.161.128": {
+    "status": "success",
+    "country": "The Netherlands",
+    "countryCode": "NL",
+    "region": "NH",
+    "regionName": "North Holland",
+    "city": "Amsterdam",
+    "zip": "1098",
+    "lat": 52.352,
+    "lon": 4.9392,
+    "timezone": "Europe/Amsterdam",
+    "isp": "DigitalOcean, LLC",
+    "org": "Digital Ocean",
+    "as": "AS14061 DigitalOcean, LLC",
+    "query": "188.226.161.128"
+  },
+  "151.244.85.132": {
+    "status": "success",
+    "country": "The Netherlands",
+    "countryCode": "NL",
+    "region": "LI",
+    "regionName": "Limburg",
+    "city": "Eygelshoven",
+    "zip": "6471",
+    "lat": 50.8933,
+    "lon": 6.05805,
+    "timezone": "Europe/Amsterdam",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "151.244.85.132"
   },
   "8.222.137.45": {
     "status": "success",
