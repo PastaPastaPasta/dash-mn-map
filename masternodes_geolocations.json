@@ -17855,22 +17855,6 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.205.18"
   },
-  "95.217.125.97": {
-    "status": "success",
-    "country": "Finland",
-    "countryCode": "FI",
-    "region": "18",
-    "regionName": "Uusimaa",
-    "city": "Helsinki",
-    "zip": "00221",
-    "lat": 60.1719,
-    "lon": 24.9347,
-    "timezone": "Europe/Helsinki",
-    "isp": "Hetzner Online GmbH",
-    "org": "",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "95.217.125.97"
-  },
   "178.128.116.77": {
     "status": "success",
     "country": "Singapore",
