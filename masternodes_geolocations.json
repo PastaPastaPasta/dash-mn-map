@@ -8687,6 +8687,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "80.240.135.83"
   },
+  "151.244.85.72": {
+    "status": "success",
+    "country": "The Netherlands",
+    "countryCode": "NL",
+    "region": "LI",
+    "regionName": "Limburg",
+    "city": "Eygelshoven",
+    "zip": "6471",
+    "lat": 50.8933,
+    "lon": 6.05805,
+    "timezone": "Europe/Amsterdam",
+    "isp": "NodeHub LLC",
+    "org": "Private Customer",
+    "as": "AS214083 NodeHub LLC",
+    "query": "151.244.85.72"
+  },
   "95.216.230.103": {
     "status": "success",
     "country": "Finland",
@@ -18550,9 +18566,9 @@
     "region": "30",
     "regionName": "Greater Poland",
     "city": "Poznan",
-    "zip": "61-112",
-    "lat": 52.4084,
-    "lon": 16.9513,
+    "zip": "61-623",
+    "lat": 52.4295,
+    "lon": 16.9461,
     "timezone": "Europe/Warsaw",
     "isp": "INEA sp. z o.o.",
     "org": "B2C",
@@ -20533,10 +20549,10 @@
     "countryCode": "CA",
     "region": "BC",
     "regionName": "British Columbia",
-    "city": "Cawston",
-    "zip": "V0X",
-    "lat": 49.1777,
-    "lon": -119.76,
+    "city": "Kamloops",
+    "zip": "",
+    "lat": 50.6665,
+    "lon": -120.319,
     "timezone": "America/Vancouver",
     "isp": "Shaw Communications",
     "org": "Factory 78 Holdings Inc",
@@ -20574,22 +20590,6 @@
     "org": "CVD anycast network",
     "as": "AS205581 CVD Sp. z o.o. Sp.k.",
     "query": "85.209.241.33"
-  },
-  "45.76.92.86": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60314",
-    "lat": 50.1103,
-    "lon": 8.7147,
-    "timezone": "Europe/Berlin",
-    "isp": "The Constant Company",
-    "org": "Vultr Holdings, LLC",
-    "as": "AS20473 The Constant Company, LLC",
-    "query": "45.76.92.86"
   },
   "157.245.34.149": {
     "status": "success",
@@ -22095,22 +22095,6 @@
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.222.147.207"
   },
-  "49.12.1.250": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "SN",
-    "regionName": "Saxony",
-    "city": "Falkenstein",
-    "zip": "08223",
-    "lat": 50.4777,
-    "lon": 12.3649,
-    "timezone": "Europe/Berlin",
-    "isp": "Hetzner Online GmbH",
-    "org": "Hetzner",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "49.12.1.250"
-  },
   "89.179.73.96": {
     "status": "success",
     "country": "Russia",
@@ -22124,7 +22108,7 @@
     "timezone": "Europe/Moscow",
     "isp": "PJSC \"Vimpelcom\"",
     "org": "Corbina Smolensk Broadband",
-    "as": "AS8402 PJSC \"Vimpelcom\"",
+    "as": "AS8402 PJSC Vimpelcom",
     "query": "89.179.73.96"
   },
   "217.76.54.175": {
@@ -28895,6 +28879,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "178.63.236.99"
   },
+  "119.59.113.33": {
+    "status": "success",
+    "country": "Thailand",
+    "countryCode": "TH",
+    "region": "10",
+    "regionName": "Bangkok",
+    "city": "Bang Rak",
+    "zip": "10500",
+    "lat": 13.7291,
+    "lon": 100.516,
+    "timezone": "Asia/Bangkok",
+    "isp": "Metrabyte Co., Ltd",
+    "org": "Metrabyte Co., Ltd",
+    "as": "AS56067 453 Ladplacout Jorakhaebua",
+    "query": "119.59.113.33"
+  },
   "135.181.53.228": {
     "status": "success",
     "country": "Finland",
@@ -28974,6 +28974,22 @@
     "org": "CVD anycast network",
     "as": "AS205581 CVD Sp. z o.o. Sp.k.",
     "query": "85.209.241.2"
+  },
+  "49.12.1.250": {
+    "status": "success",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "SN",
+    "regionName": "Saxony",
+    "city": "Falkenstein",
+    "zip": "08223",
+    "lat": 50.4777,
+    "lon": 12.3649,
+    "timezone": "Europe/Berlin",
+    "isp": "Hetzner Online GmbH",
+    "org": "Hetzner",
+    "as": "AS24940 Hetzner Online GmbH",
+    "query": "49.12.1.250"
   },
   "64.225.96.191": {
     "status": "success",
@@ -32431,21 +32447,21 @@
     "as": "AS53667 FranTech Solutions",
     "query": "209.141.36.206"
   },
-  "107.179.202.74": {
+  "107.179.202.44": {
     "status": "success",
     "country": "Canada",
     "countryCode": "CA",
     "region": "ON",
     "regionName": "Ontario",
     "city": "Kitchener",
-    "zip": "N2H",
-    "lat": 43.4595,
-    "lon": -80.485,
+    "zip": "N2G",
+    "lat": 43.4444,
+    "lon": -80.4877,
     "timezone": "America/Toronto",
     "isp": "TekSavvy Solutions, Inc.",
     "org": "TekSavvy Solutions Inc., Private Customer",
     "as": "AS5645 TekSavvy Solutions, Inc.",
-    "query": "107.179.202.74"
+    "query": "107.179.202.44"
   },
   "107.170.7.146": {
     "status": "success",
@@ -34373,10 +34389,10 @@
     "countryCode": "CA",
     "region": "AB",
     "regionName": "Alberta",
-    "city": "Whitecourt",
-    "zip": "T7S",
-    "lat": 54.1426,
-    "lon": -115.683,
+    "city": "Grande Prairie",
+    "zip": "T8V",
+    "lat": 55.1808,
+    "lon": -118.9103,
     "timezone": "America/Edmonton",
     "isp": "TELUS Communications Inc",
     "org": "TELUS-DSL-WTCOAB04",
@@ -41326,22 +41342,6 @@
     "org": "HostUS",
     "as": "AS7489 HostUS",
     "query": "208.87.98.19"
-  },
-  "135.181.53.132": {
-    "status": "success",
-    "country": "Finland",
-    "countryCode": "FI",
-    "region": "18",
-    "regionName": "Uusimaa",
-    "city": "Helsinki",
-    "zip": "00100",
-    "lat": 60.1719,
-    "lon": 24.9347,
-    "timezone": "Europe/Helsinki",
-    "isp": "Hetzner Online GmbH",
-    "org": "",
-    "as": "AS24940 Hetzner Online GmbH",
-    "query": "135.181.53.132"
   },
   "206.189.112.246": {
     "status": "success",
