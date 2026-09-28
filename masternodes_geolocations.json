@@ -1999,22 +1999,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "165.22.25.87"
   },
-  "139.59.56.7": {
-    "status": "success",
-    "country": "India",
-    "countryCode": "IN",
-    "region": "KA",
-    "regionName": "Karnataka",
-    "city": "Bengaluru",
-    "zip": "560100",
-    "lat": 12.9753,
-    "lon": 77.591,
-    "timezone": "Asia/Kolkata",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "139.59.56.7"
-  },
   "85.209.241.185": {
     "status": "success",
     "country": "Poland",
@@ -7983,22 +7967,6 @@
     "as": "AS47583 Hostinger International Limited",
     "query": "2.25.80.112"
   },
-  "206.189.21.120": {
-    "status": "success",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "region": "ENG",
-    "regionName": "England",
-    "city": "Slough",
-    "zip": "SL1",
-    "lat": 51.5177,
-    "lon": -0.6215,
-    "timezone": "Europe/London",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "206.189.21.120"
-  },
   "23.95.186.248": {
     "status": "success",
     "country": "United States",
@@ -13070,22 +13038,6 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "168.119.87.137"
-  },
-  "139.59.144.169": {
-    "status": "success",
-    "country": "Germany",
-    "countryCode": "DE",
-    "region": "HE",
-    "regionName": "Hesse",
-    "city": "Frankfurt am Main",
-    "zip": "60313",
-    "lat": 50.1169,
-    "lon": 8.6837,
-    "timezone": "Europe/Berlin",
-    "isp": "DIGITALOCEAN",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "139.59.144.169"
   },
   "139.59.179.170": {
     "status": "success",
@@ -19870,22 +19822,6 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "135.181.52.153"
-  },
-  "167.71.143.5": {
-    "status": "success",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "region": "ENG",
-    "regionName": "England",
-    "city": "Slough",
-    "zip": "SL1",
-    "lat": 51.5177,
-    "lon": -0.6215,
-    "timezone": "Europe/London",
-    "isp": "DigitalOcean, LLC",
-    "org": "DigitalOcean, LLC",
-    "as": "AS14061 DigitalOcean, LLC",
-    "query": "167.71.143.5"
   },
   "45.128.156.30": {
     "status": "success",
