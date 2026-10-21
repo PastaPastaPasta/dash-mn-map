@@ -1071,22 +1071,6 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "206.189.132.224"
   },
-  "202.71.14.79": {
-    "status": "success",
-    "country": "The Netherlands",
-    "countryCode": "NL",
-    "region": "NH",
-    "regionName": "North Holland",
-    "city": "Amsterdam",
-    "zip": "1012",
-    "lat": 52.3716,
-    "lon": 4.8883,
-    "timezone": "Europe/Amsterdam",
-    "isp": "SOLLUTIUM EU Sp z.o.o.",
-    "org": "Moula World Llc",
-    "as": "AS43641 SOLLUTIUM EU Sp z.o.o.",
-    "query": "202.71.14.79"
-  },
   "8.222.146.149": {
     "status": "success",
     "country": "Singapore",
@@ -2270,6 +2254,22 @@
     "org": "DigitalOcean, LLC",
     "as": "AS14061 DigitalOcean, LLC",
     "query": "164.90.219.212"
+  },
+  "139.84.222.21": {
+    "status": "success",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "KA",
+    "regionName": "Karnataka",
+    "city": "Bengaluru",
+    "zip": "560066",
+    "lat": 12.9753,
+    "lon": 77.591,
+    "timezone": "Asia/Kolkata",
+    "isp": "The Constant Company, LLC",
+    "org": "The Constant Company, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "139.84.222.21"
   },
   "178.215.237.135": {
     "status": "success",
@@ -6911,6 +6911,22 @@
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.222.132.84"
   },
+  "45.77.36.223": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.77.36.223"
+  },
   "46.62.245.210": {
     "status": "success",
     "country": "Finland",
@@ -8430,6 +8446,22 @@
     "org": "CVD anycast network",
     "as": "AS205581 CVD Sp. z o.o. Sp.k.",
     "query": "85.209.241.246"
+  },
+  "66.42.51.242": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "SGP VULTR",
+    "org": "",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "66.42.51.242"
   },
   "64.176.10.71": {
     "status": "success",
@@ -11647,6 +11679,22 @@
     "as": "AS14061 DigitalOcean, LLC",
     "query": "134.209.250.199"
   },
+  "93.115.172.36": {
+    "status": "success",
+    "country": "The Netherlands",
+    "countryCode": "NL",
+    "region": "NH",
+    "regionName": "North Holland",
+    "city": "Amsterdam",
+    "zip": "1012",
+    "lat": 52.3716,
+    "lon": 4.8883,
+    "timezone": "Europe/Amsterdam",
+    "isp": "SOLLUTIUM EU Sp z.o.o.",
+    "org": "Moula World Llc",
+    "as": "AS43641 SOLLUTIUM EU Sp z.o.o.",
+    "query": "93.115.172.36"
+  },
   "178.62.172.197": {
     "status": "success",
     "country": "The Netherlands",
@@ -11838,6 +11886,22 @@
     "org": "Contabo GmbH",
     "as": "AS51167 Contabo GmbH",
     "query": "62.171.168.44"
+  },
+  "66.42.50.98": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "SGP VULTR",
+    "org": "",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "66.42.50.98"
   },
   "85.209.241.23": {
     "status": "success",
@@ -16191,6 +16255,22 @@
     "as": "AS214798 Digital City FZE",
     "query": "178.208.87.225"
   },
+  "149.28.143.139": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "149.28.143.139"
+  },
   "132.243.197.216": {
     "status": "success",
     "country": "Germany",
@@ -16334,6 +16414,22 @@
     "org": "CVD anycast network",
     "as": "AS205581 CVD Sp. z o.o. Sp.k.",
     "query": "85.209.241.81"
+  },
+  "139.180.156.188": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "SGP VULTR",
+    "org": "",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "139.180.156.188"
   },
   "91.198.108.39": {
     "status": "success",
@@ -16654,6 +16750,22 @@
     "org": "Alibaba.com Singapore E-Commerce Private Limited",
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.222.135.69"
+  },
+  "202.71.14.79": {
+    "status": "success",
+    "country": "The Netherlands",
+    "countryCode": "NL",
+    "region": "NH",
+    "regionName": "North Holland",
+    "city": "Amsterdam",
+    "zip": "1012",
+    "lat": 52.3716,
+    "lon": 4.8883,
+    "timezone": "Europe/Amsterdam",
+    "isp": "SOLLUTIUM EU Sp z.o.o.",
+    "org": "Moula World Llc",
+    "as": "AS43641 SOLLUTIUM EU Sp z.o.o.",
+    "query": "202.71.14.79"
   },
   "188.40.163.24": {
     "status": "success",
@@ -17615,22 +17727,6 @@
     "as": "AS214798 Digital City FZE",
     "query": "178.208.87.33"
   },
-  "109.199.120.79": {
-    "status": "success",
-    "country": "France",
-    "countryCode": "FR",
-    "region": "GES",
-    "regionName": "Grand Est",
-    "city": "Lauterbourg",
-    "zip": "67630",
-    "lat": 48.9742,
-    "lon": 8.1851,
-    "timezone": "Europe/Paris",
-    "isp": "Contabo GmbH",
-    "org": "Contabo GmbH",
-    "as": "AS51167 Contabo GmbH",
-    "query": "109.199.120.79"
-  },
   "5.175.162.197": {
     "status": "success",
     "country": "United States",
@@ -17662,6 +17758,38 @@
     "org": "Vultr Holdings, LLC",
     "as": "AS20473 The Constant Company, LLC",
     "query": "139.84.140.247"
+  },
+  "45.77.172.224": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.77.172.224"
+  },
+  "109.199.120.79": {
+    "status": "success",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "GES",
+    "regionName": "Grand Est",
+    "city": "Lauterbourg",
+    "zip": "67630",
+    "lat": 48.9742,
+    "lon": 8.1851,
+    "timezone": "Europe/Paris",
+    "isp": "Contabo GmbH",
+    "org": "Contabo GmbH",
+    "as": "AS51167 Contabo GmbH",
+    "query": "109.199.120.79"
   },
   "64.176.96.10": {
     "status": "success",
@@ -25519,6 +25647,22 @@
     "as": "AS24940 Hetzner Online GmbH",
     "query": "136.243.29.207"
   },
+  "139.180.213.162": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "SGP VULTR",
+    "org": "",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "139.180.213.162"
+  },
   "167.235.132.126": {
     "status": "success",
     "country": "Germany",
@@ -27166,22 +27310,6 @@
     "org": "Digital City FZE",
     "as": "AS214798 Digital City FZE",
     "query": "178.208.87.221"
-  },
-  "93.115.172.36": {
-    "status": "success",
-    "country": "The Netherlands",
-    "countryCode": "NL",
-    "region": "NH",
-    "regionName": "North Holland",
-    "city": "Amsterdam",
-    "zip": "1012",
-    "lat": 52.3716,
-    "lon": 4.8883,
-    "timezone": "Europe/Amsterdam",
-    "isp": "SOLLUTIUM EU Sp z.o.o.",
-    "org": "Moula World Llc",
-    "as": "AS43641 SOLLUTIUM EU Sp z.o.o.",
-    "query": "93.115.172.36"
   },
   "149.28.206.43": {
     "status": "success",
@@ -31759,6 +31887,22 @@
     "as": "AS214083 NodeHub LLC",
     "query": "151.244.85.47"
   },
+  "66.42.55.250": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "SGP VULTR",
+    "org": "",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "66.42.55.250"
+  },
   "45.77.38.100": {
     "status": "success",
     "country": "Singapore",
@@ -32990,6 +33134,22 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.21.246"
+  },
+  "139.180.144.238": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "SGP VULTR",
+    "org": "",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "139.180.144.238"
   },
   "132.243.197.132": {
     "status": "success",
@@ -39423,22 +39583,6 @@
     "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
     "query": "8.219.51.144"
   },
-  "43.155.187.252": {
-    "status": "success",
-    "country": "South Korea",
-    "countryCode": "KR",
-    "region": "11",
-    "regionName": "Seoul",
-    "city": "Seoul",
-    "zip": "04524",
-    "lat": 37.5658,
-    "lon": 126.978,
-    "timezone": "Asia/Seoul",
-    "isp": "Shenzhen Tencent Computer Systems Company Limited",
-    "org": "Tencent Cloud Computing",
-    "as": "AS132203 Tencent Building, Kejizhongyi Avenue",
-    "query": "43.155.187.252"
-  },
   "132.243.197.242": {
     "status": "success",
     "country": "Germany",
@@ -39470,6 +39614,38 @@
     "org": "",
     "as": "AS24940 Hetzner Online GmbH",
     "query": "188.40.163.31"
+  },
+  "45.32.103.96": {
+    "status": "success",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "05",
+    "regionName": "South West",
+    "city": "Singapore",
+    "zip": "627753",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "timezone": "Asia/Singapore",
+    "isp": "The Constant Company",
+    "org": "Vultr Holdings, LLC",
+    "as": "AS20473 The Constant Company, LLC",
+    "query": "45.32.103.96"
+  },
+  "43.155.187.252": {
+    "status": "success",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "region": "11",
+    "regionName": "Seoul",
+    "city": "Seoul",
+    "zip": "04524",
+    "lat": 37.5658,
+    "lon": 126.978,
+    "timezone": "Asia/Seoul",
+    "isp": "Shenzhen Tencent Computer Systems Company Limited",
+    "org": "Tencent Cloud Computing",
+    "as": "AS132203 Tencent Building, Kejizhongyi Avenue",
+    "query": "43.155.187.252"
   },
   "132.243.197.79": {
     "status": "success",
