@@ -1,101 +1,17 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5">
-  <meta name="color-scheme" content="dark light">
-  <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#f3f5f9" media="(prefers-color-scheme: light)">
-  <meta name="description" content="A live geographical view of the Dash masternode network. Filter by status, type, country, ASN, and more.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23008de4'/%3E%3Cpath d='M22 22h13c8 0 14 4 14 10s-6 10-14 10H22z' fill='white'/%3E%3C/svg%3E">
-  <title>Dash Masternode Map</title>
-
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
-        integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
-        integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dash Masternode Map has moved</title>
+  <link rel="canonical" href="https://nodes.dashhq.org/map">
+  <meta http-equiv="refresh" content="0; url=https://nodes.dashhq.org/map">
+  <meta name="robots" content="noindex">
+  <style>body{font:16px/1.5 system-ui,sans-serif;max-width:36rem;margin:15vh auto;padding:0 1rem}a{color:#0a6fc2}</style>
 </head>
 <body>
-  <div id="loading" class="loading" aria-hidden="true">
-    <div class="loading__inner">
-      <div class="spinner" role="presentation"></div>
-      <div>Loading masternode network…</div>
-    </div>
-  </div>
-
-  <div id="app">
-    <header class="topbar" role="banner">
-      <div class="topbar__brand">
-        <div class="topbar__logo" aria-hidden="true">D</div>
-        <div class="topbar__title">
-          <h1>Dash Masternode Map</h1>
-          <span id="subtitle" class="subtitle">Loading…</span>
-        </div>
-      </div>
-
-      <div class="topbar__stats" aria-label="Network summary">
-        <span id="chip-total" class="chip chip--total">
-          <span class="chip__dot"></span>Total <span class="chip__value">—</span>
-        </span>
-        <span id="chip-active" class="chip chip--active">
-          <span class="chip__dot"></span>Active <span class="chip__value">—</span>
-        </span>
-      </div>
-
-      <div class="topbar__actions">
-        <button id="btn-locate" class="icon-btn" title="Fit results on map" aria-label="Fit results on map">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="3"/>
-            <path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>
-          </svg>
-        </button>
-        <button id="btn-theme" class="icon-btn" title="Toggle theme" aria-label="Toggle theme">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-          </svg>
-        </button>
-      </div>
-    </header>
-
-    <div id="stale-banner" class="stale-banner" hidden></div>
-
-    <div id="map" role="application" aria-label="Map of Dash masternodes"></div>
-
-    <!-- Stats / filters panel: bottom sheet on mobile, side panel on desktop -->
-    <aside id="panel" class="panel" aria-label="Network stats and filters">
-      <button id="panel-handle" class="panel__handle" aria-label="Expand or collapse panel"></button>
-      <div class="panel__header">
-        <h2 id="panel-title">Network overview</h2>
-        <button id="panel-close" class="panel__close" aria-label="Close panel">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M18 6 6 18M6 6l12 12"/>
-          </svg>
-        </button>
-      </div>
-      <nav class="panel__tabs" role="tablist" aria-label="Panel sections">
-        <button class="panel__tab is-active" data-tab="overview" role="tab">Overview</button>
-        <button class="panel__tab" data-tab="filters" role="tab">Filters</button>
-        <button class="panel__tab" data-tab="about" role="tab">About</button>
-      </nav>
-      <div id="panel-body" class="panel__body" role="tabpanel"></div>
-    </aside>
-
-    <button id="fab" class="fab" aria-label="Open stats and filters">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="3" y1="12" x2="21" y2="12"/>
-        <line x1="3" y1="6"  x2="21" y2="6"/>
-        <line x1="3" y1="18" x2="21" y2="18"/>
-      </svg>
-    </button>
-  </div>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-          integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
-          integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous"></script>
-  <script src="assets/app.js" defer></script>
+  <h1>The masternode map has moved</h1>
+  <p>It's now part of <a href="https://nodes.dashhq.org/map">nodes.dashhq.org</a>, with live port checks, versions,
+    uptime and payments for every masternode, refreshed every 15 minutes.</p>
 </body>
 </html>
